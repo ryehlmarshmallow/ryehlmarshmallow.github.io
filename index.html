@@ -8,6 +8,7 @@
   <meta name="theme-color" content="#2563eb">
   <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -299,6 +300,18 @@
           <select id="setting-quiz-format" class="lesson-filter-select" style="padding: 6px 8px;">
             <option value="flashcard">Thẻ ghi nhớ (Flashcard)</option>
             <option value="multiple-choice">Trắc nghiệm (4 lựa chọn)</option>
+          </select>
+        </div>
+
+        <div class="setting-row">
+          <div class="setting-label">
+            <span class="setting-title">Phông chữ Hán hiển thị</span>
+            <span class="setting-desc">Chọn phông nét bút viết tay hoặc chữ in</span>
+          </div>
+          <select id="setting-hanzi-font" class="lesson-filter-select" style="padding: 6px 8px;">
+            <option value="kaiti" selected>Kaiti / 楷体 (Nét bút chuẩn SGK - Mặc định)</option>
+            <option value="wenkai">LXGW WenKai / 霞鹜文楷 (Bút mực viết tay)</option>
+            <option value="standard">In chuẩn / 黑体 (Không chân điện tử)</option>
           </select>
         </div>
 

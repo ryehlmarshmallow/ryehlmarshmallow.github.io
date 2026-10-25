@@ -16,6 +16,7 @@ const DEFAULT_SETTINGS = {
   autoPlayAudio: false,
   currentQuizMode: 'hanzi-to-meaning', // 'hanzi-to-meaning' | 'pinyin-to-meaning' | 'meaning-to-hanzi'
   audioSource: 'online', // 'online' (default, native human speaker) | 'device' (SpeechSynthesis)
+  hanziFont: 'kaiti', // 'kaiti' (default) | 'wenkai' | 'standard'
   
   // Writing mode & visibility
   writingMode: 'strict', // 'strict' (default) | 'freehand'
@@ -54,6 +55,7 @@ const state = {
 // ==========================================
 document.addEventListener('DOMContentLoaded', async () => {
   loadSettings();
+  applyHanziFont(state.settings.hanziFont || 'kaiti');
   setupNavigation();
   setupEventListeners();
   setupFreehandCanvas();
@@ -92,6 +94,12 @@ function loadSettings() {
 
 function saveSettings() {
   localStorage.setItem('hsk_app_settings', JSON.stringify(state.settings));
+}
+
+function applyHanziFont(fontKey) {
+  const valid = ['kaiti', 'wenkai', 'standard'].includes(fontKey) ? fontKey : 'kaiti';
+  state.settings.hanziFont = valid;
+  document.documentElement.setAttribute('data-font', valid);
 }
 
 // ==========================================
@@ -1087,6 +1095,17 @@ function setupSettingsUI() {
   });
   document.getElementById('quiz-type-label').textContent = state.settings.quizFormat === 'flashcard' ? 'Thẻ nhớ' : 'Trắc nghiệm';
 
+  const fontSelect = document.getElementById('setting-hanzi-font');
+  if (fontSelect) {
+    fontSelect.value = state.settings.hanziFont || 'kaiti';
+    fontSelect.addEventListener('change', (e) => {
+      applyHanziFont(e.target.value);
+      saveSettings();
+      const label = e.target.options[e.target.selectedIndex].text.split('(')[0].trim();
+      showToast(`Đã đổi phông chữ sang ${label}`);
+    });
+  }
+
   const audioSourceSelect = document.getElementById('setting-audio-source');
   if (audioSourceSelect) {
     audioSourceSelect.value = state.settings.audioSource || 'online';
@@ -1115,6 +1134,7 @@ function setupSettingsUI() {
     if (confirm('Bạn có chắc chắn muốn khôi phục lại cài đặt gốc không?')) {
       localStorage.removeItem('hsk_app_settings');
       state.settings = { ...DEFAULT_SETTINGS };
+      applyHanziFont('kaiti');
       applyLessonFilter();
       setupSettingsUI();
       initQuiz();
