@@ -68,6 +68,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     setupVocabList();
     initQuiz();
     initWritingPractice();
+    restoreActiveTab();
     registerServiceWorker();
   } catch (error) {
     console.error('Initialization error:', error);
@@ -263,7 +264,7 @@ function playAudio(text) {
 }
 
 // ==========================================
-// UI Tab Navigation
+// UI Tab Navigation & URL Hash Routing
 // ==========================================
 function setupNavigation() {
   const tabBtns = document.querySelectorAll('.nav-item');
@@ -282,11 +283,37 @@ function setupNavigation() {
         panel.classList.add('active');
       }
 
+      // Update URL hash and localStorage without page reload
+      const hash = targetTab.replace('tab-', '#');
+      if (window.location.hash !== hash) {
+        history.replaceState(null, '', hash);
+      }
+      localStorage.setItem('hsk_active_tab', targetTab);
+
       if (targetTab === 'tab-writing') {
         loadCharacterForWriting();
       }
     });
   });
+
+  // Listen to browser Back/Forward navigation
+  window.addEventListener('popstate', restoreActiveTab);
+}
+
+function restoreActiveTab() {
+  const hash = window.location.hash;
+  const hashToTab = {
+    '#quiz': 'tab-quiz',
+    '#writing': 'tab-writing',
+    '#vocab': 'tab-vocab',
+    '#settings': 'tab-settings'
+  };
+
+  let targetTab = hashToTab[hash];
+  if (!targetTab) {
+    targetTab = localStorage.getItem('hsk_active_tab') || 'tab-quiz';
+  }
+  switchTab(targetTab);
 }
 
 function switchTab(tabId) {
@@ -535,8 +562,10 @@ function showEmptyStateQuiz() {
 // ==========================================
 function initWritingPractice() {
   if (state.activeVocab.length === 0) return;
-  state.writingVocabIndex = 0;
+  const savedIdx = parseInt(localStorage.getItem('hsk_writing_vocab_idx') || '0', 10);
+  state.writingVocabIndex = (!isNaN(savedIdx) && savedIdx >= 0 && savedIdx < state.activeVocab.length) ? savedIdx : 0;
   state.writingCharIndex = 0;
+  state.freehandVerified = false;
   updateWritingVisibilityChips();
   updateWritingModeUI();
   loadWordForWriting();
@@ -601,6 +630,7 @@ function loadWordForWriting() {
 
   state.tempRevealPinyin = false;
   state.tempRevealNghia = false;
+  state.freehandVerified = false; // Always reset verification state when loading a word!
   renderWritingWordHeader(currentWord);
 
   // Setup character selector pills
@@ -619,7 +649,7 @@ function loadWordForWriting() {
     pill.className = `char-pill ${idx === state.writingCharIndex ? 'active' : ''}`;
     
     // Check if Hanzi pill should be masked to avoid peeking
-    if (state.settings.hideHanzi && !state.freehandVerified) {
+    if (state.settings.hideHanzi) {
       pill.classList.add('masked');
       pill.textContent = `Chữ ${idx + 1}`;
     } else {
@@ -629,6 +659,7 @@ function loadWordForWriting() {
 
     pill.addEventListener('click', () => {
       state.writingCharIndex = idx;
+      state.freehandVerified = false;
       updateCharPills();
       loadCharacterForWriting();
     });
@@ -645,7 +676,7 @@ function renderWritingWordHeader(word) {
 
   // Pinyin
   if (state.settings.hidePinyin && !state.tempRevealPinyin) {
-    pinyinContainer.innerHTML = `<span class="masked-placeholder" id="btn-peek-pinyin">•••• Chạm để mở Pinyin</span>`;
+    pinyinContainer.innerHTML = `<span class="masked-placeholder" id="btn-peek-pinyin">•••• Pinyin</span>`;
     document.getElementById('btn-peek-pinyin').addEventListener('click', () => {
       state.tempRevealPinyin = true;
       renderWritingWordHeader(word);
@@ -656,7 +687,7 @@ function renderWritingWordHeader(word) {
 
   // Nghĩa
   if (state.settings.hideNghia && !state.tempRevealNghia) {
-    nghiaContainer.innerHTML = `<span class="masked-placeholder" id="btn-peek-nghia">•••• Chạm để mở Nghĩa</span>`;
+    nghiaContainer.innerHTML = `<span class="masked-placeholder" id="btn-peek-nghia">•••• Nghĩa</span>`;
     document.getElementById('btn-peek-nghia').addEventListener('click', () => {
       state.tempRevealNghia = true;
       renderWritingWordHeader(word);
@@ -681,7 +712,10 @@ function updateCharPills() {
       p.classList.remove('active');
     }
 
-    if (state.settings.hideHanzi && !p.classList.contains('completed') && !state.freehandVerified) {
+    const isCompleted = p.classList.contains('completed');
+    const isVerifiedForThisChar = (idx === state.writingCharIndex && state.freehandVerified);
+
+    if (state.settings.hideHanzi && !isCompleted && !isVerifiedForThisChar) {
       p.classList.add('masked');
       p.textContent = `Chữ ${idx + 1}`;
     } else {
@@ -720,6 +754,7 @@ function loadCharacterForWriting() {
   clearFreehandCanvas();
   state.freehandVerified = false;
   updateWritingModeUI();
+  updateCharPills();
 
   if (state.settings.writingMode === 'strict') {
     statusEl.textContent = `Chạm và viết từng nét chữ "${state.settings.hideHanzi ? 'này' : currentChar}" theo đúng thứ tự`;
@@ -745,17 +780,19 @@ function loadCharacterForWriting() {
       });
   };
 
+  const showOutline = (state.settings.writingMode === 'strict') && state.settings.showOutline;
+
   // Configure HanziWriter instance
   state.currentWriter = HanziWriter.create(targetDiv, currentChar, {
-    width: 280,
-    height: 280,
-    padding: 20,
-    showOutline: state.settings.showOutline,
+    width: 240,
+    height: 240,
+    padding: 18,
+    showOutline: showOutline,
     showCharacter: false,
     strokeColor: '#1f2937',
     radicalColor: '#16a34a',
     drawingColor: '#2563eb',
-    drawingWidth: 22,
+    drawingWidth: 20,
     strokeAnimationSpeed: 1.2,
     delayBetweenStrokes: 120,
     showHintAfterMisses: state.settings.showHint ? 2 : false,
@@ -982,6 +1019,7 @@ function renderVocabList() {
         idx = 0;
       }
       state.writingVocabIndex = idx;
+      localStorage.setItem('hsk_writing_vocab_idx', state.writingVocabIndex);
       state.writingCharIndex = 0;
       loadWordForWriting();
       switchTab('tab-writing');
@@ -1273,6 +1311,8 @@ function setupEventListeners() {
 
   document.getElementById('btn-freehand-retry').addEventListener('click', () => {
     clearFreehandCanvas();
+    state.freehandVerified = false;
+    updateCharPills();
     loadCharacterForWriting();
     showToast('Hãy thử viết lại lần nữa!');
   });
@@ -1284,13 +1324,16 @@ function setupEventListeners() {
 
     if (state.writingCharIndex < chars.length - 1) {
       state.writingCharIndex++;
+      state.freehandVerified = false;
       updateCharPills();
       loadCharacterForWriting();
     } else {
       showToast(`Tuyệt vời! Bạn đã hoàn thành từ "${currentWord.hanzi}"!`);
       // Advance to next word
       state.writingVocabIndex = (state.writingVocabIndex + 1) % state.activeVocab.length;
+      localStorage.setItem('hsk_writing_vocab_idx', state.writingVocabIndex);
       state.writingCharIndex = 0;
+      state.freehandVerified = false;
       loadWordForWriting();
     }
   });
@@ -1343,21 +1386,27 @@ function setupEventListeners() {
   document.getElementById('btn-write-prev').addEventListener('click', () => {
     if (state.activeVocab.length === 0) return;
     state.writingVocabIndex = (state.writingVocabIndex - 1 + state.activeVocab.length) % state.activeVocab.length;
+    localStorage.setItem('hsk_writing_vocab_idx', state.writingVocabIndex);
     state.writingCharIndex = 0;
+    state.freehandVerified = false;
     loadWordForWriting();
   });
 
   document.getElementById('btn-write-next').addEventListener('click', () => {
     if (state.activeVocab.length === 0) return;
     state.writingVocabIndex = (state.writingVocabIndex + 1) % state.activeVocab.length;
+    localStorage.setItem('hsk_writing_vocab_idx', state.writingVocabIndex);
     state.writingCharIndex = 0;
+    state.freehandVerified = false;
     loadWordForWriting();
   });
 
   document.getElementById('btn-write-random').addEventListener('click', () => {
     if (state.activeVocab.length === 0) return;
     state.writingVocabIndex = Math.floor(Math.random() * state.activeVocab.length);
+    localStorage.setItem('hsk_writing_vocab_idx', state.writingVocabIndex);
     state.writingCharIndex = 0;
+    state.freehandVerified = false;
     loadWordForWriting();
   });
 

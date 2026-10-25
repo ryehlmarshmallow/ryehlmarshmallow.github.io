@@ -116,41 +116,41 @@
       </div>
     </section>
 
-    <!-- TAB 2: WRITING PRACTICE (HanziWriter & Freehand Canvas) -->
+    <!-- TAB 2: WRITING PRACTICE (Compact Mobile 1-Screen Layout) -->
     <section id="tab-writing" class="tab-panel">
-      <!-- Writing Mode Selector: Strict vs Freehand -->
-      <div class="mode-selector" style="margin-bottom: 12px;">
-        <button class="mode-btn active" id="btn-mode-strict" data-writing-mode="strict">Chấm từng nét (Mặc định)</button>
-        <button class="mode-btn" id="btn-mode-freehand" data-writing-mode="freehand">Viết tự do & Kiểm tra</button>
-      </div>
-
       <div class="writing-container">
-        <!-- Word Header Info -->
-        <div class="writing-info">
-          <!-- Visibility Hints Toolbar (Hide/Show Pinyin, Nghĩa, Chữ Hán) -->
-          <div class="visibility-toolbar">
-            <span class="vis-label">Hiển thị:</span>
-            <button class="vis-toggle-chip" id="toggle-hide-pinyin" title="Ẩn hoặc hiện Pinyin">
-              <span id="icon-vis-pinyin">👁️</span> Pinyin
-            </button>
-            <button class="vis-toggle-chip" id="toggle-hide-nghia" title="Ẩn hoặc hiện Nghĩa">
-              <span id="icon-vis-nghia">👁️</span> Nghĩa
-            </button>
-            <button class="vis-toggle-chip" id="toggle-hide-hanzi" title="Ẩn hoặc hiện nút Chữ Hán">
-              <span id="icon-vis-hanzi">👁️</span> Chữ Hán
-            </button>
+        <!-- Compact Top Control Bar: Mode Selector & Visibility Chips -->
+        <div class="writing-top-bar">
+          <div class="mode-selector compact-mode-selector">
+            <button class="mode-btn active" id="btn-mode-strict" data-writing-mode="strict">Chấm nét</button>
+            <button class="mode-btn" id="btn-mode-freehand" data-writing-mode="freehand">Tự do</button>
           </div>
 
+          <div class="visibility-toolbar">
+            <button class="vis-toggle-chip" id="toggle-hide-pinyin" title="Ẩn hoặc hiện Pinyin">
+              <span id="icon-vis-pinyin">👁️</span> P
+            </button>
+            <button class="vis-toggle-chip" id="toggle-hide-nghia" title="Ẩn hoặc hiện Nghĩa">
+              <span id="icon-vis-nghia">👁️</span> N
+            </button>
+            <button class="vis-toggle-chip" id="toggle-hide-hanzi" title="Ẩn hoặc hiện nút Chữ Hán">
+              <span id="icon-vis-hanzi">👁️</span> H
+            </button>
+          </div>
+        </div>
+
+        <!-- Word Info Row -->
+        <div class="writing-info">
           <div class="writing-word-info">
             <div id="write-pinyin-container">
               <span class="writing-pinyin" id="write-pinyin">wǒ</span>
             </div>
-            <button class="btn-speaker" id="btn-write-audio" title="Nghe phát âm">🔊</button>
+            <button class="btn-speaker" id="btn-write-audio" style="width: 28px; height: 28px; font-size: 0.85rem; margin-left: 2px;" title="Nghe phát âm">🔊</button>
+            <div id="write-nghia-container">
+              <span class="writing-nghia" id="write-nghia">Tôi/Ta/Tớ</span>
+            </div>
+            <span class="vocab-lesson-tag" id="write-lesson-tag" style="margin: 0; font-size: 0.72rem; padding: 1px 5px;">Bài 1</span>
           </div>
-          <div id="write-nghia-container">
-            <div class="writing-nghia" id="write-nghia">Tôi/Ta/Tớ</div>
-          </div>
-          <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 4px;" id="write-lesson-tag">Bài 1</div>
 
           <!-- Compound Character Tabs: [你] [好] -->
           <div class="char-pills" id="write-char-pills">
@@ -158,22 +158,16 @@
           </div>
         </div>
 
-        <!-- Tianzige Grid Frame -->
+        <!-- Tianzige Grid Frame (240x240 for 1-screen mobile fit) -->
         <div class="tianzige-frame">
-          <!-- Tianzige Red Guidelines SVG -->
-          <svg class="tianzige-grid" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg">
-            <!-- Horizontal dashed center line -->
-            <line x1="0" y1="140" x2="280" y2="140" />
-            <!-- Vertical dashed center line -->
-            <line x1="140" y1="0" x2="140" y2="280" />
-            <!-- Diagonal dashed lines (Mizige style for precision) -->
-            <line x1="0" y1="0" x2="280" y2="280" stroke-opacity="0.5" />
-            <line x1="280" y1="0" x2="0" y2="280" stroke-opacity="0.5" />
+          <svg class="tianzige-grid" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0" y1="120" x2="240" y2="120" />
+            <line x1="120" y1="0" x2="120" y2="240" />
+            <line x1="0" y1="0" x2="240" y2="240" stroke-opacity="0.35" />
+            <line x1="240" y1="0" x2="0" y2="240" stroke-opacity="0.35" />
           </svg>
-          <!-- HanziWriter Canvas mount point -->
           <div id="character-canvas-target"></div>
-          <!-- Freehand Canvas layer -->
-          <canvas id="freehand-canvas" width="280" height="280"></canvas>
+          <canvas id="freehand-canvas" width="240" height="240"></canvas>
         </div>
 
         <!-- Stroke Feedback Status -->
@@ -183,21 +177,21 @@
 
         <!-- Strict Mode Toolbar -->
         <div class="writing-controls" id="strict-controls">
-          <button class="btn btn-outline btn-sm" id="btn-animate-stroke" title="Xem chuyển động viết mẫu">▶ Xem nét</button>
-          <button class="btn btn-outline btn-sm" id="btn-toggle-outline" title="Bật/Tắt nét mờ để đồ theo">✏️ Nét mờ</button>
-          <button class="btn btn-outline btn-sm" id="btn-give-hint" title="Gợi ý nét tiếp theo">💡 Gợi ý</button>
-          <button class="btn btn-outline btn-sm" id="btn-reset-char" title="Xóa và viết lại chữ này">🔄 Viết lại</button>
+          <button class="btn btn-outline btn-sm" id="btn-animate-stroke" title="Xem nét mẫu">▶ Nét mẫu</button>
+          <button class="btn btn-outline btn-sm" id="btn-toggle-outline" title="Bật/Tắt nét mờ">✏️ Nét mờ</button>
+          <button class="btn btn-outline btn-sm" id="btn-give-hint" title="Gợi ý nét">💡 Gợi ý</button>
+          <button class="btn btn-outline btn-sm" id="btn-reset-char" title="Viết lại">🔄 Viết lại</button>
         </div>
 
         <!-- Freehand Mode Toolbar (Before checking) -->
         <div class="writing-controls" id="freehand-controls-unverified" style="display: none;">
-          <button class="btn btn-outline btn-sm" id="btn-freehand-clear" title="Xóa nét vẽ tự do">🗑️ Xóa nét</button>
-          <button class="btn btn-primary btn-sm" id="btn-freehand-check" title="Kiểm tra đáp án và xem chữ chuẩn" style="padding: 8px 20px;">🔍 Kiểm tra đáp án</button>
+          <button class="btn btn-outline btn-sm" id="btn-freehand-clear" title="Xóa nét vẽ">🗑️ Xóa nét</button>
+          <button class="btn btn-primary btn-sm" id="btn-freehand-check" title="Kiểm tra đáp án" style="padding: 6px 18px;">🔍 Kiểm tra đáp án</button>
         </div>
 
         <!-- Freehand Mode Toolbar (After checking) -->
         <div class="writing-controls" id="freehand-controls-verified" style="display: none;">
-          <button class="btn btn-outline btn-sm" id="btn-freehand-animate" title="Xem thứ tự nét chuẩn">▶ Thứ tự nét</button>
+          <button class="btn btn-outline btn-sm" id="btn-freehand-animate" title="Thứ tự nét">▶ Thứ tự nét</button>
           <button class="btn btn-outline btn-sm" id="btn-freehand-retry" style="color: var(--danger); border-color: #fca5a5;">Chưa thuộc</button>
           <button class="btn btn-primary btn-sm" id="btn-freehand-pass" style="background: var(--success);">Đã thuộc ✓</button>
         </div>
