@@ -1,0 +1,2855 @@
+[
+  {
+    "id": 1,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "nghia": "Tôi/Ta/Tớ",
+    "example": ""
+  },
+  {
+    "id": 2,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "nghia": "bạn",
+    "example": "你好！"
+  },
+  {
+    "id": 3,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "您",
+    "pinyin": "nín",
+    "nghia": "Ngài, ông, bà (kính trọng)",
+    "example": "您好！"
+  },
+  {
+    "id": 4,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "他",
+    "pinyin": "tā",
+    "nghia": "Anh ấy/Ông ấy",
+    "example": ""
+  },
+  {
+    "id": 5,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "她",
+    "pinyin": "tā",
+    "nghia": "Cô ấy/Bà ấy",
+    "example": ""
+  },
+  {
+    "id": 6,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "它",
+    "pinyin": "tā",
+    "nghia": "Nó (chỉ vật)",
+    "example": ""
+  },
+  {
+    "id": 7,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "们",
+    "pinyin": "men",
+    "nghia": "Số nhiều của người",
+    "example": "老师们 (Các thầy/cô giáo)"
+  },
+  {
+    "id": 8,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "我们",
+    "pinyin": "wǒmen",
+    "nghia": "Chúng tôi/Chúng ta",
+    "example": "我们是好朋友。 (Chúng tôi là bạn tốt.)"
+  },
+  {
+    "id": 9,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "你们",
+    "pinyin": "nǐmen",
+    "nghia": "Các bạn",
+    "example": "你们好！(Chào các bạn)"
+  },
+  {
+    "id": 10,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "他们",
+    "pinyin": "tāmen",
+    "nghia": "Họ / Chúng nó - dùng cho nam hoặc cả nam và nữ (they; them)",
+    "example": "他们是我的同学。(Họ là bạn học của tôi.)"
+  },
+  {
+    "id": 11,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "她们",
+    "pinyin": "tāmen",
+    "nghia": "Họ - chỉ phái nữ (they; them - referring to female people)",
+    "example": "她们很漂亮。(Các cô ấy rất đẹp.)"
+  },
+  {
+    "id": 12,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "它们",
+    "pinyin": "tāmen",
+    "nghia": "Chúng / Chúng nó - dùng cho vật",
+    "example": "它们是我的小猫。(Chúng là những con mèo nhỏ của tôi.)"
+  },
+  {
+    "id": 13,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "nghia": "Tốt, đẹp, khỏe",
+    "example": "很好。(Rất tốt)"
+  },
+  {
+    "id": 14,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "你好",
+    "pinyin": "nǐ hǎo",
+    "nghia": "Chào bạn",
+    "example": ""
+  },
+  {
+    "id": 15,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "大家",
+    "pinyin": "dàjiā",
+    "nghia": "Mọi người",
+    "example": "大家好！(Chào mọi người)"
+  },
+  {
+    "id": 16,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "学生",
+    "pinyin": "xuésheng",
+    "nghia": "Học sinh",
+    "example": "我是学生。(Tôi là học sinh)"
+  },
+  {
+    "id": 17,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "老师",
+    "pinyin": "lǎoshī",
+    "nghia": "Giáo viên",
+    "example": "老师好！(Chào cô/thầy)"
+  },
+  {
+    "id": 18,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "同学",
+    "pinyin": "tóngxué",
+    "nghia": "Bạn học",
+    "example": "同学们好！(Chào các em học sinh)"
+  },
+  {
+    "id": 19,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "朋友",
+    "pinyin": "péngyou",
+    "nghia": "Bạn bè",
+    "example": "他是我的好朋友。\n我和朋友学习汉语。\nHôm nay tôi đến nhà bạn tôi chơi."
+  },
+  {
+    "id": 20,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "谢谢",
+    "pinyin": "xièxie",
+    "nghia": "Cảm ơn",
+    "example": "谢谢你！(Cảm ơn bạn)"
+  },
+  {
+    "id": 21,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "不客气",
+    "pinyin": "bú kèqi",
+    "nghia": "Đừng khách sáo",
+    "example": "不客气。(Đừng khách sáo)"
+  },
+  {
+    "id": 22,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "再见",
+    "pinyin": "zàijiàn",
+    "nghia": "Tạm biệt",
+    "example": "再见！(Tạm biệt)"
+  },
+  {
+    "id": 23,
+    "lesson": "Bài 1",
+    "lesson_num": 1,
+    "hanzi": "见",
+    "pinyin": "jiàn",
+    "nghia": "Gặp/Thấy",
+    "example": "明天见。 (Míngtiān jiàn. - Ngày mai gặp nhé.)"
+  },
+  {
+    "id": 24,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "hanzi": "对不起",
+    "pinyin": "duìbuqǐ",
+    "nghia": "Xin lỗi",
+    "example": "对不起，我来 muộn rồi. (Xin lỗi, tôi đến muộn rồi.)"
+  },
+  {
+    "id": 25,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "hanzi": "没关系",
+    "pinyin": "méiguānxi",
+    "nghia": "Không có chi/Không sao đâu",
+    "example": "没关系，请进。 (Không sao đâu, mời vào.)"
+  },
+  {
+    "id": 26,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "hanzi": "没事",
+    "pinyin": "méishì",
+    "nghia": "Không có gì/Không sao",
+    "example": "没事，我不忙(Không sao, tôi không bận.)"
+  },
+  {
+    "id": 27,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "hanzi": "请问",
+    "pinyin": "qǐngwèn",
+    "nghia": "Xin hỏi",
+    "example": "请问，你叫什么名字？ (Xin hỏi, bạn tên là gì?)"
+  },
+  {
+    "id": 28,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "hanzi": "叫",
+    "pinyin": "jiào",
+    "nghia": "Gọi/Tên là",
+    "example": "我叫 Li. (Tôi tên là Li.)"
+  },
+  {
+    "id": 29,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "hanzi": "什么",
+    "pinyin": "shénme",
+    "nghia": "Cái gì",
+    "example": "这是什么？ (Đây là cái gì?)"
+  },
+  {
+    "id": 30,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "hanzi": "名字",
+    "pinyin": "míngzi",
+    "nghia": "Tên",
+    "example": "你的名字很好听。 (Tên của bạn rất hay.)"
+  },
+  {
+    "id": 31,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "hanzi": "不",
+    "pinyin": "bù",
+    "nghia": "Không",
+    "example": "我不认识他。 (Tôi không quen biết anh ấy.)"
+  },
+  {
+    "id": 32,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "hanzi": "是",
+    "pinyin": "shì",
+    "nghia": "Là",
+    "example": "他是我的同学。 (Anh ấy là bạn học của tôi.)"
+  },
+  {
+    "id": 33,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "hanzi": "很",
+    "pinyin": "hěn",
+    "nghia": "Rất",
+    "example": "我很开心。 (Tôi rất vui.)"
+  },
+  {
+    "id": 34,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "hanzi": "高兴",
+    "pinyin": "gāoxìng",
+    "nghia": "Vui mừng/Hạnh phúc",
+    "example": "认识你很高兴。 (Rất vui được quen biết bạn.)"
+  },
+  {
+    "id": 35,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "hanzi": "认识",
+    "pinyin": "rènshi",
+    "nghia": "Quen biết",
+    "example": "我不认识你。 (Tôi không quen biết bạn.)"
+  },
+  {
+    "id": 36,
+    "lesson": "Bài 2",
+    "lesson_num": 2,
+    "hanzi": "也",
+    "pinyin": "yě",
+    "nghia": "Cũng",
+    "example": "我也很累。 (Tôi cũng rất mệt.)"
+  },
+  {
+    "id": 37,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "人",
+    "pinyin": "rén",
+    "nghia": "Người",
+    "example": "他是中国人。\n他是好人。"
+  },
+  {
+    "id": 38,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "的",
+    "pinyin": "de",
+    "nghia": "Của (trợ từ sở hữu)",
+    "example": "你的名字是什么？\n王老师是我们的老师。"
+  },
+  {
+    "id": 39,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "中国",
+    "pinyin": "Zhōngguó",
+    "nghia": "Trung Quốc",
+    "example": "我不是中国人。\n他是中国老师。"
+  },
+  {
+    "id": 40,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "法国",
+    "pinyin": "Fǎguó",
+    "nghia": "Pháp",
+    "example": "她是法国人。\n我是法国学生。"
+  },
+  {
+    "id": 41,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "越南",
+    "pinyin": "Yuènán",
+    "nghia": "Việt Nam",
+    "example": "我是越南人。\n我是越南学生。"
+  },
+  {
+    "id": 42,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "泰国",
+    "pinyin": "Tàiguó",
+    "nghia": "Thái Lan",
+    "example": "我的朋友是泰国人。\n她是泰国学生。\nGiáo viên của chúng tôi là người Thái Lan."
+  },
+  {
+    "id": 43,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "中文",
+    "pinyin": "Zhōngwén",
+    "nghia": "Tiếng Trung",
+    "example": "她是中文老师。\n你的中文名字是什么？"
+  },
+  {
+    "id": 44,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "汉语",
+    "pinyin": "Hànyǔ",
+    "nghia": "Tiếng Hán / Tiếng Trung (Chinese language)",
+    "example": ""
+  },
+  {
+    "id": 45,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "这",
+    "pinyin": "zhè",
+    "nghia": "Đây/Này",
+    "example": "这是什么？\n这是我们的中文老师。"
+  },
+  {
+    "id": 46,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "那",
+    "pinyin": "nà",
+    "nghia": "Kia / Đó (That)",
+    "example": "那是我的老师。\n那是我的好朋友。\nKia là ai?"
+  },
+  {
+    "id": 47,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "谁",
+    "pinyin": "shéi",
+    "nghia": "Ai",
+    "example": "他是谁？\n谁是你们的中文老师？"
+  },
+  {
+    "id": 48,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "女朋友",
+    "pinyin": "nǚpéngyou",
+    "nghia": "Bạn gái",
+    "example": "他是我的好朋友。\n她不是我的女朋友。\nBạn gái của anh ta là người Pháp."
+  },
+  {
+    "id": 49,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "男朋友",
+    "pinyin": "Nán péngyou",
+    "nghia": "Bạn trai",
+    "example": ""
+  },
+  {
+    "id": 50,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "个",
+    "pinyin": "gè",
+    "nghia": "(Lượng từ phổ biến nhất)",
+    "example": "她是我的一个好朋友。\n这个汉字是什么？\nTôi có một người bạn người Trung Quốc"
+  },
+  {
+    "id": 51,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "哪",
+    "pinyin": "nǎ",
+    "nghia": "Nào",
+    "example": "请问，你是哪国人？\n你们的老师是哪国人？\nBạn gái của bạn là người nước nào?"
+  },
+  {
+    "id": 52,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "国",
+    "pinyin": "guó",
+    "nghia": "Quốc gia/Nước",
+    "example": "中国是一个大国。\n请问，你是哪国人？"
+  },
+  {
+    "id": 53,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "喂",
+    "pinyin": "wèi",
+    "nghia": "Alo (khi nghe máy)",
+    "example": "喂，你好，我是王一飞\n喂，请问，你是王老师吗？\nAlo, bạn là giáo viên của của Annie phải không?"
+  },
+  {
+    "id": 54,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "工作",
+    "pinyin": "gōngzuò",
+    "nghia": "Làm việc/Công việc",
+    "example": "你的工作是什么？\n我姐姐的工作是中文老师。"
+  },
+  {
+    "id": 55,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "还",
+    "pinyin": "hái",
+    "nghia": "Vẫn/Còn",
+    "example": "她还很高兴。\n他还是我们的中文老师。"
+  },
+  {
+    "id": 56,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "忙",
+    "pinyin": "máng",
+    "nghia": "Bận",
+    "example": "你工作还忙吗？\n我工作很忙。"
+  },
+  {
+    "id": 57,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "吗",
+    "pinyin": "ma",
+    "nghia": "Không? (trợ từ nghi vấn)",
+    "example": "你还好吗？\n你是老师吗？"
+  },
+  {
+    "id": 58,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "对",
+    "pinyin": "duì",
+    "nghia": "Đúng/Vâng",
+    "example": "对，我是学生。\n这个汉字不对。"
+  },
+  {
+    "id": 59,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "太",
+    "pinyin": "tài",
+    "nghia": "Quá/Lắm",
+    "example": "太好了！\n我工作不太忙。"
+  },
+  {
+    "id": 60,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "nghia": "Nhớ",
+    "example": "我很想你们。\n你想家吗？"
+  },
+  {
+    "id": 61,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "哥哥",
+    "pinyin": "gēge",
+    "nghia": "Anh trai",
+    "example": "他是我哥哥。"
+  },
+  {
+    "id": 62,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "姐姐",
+    "pinyin": "jiějie",
+    "nghia": "Chị gái",
+    "example": "这是我姐姐。\n我姐姐是中文老师。\nChị gái của bạn tên là gì?"
+  },
+  {
+    "id": 63,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "妹妹",
+    "pinyin": "mèimei",
+    "nghia": "Em gái",
+    "example": "我有一个妹妹。"
+  },
+  {
+    "id": 64,
+    "lesson": "Bài 3",
+    "lesson_num": 3,
+    "hanzi": "弟弟",
+    "pinyin": "dìdi",
+    "nghia": "Em trai",
+    "example": "我的弟弟很小。"
+  },
+  {
+    "id": 65,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "有",
+    "pinyin": "yǒu",
+    "nghia": "Có",
+    "example": "我有三个姐姐。"
+  },
+  {
+    "id": 66,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "没有",
+    "pinyin": "méiyǒu",
+    "nghia": "Không có",
+    "example": "我没有哥哥。\n我还没有男朋友。"
+  },
+  {
+    "id": 67,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "多少",
+    "pinyin": "duōshao",
+    "nghia": "Bao nhiêu",
+    "example": "你有多少个学生？\nHSK1级有多少个汉字？"
+  },
+  {
+    "id": 68,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "多",
+    "pinyin": "duō",
+    "nghia": "Bao nhiêu/Nhiều",
+    "example": "你多大？\n他认识很多中国人。"
+  },
+  {
+    "id": 69,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "少",
+    "pinyin": "shǎo",
+    "nghia": "Ít",
+    "example": "我有很少朋友。\n太少了！"
+  },
+  {
+    "id": 70,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "几",
+    "pinyin": "jǐ",
+    "nghia": "Mấy (hỏi số lượng dưới 10)",
+    "example": "你有几个中国朋友？\n这几个人我都不认识。"
+  },
+  {
+    "id": 71,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "呢",
+    "pinyin": "ne",
+    "nghia": "(Trợ từ nghi vấn cuối câu)",
+    "example": "我叫王一飞，你呢？\n你妈妈呢？"
+  },
+  {
+    "id": 72,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "nghia": "Gia đình/Nhà",
+    "example": "他是我家人。\n我家有三个人。"
+  },
+  {
+    "id": 73,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "口",
+    "pinyin": "kǒu",
+    "nghia": "(Lượng từ chỉ người trong gia đình)",
+    "example": "我家有三口人。"
+  },
+  {
+    "id": 74,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "爸爸",
+    "pinyin": "bàba",
+    "nghia": "Bố",
+    "example": "我爸爸是中文老师。"
+  },
+  {
+    "id": 75,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "妈妈",
+    "pinyin": "māma",
+    "nghia": "Mẹ",
+    "example": "这是我妈妈。"
+  },
+  {
+    "id": 76,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "孩子",
+    "pinyin": "háizi",
+    "nghia": "Trẻ con/Con cái",
+    "example": "你有几个孩子？\n王老师有两个孩子。"
+  },
+  {
+    "id": 77,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "儿子",
+    "pinyin": "érzi",
+    "nghia": "Con trai",
+    "example": "你儿子多大了？\n他有一个儿子。"
+  },
+  {
+    "id": 78,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "女儿",
+    "pinyin": "nǚ'ér",
+    "nghia": "Con gái",
+    "example": "这是我女儿。\n我女儿是大学生。"
+  },
+  {
+    "id": 79,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "和",
+    "pinyin": "hé",
+    "nghia": "Và",
+    "example": "她有两个孩子，一个女儿和一个儿子。\n我家有三口人，爸爸、妈妈和我。"
+  },
+  {
+    "id": 80,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "岁",
+    "pinyin": "suì",
+    "nghia": "Tuổi",
+    "example": "你儿子几岁了?\n我18岁了。"
+  },
+  {
+    "id": 81,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "今年",
+    "pinyin": "jīnnián",
+    "nghia": "Năm nay",
+    "example": "你今年多大？\n我女儿今年18岁。"
+  },
+  {
+    "id": 82,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "大",
+    "pinyin": "dà",
+    "nghia": "Lớn/To",
+    "example": "中国是一个大国。\n你今年多大了？"
+  },
+  {
+    "id": 83,
+    "lesson": "Bài 4",
+    "lesson_num": 4,
+    "hanzi": "小",
+    "pinyin": "xiǎo",
+    "nghia": "nhỏ",
+    "example": "太小了！\n这个小朋友是谁？"
+  },
+  {
+    "id": 84,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "今天",
+    "pinyin": "jīntiān",
+    "nghia": "Hôm nay",
+    "example": "你今天工作吗？"
+  },
+  {
+    "id": 85,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "明天",
+    "pinyin": "míngtiān",
+    "nghia": "Ngày mai",
+    "example": ""
+  },
+  {
+    "id": 86,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "昨天",
+    "pinyin": "zuótiān",
+    "nghia": "Hôm qua (Yesterday)",
+    "example": "昨天我去中国。"
+  },
+  {
+    "id": 87,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "号",
+    "pinyin": "hào",
+    "nghia": "Ngày/Số",
+    "example": "今天是几号？\n今天是6号。"
+  },
+  {
+    "id": 88,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "月",
+    "pinyin": "yuè",
+    "nghia": "Tháng",
+    "example": "今天几月几号？\n今天2月6号。"
+  },
+  {
+    "id": 89,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "日",
+    "pinyin": "rì",
+    "nghia": "Ngày",
+    "example": "今天是几日？\n今天是6日。"
+  },
+  {
+    "id": 90,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "星期",
+    "pinyin": "xīngqī",
+    "nghia": "Thứ/Tuần",
+    "example": "今天星期五。\n明天星期几？"
+  },
+  {
+    "id": 91,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "星期日",
+    "pinyin": "xīngqīrì",
+    "nghia": "Chủ nhật",
+    "example": "星期日你工作吗？"
+  },
+  {
+    "id": 92,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "星期天",
+    "pinyin": "xīngqītiān",
+    "nghia": "Chủ nhật",
+    "example": "明天是星期天。"
+  },
+  {
+    "id": 93,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "休息",
+    "pinyin": "xiūxi",
+    "nghia": "Nghỉ ngơi",
+    "example": "我想休息。\n星期天我不工作，我休息。"
+  },
+  {
+    "id": 94,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "会",
+    "pinyin": "huì",
+    "nghia": "Biết (qua học tập)/Sẽ",
+    "example": "你会说中文吗？\n我不会说汉语。"
+  },
+  {
+    "id": 95,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "做饭",
+    "pinyin": "zuò fàn",
+    "nghia": "Nấu ăn",
+    "example": "你会做饭吗？\n今天我不做饭。"
+  },
+  {
+    "id": 96,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "做",
+    "pinyin": "zuò",
+    "nghia": "Làm",
+    "example": "星期天你做什么？\n你做什么工作？"
+  },
+  {
+    "id": 97,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "面条儿",
+    "pinyin": "miàntiáor",
+    "nghia": "Mì sợi",
+    "example": "你会做面儿吗？"
+  },
+  {
+    "id": 98,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "饺子",
+    "pinyin": "jiǎozi",
+    "nghia": "Bánh sủi cảo",
+    "example": "你会做/包饺子吗？\n我会包饺子。"
+  },
+  {
+    "id": 99,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "一些",
+    "pinyin": "yīxiē",
+    "nghia": "Một vài/Một ít",
+    "example": "我想做一些饺子。\n我有一些中国朋友。"
+  },
+  {
+    "id": 100,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "菜",
+    "pinyin": "cài",
+    "nghia": "Món ăn/Rau",
+    "example": "你会做中国菜吗？\n这些菜是我做的。"
+  },
+  {
+    "id": 101,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "上班",
+    "pinyin": "shàngbān",
+    "nghia": "Đi làm",
+    "example": "我今天不上班。\n今天我不想上班。"
+  },
+  {
+    "id": 102,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "下班",
+    "pinyin": "xià bān",
+    "nghia": "Tan làm",
+    "example": "你下班了吗？\n我还没下班。"
+  },
+  {
+    "id": 103,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "新",
+    "pinyin": "xīn",
+    "nghia": "Mới",
+    "example": "新年快乐！\n这是新同学。"
+  },
+  {
+    "id": 104,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "电脑",
+    "pinyin": "diànnǎo",
+    "nghia": "Máy tính",
+    "example": "你有电脑吗？\n这是我的新电脑。"
+  },
+  {
+    "id": 105,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "真",
+    "pinyin": "zhēn",
+    "nghia": "Thật/Thật là",
+    "example": "你的中文真好！\n有心电脑了，真高兴！"
+  },
+  {
+    "id": 106,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "看",
+    "pinyin": "kàn",
+    "nghia": "Xem/Nhìn",
+    "example": "你看什么？\n小孩子想看电脑。"
+  },
+  {
+    "id": 107,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "好看",
+    "pinyin": "hǎokàn",
+    "nghia": "Đẹp/Hay (xem)",
+    "example": "这个电脑真好看!\n他的女朋友很好看。"
+  },
+  {
+    "id": 108,
+    "lesson": "Bài 5",
+    "lesson_num": 5,
+    "hanzi": "喜欢",
+    "pinyin": "xǐhuan",
+    "nghia": "Thích",
+    "example": "我很喜欢看电脑。\n我不太喜欢中国菜。"
+  },
+  {
+    "id": 109,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "手机",
+    "pinyin": "shǒujī",
+    "nghia": "Điện thoại di động",
+    "example": "这是谁的手机？\n这是你刚买的手机吗？\nĐây là điện thoại tôi mới mua."
+  },
+  {
+    "id": 110,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "电话",
+    "pinyin": "diànhuà",
+    "nghia": "Điện thoại (nói chung)",
+    "example": "你的电话号码是多少？ \n他给我打个电话。\nHôm qua tôi gọi cho mẹ một cuộc điện thoại."
+  },
+  {
+    "id": 111,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "号",
+    "pinyin": "hào",
+    "nghia": "Số",
+    "example": "我的号码是 123。\n今天一月五号。\nĐó là số điện thoại của tôi."
+  },
+  {
+    "id": 112,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "去",
+    "pinyin": "qù",
+    "nghia": "Đi",
+    "example": "明天你去哪儿？\n明天我去学校。\nNgày mai tôi đi Bắc Kinh."
+  },
+  {
+    "id": 113,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "来",
+    "pinyin": "lái",
+    "nghia": "Đến",
+    "example": "他来我家玩。\n他们来我的饭店吃饭。\nBạn tôi tới nhà tôi ăn cơm."
+  },
+  {
+    "id": 114,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "哪儿",
+    "pinyin": "nǎr",
+    "nghia": "Đâu/Chỗ nào",
+    "example": "你要去哪儿?\n你住在哪儿？\nGiáo viên đi đâu rồi?"
+  },
+  {
+    "id": 115,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "想",
+    "pinyin": "xiǎng",
+    "nghia": "Muốn/Nghĩ",
+    "example": "我想去超市买东西。\n我妈妈不想吃饭。\nTôi muốn ăn táo."
+  },
+  {
+    "id": 116,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "超市",
+    "pinyin": "chāoshì",
+    "nghia": "Siêu thị",
+    "example": "超市里有很多东西。\n我想去超市。\nTôi rất thích đi siêu thị."
+  },
+  {
+    "id": 117,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "买",
+    "pinyin": "mǎi",
+    "nghia": "Mua",
+    "example": "我想买点东西。\n他买很多书。\nCô ấy mua rất nhiều quần áo."
+  },
+  {
+    "id": 118,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "卖",
+    "pinyin": "mài",
+    "nghia": "Bán",
+    "example": "这个商店卖苹果。\n这件衣服怎么卖？\nTôi vừa mới bán chiếc điện thoại của tôi."
+  },
+  {
+    "id": 119,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "东西",
+    "pinyin": "dōngxi",
+    "nghia": "Đồ đạc/Vật dụng",
+    "example": "这是什么东西？\n家里有很多东西。\nSiêu thị có rất nhiều đồ"
+  },
+  {
+    "id": 120,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "些",
+    "pinyin": "xiē",
+    "nghia": "Một vài/Một ít",
+    "example": "这些苹果很好吃。\n你买一些牛奶吧。\nNhững chiếc bánh bao kia rất ngon."
+  },
+  {
+    "id": 121,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "牛奶",
+    "pinyin": "niúnǎi",
+    "nghia": "Sữa bò",
+    "example": "我不喜欢喝牛奶。\n超市有牛奶吗？\nBạn tôi rất thích uống sữa bò."
+  },
+  {
+    "id": 122,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "吃",
+    "pinyin": "chī",
+    "nghia": "Ăn",
+    "example": "你想吃什么？\n我们吃包子。\nTôi thích ăn bánh bao."
+  },
+  {
+    "id": 123,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "晚饭",
+    "pinyin": "wǎnfàn",
+    "nghia": "Bữa tối",
+    "example": "晚饭你吃什么？\n晚饭你想吃什么？\nTôi đang ăn tối."
+  },
+  {
+    "id": 124,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "这边",
+    "pinyin": "zhèbiān",
+    "nghia": "Bên này",
+    "example": "请往这边走。\n这边是我的学校，那边是他的学校。\nTôi ở bên này đợi bạn."
+  },
+  {
+    "id": 125,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "那边",
+    "pinyin": "nàbiān",
+    "nghia": "Chỗ kia/Bên kia",
+    "example": "超市在那边。 \n我的朋友在那边。\nChúng ta qua bên kia mua bánh bao đi."
+  },
+  {
+    "id": 126,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "包子",
+    "pinyin": "bāozi",
+    "nghia": "Bánh bao",
+    "example": "包子很好吃。 \n我买了五个包子。\nTôi không thích ăn bánh bao."
+  },
+  {
+    "id": 127,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "米饭",
+    "pinyin": "mǐfàn",
+    "nghia": "Cơm trắng",
+    "example": "我喜欢吃米饭。 \n今天的米饭非常好吃。\nSiêu thị có bán cơm không?"
+  },
+  {
+    "id": 128,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "非常",
+    "pinyin": "fēicháng",
+    "nghia": "Rất/Cực kỳ",
+    "example": "认识你我非常高兴。\n姐姐的电脑非常新。 \nMón ăn ở đây cực kỳ ngon."
+  },
+  {
+    "id": 129,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "好吃",
+    "pinyin": "hǎochī",
+    "nghia": "Ngon (ăn)",
+    "example": "这个菜非常好吃。 \n饺子真好吃。\nBánh bao không ngon."
+  },
+  {
+    "id": 130,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "怎么",
+    "pinyin": "zěnme",
+    "nghia": "Thế nào/Làm sao",
+    "example": "这个多少钱？怎么卖？\n你怎么去超市？\nBạn đi đến trường như thế nào?"
+  },
+  {
+    "id": 131,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "饭店",
+    "pinyin": "fàndiàn",
+    "nghia": "Nhà hàng",
+    "example": "那个饭店很大。\n这个饭店的菜非常好吃。\nĐây là nhà hàng của tôi."
+  },
+  {
+    "id": 132,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "出租车",
+    "pinyin": "chūzūchē",
+    "nghia": "Xe taxi",
+    "example": "我不喜欢坐出租车。\n我坐出租车去学校。\nNhững chiếc xe taxi bây giờ rất đẹp."
+  },
+  {
+    "id": 133,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "现在",
+    "pinyin": "xiànzài",
+    "nghia": "Hiện tại/Bây giờ",
+    "example": "现在几点？\n现在五点。\nBây giờ tôi rất bận."
+  },
+  {
+    "id": 134,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "点",
+    "pinyin": "diǎn",
+    "nghia": "Giờ",
+    "example": "现在十点。 \n你现在去哪儿？\nBây giờ là 12 giờ rồi, đi ăn cơm thôi."
+  },
+  {
+    "id": 135,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "分",
+    "pinyin": "fēn",
+    "nghia": "Phút",
+    "example": "十点五分。 \n等我十分。\nTôi học tiếng Trung 30 phút."
+  },
+  {
+    "id": 136,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "半",
+    "pinyin": "bàn",
+    "nghia": "Rưỡi/Nửa",
+    "example": "十点半睡觉。 \n我吃一半个包子。\nTôi ăn nửa quả táo."
+  },
+  {
+    "id": 137,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "刻",
+    "pinyin": "kè",
+    "nghia": "Khắc (15 phút)",
+    "example": "十点一刻。 \n七点一刻上课。\nTôi bắt đầu học lúc 8h15"
+  },
+  {
+    "id": 138,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "早上",
+    "pinyin": "zǎoshang",
+    "nghia": "Buổi sáng sớm",
+    "example": "早上好！\n老师，早上好！\nChào buổi sáng, Tiểu Ngữ."
+  },
+  {
+    "id": 139,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "上午",
+    "pinyin": "shàngwǔ",
+    "nghia": "Buổi sáng",
+    "example": "我上午去学校。 \n上午你吃什么？\nBuổi sáng tôi đi siêu thị."
+  },
+  {
+    "id": 140,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "中午",
+    "pinyin": "zhōngwǔ",
+    "nghia": "Buổi trưa",
+    "example": "我们中午吃饭。\n中午你想吃什么？\nBuổi trưa bạn đi đâu vậy?"
+  },
+  {
+    "id": 141,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "下午",
+    "pinyin": "xiàwǔ",
+    "nghia": "Buổi chiều",
+    "example": "下午见！\n下午你吃什么？\nBuổi chiều bạn có tiết học không?"
+  },
+  {
+    "id": 142,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "晚上",
+    "pinyin": "wǎnshang",
+    "nghia": "Buổi tối",
+    "example": "晚上见。\n晚上你去哪儿？\nBuổi tối bạn muốn ăn gì?"
+  },
+  {
+    "id": 143,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "吧",
+    "pinyin": "ba",
+    "nghia": "Nhé/Nha (trợ từ ngữ khí)",
+    "example": "我们去吧。 \n我们吃包子吧。\nChúng ta ăn bánh bao nhé."
+  },
+  {
+    "id": 144,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "电影院",
+    "pinyin": "diànyǐngyuàn",
+    "nghia": "Rạp chiếu phim",
+    "example": "去电影院看电影。 \n我很喜欢去电影院。\nHôm qua tôi đi rạp chiếu phim."
+  },
+  {
+    "id": 145,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "电影",
+    "pinyin": "diànyǐng",
+    "nghia": "Phim điện ảnh",
+    "example": "这部电影很好看。\n我很喜欢看电影。\nTôi rất thích xem bộ phim điện ảnh này."
+  },
+  {
+    "id": 146,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "事",
+    "pinyin": "shì",
+    "nghia": "Việc/Sự việc",
+    "example": "你有什么事吗？ \n我今天没有事。\nChiều nay bạn có việc phải không?"
+  },
+  {
+    "id": 147,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "上课",
+    "pinyin": "shàng kè",
+    "nghia": "Lên lớp/Vào học",
+    "example": "老师在上课。\n明天我去上课。\nTôi rất thích đi học."
+  },
+  {
+    "id": 148,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "下课",
+    "pinyin": "xià kè",
+    "nghia": "Tan học/Tan lớp",
+    "example": "我四点下课。\n我很喜欢下课。\n5 giờ 15 phút tan học."
+  },
+  {
+    "id": 149,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "在",
+    "pinyin": "zài",
+    "nghia": "Ở/Đang",
+    "example": "他在不在家？\n我在看书呢。\nCô ấy đang ăn cơm."
+  },
+  {
+    "id": 150,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "里",
+    "pinyin": "lǐ",
+    "nghia": "Trong/Bên trong",
+    "example": "学校里有很多学生。 \n超市里有很多东西。\nTrong túi có rất nhiều sách."
+  },
+  {
+    "id": 151,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "医院",
+    "pinyin": "yīyuàn",
+    "nghia": "Bệnh viện",
+    "example": "妈妈跟爸爸去医院了。\n明天我去医院。\nChị tôi làm ở bệnh viện."
+  },
+  {
+    "id": 152,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "店",
+    "pinyin": "diàn",
+    "nghia": "Cửa hàng/Tiệm",
+    "example": "我去商店买菜。\n我妹妹在商店工作。\nTối nay tôi muốn đi cửa hàng mua bánh bao."
+  },
+  {
+    "id": 153,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "分钟",
+    "pinyin": "fēnzhōng",
+    "nghia": "Phút (khoảng thời gian)",
+    "example": "等我十分钟。\n我学中文三十分钟。\nTôi đọc sách 15 phút."
+  },
+  {
+    "id": 154,
+    "lesson": "Bài 7",
+    "lesson_num": 7,
+    "hanzi": "后",
+    "pinyin": "hòu",
+    "nghia": "Sau/Sau khi",
+    "example": "放学后见。\n下班后我去超市买东西。\nSau khi ăn tối chúng ta đi xem phim."
+  },
+  {
+    "id": 155,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "上",
+    "pinyin": "shang / shàng",
+    "nghia": "Trên / Phía trên",
+    "example": "桌子上有一本书。\n书上有我的名字。\nSách tiếng Trung của giáo viên ở trên bàn."
+  },
+  {
+    "id": 156,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "下",
+    "pinyin": "xià",
+    "nghia": "dưới",
+    "example": "桌子下有一只猫。\n椅子下有一只狗。\nMời xuống xe."
+  },
+  {
+    "id": 157,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "前",
+    "pinyin": "qián",
+    "nghia": "trước (front)",
+    "example": "书店在学校前。\n他在我前面。 \n3 ngày trước tôi đi khám bác sĩ."
+  },
+  {
+    "id": 158,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "外",
+    "pinyin": "wài",
+    "nghia": "ngoài, bên ngoài (outside)",
+    "example": "房间外有一只猫。\n老师在教室外。 \nNgười bạn nước ngoài đến nhà tôi."
+  },
+  {
+    "id": 159,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "房间",
+    "pinyin": "fángjiān",
+    "nghia": "Căn phòng (room)",
+    "example": "我的房间很大。\n他在房间里休息。 \nĐây là phòng của ai?"
+  },
+  {
+    "id": 160,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "只",
+    "pinyin": "zhī",
+    "nghia": "con(lượng từ của một số loài động vật)",
+    "example": "我有一只猫。\n那只猫在那儿。 \nCon mèo này không ăn gì cả."
+  },
+  {
+    "id": 161,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "猫",
+    "pinyin": "māo",
+    "nghia": "mèo (cat)",
+    "example": "你喜欢猫吗？ \n猫在房间里。 \nTôi có một con mèo rất đẹp."
+  },
+  {
+    "id": 162,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "没",
+    "pinyin": "méi",
+    "nghia": "không (not; no; not yet)",
+    "example": "我没看见你的老师。 \n桌子下没东西。\nHôm nay tôi không có việc làm/không làm việc."
+  },
+  {
+    "id": 163,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "看见",
+    "pinyin": "kànjiàn",
+    "nghia": "nhìn thấy (see; catch sight of)",
+    "example": "你看见我的手机了吗？ \n我看见他在超市买东西。 \nỞ đằng kia bạn đã nhìn thấy gì?"
+  },
+  {
+    "id": 164,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "桌子",
+    "pinyin": "zhuōzi",
+    "nghia": "bàn (desk; table)",
+    "example": "桌子上有电脑。\n这个桌子不漂亮。\nXin hãy nhìn dưới bàn."
+  },
+  {
+    "id": 165,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "漂亮",
+    "pinyin": "piàoliang",
+    "nghia": "xinh đẹp (pretty;beautiful)",
+    "example": "你的衣服很漂亮。\n他的女儿很漂亮。\nHoa ở trong trường rất đẹp."
+  },
+  {
+    "id": 166,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "在",
+    "pinyin": "zài",
+    "nghia": "ở, tại (at/in)",
+    "example": "我在学校。\n我在家吃晚饭。 \nBố làm việc ở bệnh viện."
+  },
+  {
+    "id": 167,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "学校",
+    "pinyin": "xuéxiào",
+    "nghia": "trường học (school)",
+    "example": "这个学校很大\n他在这个学校工作。\nTrong trường có rất nhiều học sinh."
+  },
+  {
+    "id": 168,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "书店",
+    "pinyin": "shūdiàn",
+    "nghia": "hiệu sách (bookstore)",
+    "example": "书店在学校那边。\n书店里有很多书。\nTôi muốn đi hiệu sách mua sách tiếng Trung."
+  },
+  {
+    "id": 169,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "能",
+    "pinyin": "néng",
+    "nghia": "có thể (can; be able to)",
+    "example": "我能去学校。(Tôi có thể đi đến trường.)\nHôm nay anh ấy không thể đến.\n你能帮我吗？"
+  },
+  {
+    "id": 170,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "到",
+    "pinyin": "dào",
+    "nghia": "đến, tới (arrive;reach)",
+    "example": "我到家了。\n老师到学校了吗？\n3 giờ chiều anh ấy đến bệnh viện."
+  },
+  {
+    "id": 171,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "午饭",
+    "pinyin": "wǔfàn",
+    "nghia": "Bữa trưa (lunch)",
+    "example": "你几点吃午饭？\n午饭有很多菜。\nCơm trưa ngon không?"
+  },
+  {
+    "id": 172,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "饭",
+    "pinyin": "fàn",
+    "nghia": "Cơm (Meal)",
+    "example": "你会做饭吗？ \n我不喜欢吃米饭。\nMời đi ăn cơm đi."
+  },
+  {
+    "id": 173,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "病人",
+    "pinyin": "bìngrén",
+    "nghia": "Bệnh nhân (Patient)",
+    "example": "他是这个医院的病人。\n房间里有三个病人。\nBệnh nhân đó muốn ăn mì."
+  },
+  {
+    "id": 174,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "医生",
+    "pinyin": "yīshēng",
+    "nghia": "Bác sĩ (Doctor)",
+    "example": "我是医生。\n医生在医院工作。\nBác sĩ Trương là bố của tôi."
+  },
+  {
+    "id": 175,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "工作",
+    "pinyin": "gōngzuò",
+    "nghia": "Làm việc / Công việc (Work / Job)",
+    "example": "他在医院工作。\n我姐姐在商店工作。\nEm gái tôi làm việc tại bệnh viện."
+  },
+  {
+    "id": 176,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "胡",
+    "pinyin": "Hú",
+    "nghia": "Họ hồ",
+    "example": "胡医生在工作。\n胡老师是我的中文老师。\nThầy Hồ đang rất bận."
+  },
+  {
+    "id": 177,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "前边",
+    "pinyin": "qiánbian",
+    "nghia": "Phía trước (Front)",
+    "example": "他在我前边。\n小狗在前边。\nPhía trước có phải giáo viên tiếng Trung không?"
+  },
+  {
+    "id": 178,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "边",
+    "pinyin": "bian / biān",
+    "nghia": "Bên / Phía (Locality / Edge / Side)",
+    "example": "他在我右边。\n我爸爸在左边。\nBên trên là bạn tốt của tôi."
+  },
+  {
+    "id": 179,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "家",
+    "pinyin": "jiā",
+    "nghia": "Gia đình / Nhà - lượng từ (For families or enterprises)",
+    "example": "这是我的家。\n你家有几口人？\nPhía trước là nhà của bạn thân tôi."
+  },
+  {
+    "id": 180,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "那个",
+    "pinyin": "nàge",
+    "nghia": "Cái kia / Người kia (That)",
+    "example": "那个学生很漂亮。\n那个人是谁？\nCon mèo kia là của ai?"
+  },
+  {
+    "id": 181,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "外边",
+    "pinyin": "wàibian",
+    "nghia": "Bên ngoài (Outside)",
+    "example": "外边有人。\n外边有两个小狗。\nBên ngoài là giáo viên tiếng Trung của tôi."
+  },
+  {
+    "id": 182,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "椅子",
+    "pinyin": "yǐzi",
+    "nghia": "Cái ghế",
+    "example": "椅子下面没有小猫。\n椅子上有什么？\nĐây là cái ghế tôi mới mua."
+  },
+  {
+    "id": 183,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "本",
+    "pinyin": "běn",
+    "nghia": "Cuốn / Quyển - lượng từ (For books)",
+    "example": "我有一本书。\n我要买两本汉语书。\nQuyển sách này là của tôi."
+  },
+  {
+    "id": 184,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "书",
+    "pinyin": "shū",
+    "nghia": "Sách (Book)",
+    "example": "我爱看书。\n我有汉语书和越南语书。\nĐó là sách tiếng Trung của bạn tôi."
+  },
+  {
+    "id": 185,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "第",
+    "pinyin": "dì",
+    "nghia": "Thứ - dùng cho số thứ tự (Marker of ordinal numbers)",
+    "example": "这是第一本。\n第21课。\nBạn là người đầu tiên."
+  },
+  {
+    "id": 186,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "学习",
+    "pinyin": "xuéxí",
+    "nghia": "Học / Học tập (Study / Learn)",
+    "example": "我在学习汉语。\n我每天学习汉语。\nTôi thích học tiếng Trung."
+  },
+  {
+    "id": 187,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "白天",
+    "pinyin": "báitiān",
+    "nghia": "Ban ngày (Day / Daytime)",
+    "example": "他白天不在家。\n白天工作，晚上休息。\nBan ngày bạn làm gì?"
+  },
+  {
+    "id": 188,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "读",
+    "pinyin": "dú",
+    "nghia": "Học / Đi học (Attend school / Study)",
+    "example": "我在中国读大学。\n我读的是汉语。\nEm gái tôi đi học ở Trung Quốc."
+  },
+  {
+    "id": 189,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "读书",
+    "pinyin": "dúshū",
+    "nghia": "Đọc sách / Học (Read a book)",
+    "example": "他在学校读书。\n我还在读书。\nAnh ấy đang ngồi trên ghế đọc sách."
+  },
+  {
+    "id": 190,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "和",
+    "pinyin": "hé",
+    "nghia": "Và / Với (With)",
+    "example": "我和朋友去商店。\n我和他是好朋友。\nSách tiếng Trung, sách tiếng Việt tôi đều có."
+  },
+  {
+    "id": 191,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "唱",
+    "pinyin": "chàng",
+    "nghia": "Hát (Sing)",
+    "example": "她喜欢唱歌。\n我不会唱歌。\nCô ấy thích hát ở nhà."
+  },
+  {
+    "id": 192,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "歌",
+    "pinyin": "gē",
+    "nghia": "Bài hát (Song)",
+    "example": "这个歌很好听。\n我喜欢听他的歌。\nBài hát tôi yêu thích."
+  },
+  {
+    "id": 193,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "好听",
+    "pinyin": "hǎotīng",
+    "nghia": "Hay / Dễ nghe (Pleasant to hear)",
+    "example": "你的歌声很好听。\n你说很好听。\nCô ấy hát rất hay."
+  },
+  {
+    "id": 194,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "电视",
+    "pinyin": "diànshì",
+    "nghia": "Ti vi (Television)",
+    "example": "电视上有什么？\n我喜欢看电视。\nTôi ở nhà xem tivi."
+  },
+  {
+    "id": 195,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "狗",
+    "pinyin": "gǒu",
+    "nghia": "Con chó (Dog)",
+    "example": "那只狗很小。\n这是我的小狗。\nĐây là con chó của tôi."
+  },
+  {
+    "id": 196,
+    "lesson": "Bài 9",
+    "lesson_num": 9,
+    "hanzi": "玩",
+    "pinyin": "wán",
+    "nghia": "Chơi (Play / Have fun)",
+    "example": "小猫在玩。\n你玩什么？\nTôi chơi cùng bạn bè."
+  },
+  {
+    "id": 197,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "杯子",
+    "pinyin": "bēizi",
+    "nghia": "Cái cốc / Ly (Cup / Glass)",
+    "example": "杯子里有水。\n我有一个杯子。\nCái cốc ở trên bàn."
+  },
+  {
+    "id": 198,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "售货员",
+    "pinyin": "shòuhuòyuán",
+    "nghia": "Nhân viên bán hàng (Shop assistant / Salesperson)",
+    "example": "他是商店的售货员。\n他不是售货员。\nXin hỏi, nhân viên bán hàng ở đâu?"
+  },
+  {
+    "id": 199,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "钱",
+    "pinyin": "qián",
+    "nghia": "Tiền (Money)",
+    "example": "你有钱吗？\n我没有钱。\nAnh ấy có rất nhiều tiền."
+  },
+  {
+    "id": 200,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "这些",
+    "pinyin": "zhèxiē",
+    "nghia": "Những cái này (These)",
+    "example": "这些书是我的。\n这些是什么？\nNhững cái này là của tôi."
+  },
+  {
+    "id": 201,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "那些",
+    "pinyin": "nàxiē",
+    "nghia": "Những cái kia (Those)",
+    "example": "那些苹果很好吃。\n那些是中文老师的书。\nNhững cái kia là gì?"
+  },
+  {
+    "id": 202,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "这儿",
+    "pinyin": "zhèr",
+    "nghia": "Ở đây (Here)",
+    "example": "这儿有很多学生。\n你在这儿吗？\nNhân viên bán hàng ở đây."
+  },
+  {
+    "id": 203,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "那儿",
+    "pinyin": "nàr",
+    "nghia": "Chỗ kia / Đại từ chỉ nơi chốn (There / That place)",
+    "example": "我的书在那儿。\n那儿有人吗？\nCô giáo không ở đây, ở kia."
+  },
+  {
+    "id": 204,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "水果",
+    "pinyin": "shuǐguǒ",
+    "nghia": "Hoa quả / Trái cây (Fruit)",
+    "example": "我想买水果。\n这些是水果。\nTrái cây rất ngon."
+  },
+  {
+    "id": 205,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "苹果",
+    "pinyin": "píngguǒ",
+    "nghia": "Quả táo (Apple)",
+    "example": "这个苹果很大。\n我想买一个苹果。\nNhân viên bán hàng ơi, quả táo này bao nhiêu tiền?"
+  },
+  {
+    "id": 206,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "斤",
+    "pinyin": "jīn",
+    "nghia": "Cân - đơn vị đo lường (Jin)",
+    "example": "苹果一斤多少钱？\n我要买一斤苹果。\nBán cho tôi 2 cân hoa quả."
+  },
+  {
+    "id": 207,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "贵",
+    "pinyin": "guì",
+    "nghia": "Đắt (Expensive)",
+    "example": "这个水果很贵。\n这水果贵不贵？\n1 cân 10 tệ, không đắt."
+  },
+  {
+    "id": 208,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "便宜",
+    "pinyin": "piányi",
+    "nghia": "Rẻ (Cheap / Affordable)",
+    "example": "这些衣服很便宜。\n这儿的水果很便宜。\nCái này không đắt, rất rẻ."
+  },
+  {
+    "id": 209,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "商店",
+    "pinyin": "shāngdiàn",
+    "nghia": "Cửa hàng (Shop / Store)",
+    "example": "他在商店工作。\n我在商店买水果。\nĐồ trong cửa hàng rất rẻ."
+  },
+  {
+    "id": 210,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "衣服",
+    "pinyin": "yīfu",
+    "nghia": "Quần áo (Clothes)",
+    "example": "这件衣服很漂亮。\n商店里有衣服。\nQuần áo rất rẻ."
+  },
+  {
+    "id": 211,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "件",
+    "pinyin": "jiàn",
+    "nghia": "Chiếc / Bộ - lượng từ cho quần áo (Piece)",
+    "example": "我有一件新衣服。\n我买两件衣服。\nTrong cửa hàng có rất nhiều bộ quần áo."
+  },
+  {
+    "id": 212,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "元",
+    "pinyin": "yuán",
+    "nghia": "Tệ / Đồng (Yuan)",
+    "example": "一共十元。\n这个苹果五元。\nBộ quần áo này 20 tệ."
+  },
+  {
+    "id": 213,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "块",
+    "pinyin": "kuài",
+    "nghia": "Đồng / Tệ - lượng từ cho tiền (For silver dollars or paper money)",
+    "example": "这件衣服五十块。\n一斤十块。\nQuả táo này 5 tệ."
+  },
+  {
+    "id": 214,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "nghia": "Như thế nào (How)",
+    "example": "这件衣服怎么样？\n这个不贵，不便宜，怎么样？\nQuả táo này thế nào?"
+  },
+  {
+    "id": 215,
+    "lesson": "Bài 10",
+    "lesson_num": 10,
+    "hanzi": "穿",
+    "pinyin": "chuān",
+    "nghia": "Mặc (Wear / Put on)",
+    "example": "你想穿什么？\n他穿这件衣服。\nTôi thích mặc bộ quần áo này."
+  },
+  {
+    "id": 216,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "这里",
+    "pinyin": "zhèlǐ",
+    "nghia": "Ở đây (Here)",
+    "example": "这里有很多人。\n我在这里。\nAnh ấy không ở đây."
+  },
+  {
+    "id": 217,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "那里",
+    "pinyin": "nàlǐ",
+    "nghia": "Chỗ kia / Nơi kia (There / That place)",
+    "example": "那里有很多学生。\n售货员在那里。\nTôi không đi đến đó."
+  },
+  {
+    "id": 218,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "时候",
+    "pinyin": "shíhou",
+    "nghia": "Lúc / Khi / Thời gian (Time / A point in time)",
+    "example": "你什么时候去学校？\n我小的时候喜欢吃苹果。\nLúc đó tôi ở đây."
+  },
+  {
+    "id": 219,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "知道",
+    "pinyin": "zhīdào",
+    "nghia": "Biết (Know / Realize)",
+    "example": "我不知道他在哪儿。\n我知道他在这儿。\nAnh ấy không biết bao nhiêu tiền."
+  },
+  {
+    "id": 220,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "正在",
+    "pinyin": "zhèngzài",
+    "nghia": "Đang / Trong quá trình (In the process of)",
+    "example": "他正在看电视。\n我正在买水果。\nNhân viên bán hàng đang làm việc."
+  },
+  {
+    "id": 221,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "在",
+    "pinyin": "zài",
+    "nghia": "Đang (chỉ hành động đang diễn ra)",
+    "example": "他在学汉语呢。"
+  },
+  {
+    "id": 222,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "找",
+    "pinyin": "zhǎo",
+    "nghia": "Tìm / Tìm kiếm (Look for)",
+    "example": "你在找什么？\n我找售货员。\nTôi tìm quần áo trong cửa hàng."
+  },
+  {
+    "id": 223,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "开车",
+    "pinyin": "kāichē",
+    "nghia": "Lái xe (Drive a vehicle)",
+    "example": "他在开车。\n今天我开车去商店。\nBạn có biết lái xe không?"
+  },
+  {
+    "id": 224,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "车",
+    "pinyin": "chē",
+    "nghia": "Xe / Phương tiện giao thông (Vehicle)",
+    "example": "那是我的车。\n我坐车去商店。\nĐây là xe của tôi."
+  },
+  {
+    "id": 225,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "大学",
+    "pinyin": "dàxué",
+    "nghia": "Trường đại học (University / College)",
+    "example": "这个大学很好。\n我在大学学习。\nCô ấy không phải là sinh viên đại học."
+  },
+  {
+    "id": 226,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "大学生",
+    "pinyin": "dàxuésheng",
+    "nghia": "Sinh viên đại học (College / University student)",
+    "example": "他是大学生。\n我是学生，也是大学生。\nNhiều sinh viên đại học thích mua quần áo."
+  },
+  {
+    "id": 227,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "学",
+    "pinyin": "xué",
+    "nghia": "Học / Học tập (Study / Learn)",
+    "example": "我想学汉语。\n他在大学学中文。\nTôi học tiếng Trung, còn bạn?"
+  },
+  {
+    "id": 228,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "医",
+    "pinyin": "yī",
+    "nghia": "Y học / Thuốc (Medicine)",
+    "example": "他在学医。\n医生在医院工作。\nTôi tìm bác sĩ."
+  },
+  {
+    "id": 229,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "起床",
+    "pinyin": "qǐchuáng",
+    "nghia": "Ngủ dậy / Thức dậy (Get up / Get out of bed)",
+    "example": "我六点起床。\n他每天七点起床。\nBạn mấy giờ dậy?"
+  },
+  {
+    "id": 230,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "睡觉",
+    "pinyin": "shuìjiào",
+    "nghia": "Ngủ (Sleep)",
+    "example": "他在睡觉。\n我十点睡觉。\nBạn mấy giờ đi ngủ?"
+  },
+  {
+    "id": 231,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "睡",
+    "pinyin": "shuì",
+    "nghia": "Ngủ (Sleep)",
+    "example": "我睡了八个小时。\n孩子睡了。\nAnh ấy đang ngủ."
+  },
+  {
+    "id": 232,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "哪里",
+    "pinyin": "nǎlǐ",
+    "nghia": "Ở đâu (Where)",
+    "example": "你在哪里？\n商店在哪里？\nBác sĩ ở đâu?"
+  },
+  {
+    "id": 233,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "问",
+    "pinyin": "wèn",
+    "nghia": "Hỏi (Ask)",
+    "example": "我想问你一个问题。\n请问，售货员在哪？\nTôi hỏi anh ấy ở đây."
+  },
+  {
+    "id": 234,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "对",
+    "pinyin": "duì",
+    "nghia": "Với / Hướng về",
+    "example": "你对我说什么？\n他对我很好。\nCái này rất tốt đối với tôi."
+  },
+  {
+    "id": 235,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "说",
+    "pinyin": "shuō",
+    "nghia": "Nói (Speak / Talk / Say)",
+    "example": "他在说话。\n他说什么？\nBạn có biết nói tiếng Trung không?"
+  },
+  {
+    "id": 236,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "要",
+    "pinyin": "yào",
+    "nghia": "Muốn / Cần (Want / Wish)",
+    "example": "我要买苹果。\n我要一件衣服。\nTôi không lấy cái này."
+  },
+  {
+    "id": 237,
+    "lesson": "Bài 11",
+    "lesson_num": 11,
+    "hanzi": "小朋友",
+    "pinyin": "xiǎopéngyǒu",
+    "nghia": "Trẻ em / Đứa trẻ (Child / Kid)",
+    "example": "小朋友在那儿玩。\n老师问小朋友。\nTrẻ em thích ăn táo."
+  },
+  {
+    "id": 238,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "天气",
+    "pinyin": "tiānqì",
+    "nghia": "Thời tiết (Weather)",
+    "example": "今天天气怎么样？\n今天天气很好。"
+  },
+  {
+    "id": 239,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "天",
+    "pinyin": "tiān",
+    "nghia": "Thời tiết",
+    "example": "x"
+  },
+  {
+    "id": 240,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "天",
+    "pinyin": "tiān",
+    "nghia": "Ngày (Day)",
+    "example": "x"
+  },
+  {
+    "id": 241,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "下雨",
+    "pinyin": "xià yǔ",
+    "nghia": "Mưa / Rơi mưa (Rain)",
+    "example": "今天会下大雨。"
+  },
+  {
+    "id": 242,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "雨",
+    "pinyin": "yǔ",
+    "nghia": "Mưa (Rain)",
+    "example": "现在的雨很大。"
+  },
+  {
+    "id": 243,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "了",
+    "pinyin": "le",
+    "nghia": "Rồi (Dùng cuối câu chỉ sự thay đổi trạng thái)",
+    "example": "我回家了。"
+  },
+  {
+    "id": 244,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "冷",
+    "pinyin": "lěng",
+    "nghia": "Lạnh (Cold)",
+    "example": "今天天气不太冷。"
+  },
+  {
+    "id": 245,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "热",
+    "pinyin": "rè",
+    "nghia": "Nóng (Hot / Warm)",
+    "example": "今天天气很热。"
+  },
+  {
+    "id": 246,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "觉得",
+    "pinyin": "juéde",
+    "nghia": "Cảm thấy (Feel)",
+    "example": "我觉得这件衣服很漂亮。\n你觉得这个电脑贵不贵？"
+  },
+  {
+    "id": 247,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "有点儿",
+    "pinyin": "yǒudiǎnr",
+    "nghia": "Hơi / Một chút (Rather / A bit)",
+    "example": "我觉得有点儿冷。"
+  },
+  {
+    "id": 248,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "下雪",
+    "pinyin": "xiàxuě",
+    "nghia": "Tuyết rơi",
+    "example": "北京下雪了。\n外边正在下雪。"
+  },
+  {
+    "id": 249,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "雪",
+    "pinyin": "xuě",
+    "nghia": "Tuyết (Snow)",
+    "example": "外面雪很大。"
+  },
+  {
+    "id": 250,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "公司",
+    "pinyin": "gōngsī",
+    "nghia": "Công ty (Company)",
+    "example": "这是我们的公司。\n他在这家公司工作。"
+  },
+  {
+    "id": 251,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "生病",
+    "pinyin": "shēngbìng",
+    "nghia": "Bị ốm (Fall ill)",
+    "example": "我生病了，不能去学校。"
+  },
+  {
+    "id": 252,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "看病",
+    "pinyin": "kànbìng",
+    "nghia": "Đi khám bệnh (See a doctor)",
+    "example": "我要去医院看病。"
+  },
+  {
+    "id": 253,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "病",
+    "pinyin": "bìng",
+    "nghia": "Ốm / Bệnh (Fall ill / Be sick)",
+    "example": "他的病好了。"
+  },
+  {
+    "id": 254,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "一点儿",
+    "pinyin": "yìdiǎnr",
+    "nghia": "Một chút / Một ít (Some)",
+    "example": "我想喝一点儿水。"
+  },
+  {
+    "id": 255,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "药",
+    "pinyin": "yào",
+    "nghia": "Thuốc (Medicine)",
+    "example": "你要吃药。"
+  },
+  {
+    "id": 256,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "回",
+    "pinyin": "huí",
+    "nghia": "Về / Quay về (Return / Go back)",
+    "example": "我想回家。"
+  },
+  {
+    "id": 257,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "再",
+    "pinyin": "zài",
+    "nghia": "Lại / Sau đó mới (Then / Only then)",
+    "example": ""
+  },
+  {
+    "id": 258,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "nghia": "Uống (Drink)",
+    "example": "你想喝什么？\n牛奶很好喝。\nTôi muốn uống sữa bò nóng."
+  },
+  {
+    "id": 259,
+    "lesson": "Bài 12",
+    "lesson_num": 12,
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "nghia": "Nước (Water)",
+    "example": "请喝杯热水。\n中国人喜欢喝热水。"
+  },
+  {
+    "id": 260,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "可以",
+    "pinyin": "kěyǐ",
+    "nghia": "Có thể (Can / May)",
+    "example": "我可以问你一个问题吗？\n我可以坐吗？"
+  },
+  {
+    "id": 261,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "再",
+    "pinyin": "zài",
+    "nghia": "Lần nữa / Lại (Once more / Again)",
+    "example": "我再看一下。"
+  },
+  {
+    "id": 262,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "问题",
+    "pinyin": "wèntí",
+    "nghia": "Câu hỏi / Vấn đề (Question / Problem)",
+    "example": "你还有什么问题吗？\n我想问老师这个问题。"
+  },
+  {
+    "id": 263,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "打电话",
+    "pinyin": "dǎ diànhuà",
+    "nghia": "Gọi điện thoại (Make a phone call / Call)",
+    "example": "他在打电话。"
+  },
+  {
+    "id": 264,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "一下",
+    "pinyin": "yíxià",
+    "nghia": "Một chút / Một lát (One time / Once)",
+    "example": "我可以看一下吗？\n你可以打电话问一下。\nXin hãy nghỉ ngơi 1 chút."
+  },
+  {
+    "id": 265,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "服务员",
+    "pinyin": "fúwùyuán",
+    "nghia": "Nhân viên phục vụ (Attendant / Waiter / Waitress)",
+    "example": "服务员，我要喝水。"
+  },
+  {
+    "id": 266,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "先生",
+    "pinyin": "xiānsheng",
+    "nghia": "Ông / Ngài / Tiên sinh (Gentleman / Sir)",
+    "example": "那位先生是谁？(Vị tiên sinh kia là ai thế?)"
+  },
+  {
+    "id": 267,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "女士",
+    "pinyin": "nǚshì",
+    "nghia": "Nữ sĩ / Quý cô / Bà (Lady / Madam)",
+    "example": "那位女士很漂亮。\n王女士是我的老师。"
+  },
+  {
+    "id": 268,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "请",
+    "pinyin": "qǐng",
+    "nghia": "Mời / Xin (Please)",
+    "example": "请坐。"
+  },
+  {
+    "id": 269,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "坐",
+    "pinyin": "zuò",
+    "nghia": "Ngồi (Sit)",
+    "example": "我坐在椅子上。"
+  },
+  {
+    "id": 270,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "给",
+    "pinyin": "gěi",
+    "nghia": "Cho / Đưa cho (Give)",
+    "example": "我给你一本书。"
+  },
+  {
+    "id": 271,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "杯",
+    "pinyin": "bēi",
+    "nghia": "Cái cốc / Tách / Ly (Cup / Glass)",
+    "example": "我喝了一杯茶。"
+  },
+  {
+    "id": 272,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "要",
+    "pinyin": "yào",
+    "nghia": "Muốn / Yêu cầu (Demand / Ask for)",
+    "example": "我要一杯咖啡。"
+  },
+  {
+    "id": 273,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "早饭",
+    "pinyin": "zǎofàn",
+    "nghia": "Bữa sáng (Breakfast)",
+    "example": "你吃早饭了吗？"
+  },
+  {
+    "id": 274,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "这个",
+    "pinyin": "zhège",
+    "nghia": "Cái này (This)",
+    "example": "这个面包很好吃。"
+  },
+  {
+    "id": 275,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "面包",
+    "pinyin": "miànbāo",
+    "nghia": "Bánh mì (Bread)",
+    "example": "这些面包很便宜。(Những cái bánh mì này rất rẻ.)"
+  },
+  {
+    "id": 276,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "鸡蛋",
+    "pinyin": "jīdàn",
+    "nghia": "Trứng gà (Hen's egg)",
+    "example": "我爱吃鸡蛋。(Tôi yêu ăn trứng.)"
+  },
+  {
+    "id": 277,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "一半",
+    "pinyin": "yíbàn",
+    "nghia": "Một nửa (One half / Half)",
+    "example": "我吃了一半。(Tôi đã ăn một nửa.)"
+  },
+  {
+    "id": 278,
+    "lesson": "Bài 13",
+    "lesson_num": 13,
+    "hanzi": "茶",
+    "pinyin": "chá",
+    "nghia": "Trà (Tea)",
+    "example": "你想喝茶吗？(Bạn muốn uống trà không?)"
+  },
+  {
+    "id": 279,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "上",
+    "pinyin": "shàng",
+    "nghia": "Lên xe/tàu (go up; get on; board)",
+    "example": "我在上火车。(Tôi đang lên tàu hỏa.)"
+  },
+  {
+    "id": 280,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "火车",
+    "pinyin": "huǒchē",
+    "nghia": "Tàu hỏa (train)",
+    "example": "火车在那儿。(Tàu hỏa ở đằng kia.)"
+  },
+  {
+    "id": 281,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "开",
+    "pinyin": "kāi",
+    "nghia": "Khởi hành/Rời bến - dùng cho xe cộ ((of vehicles) depart; leave)",
+    "example": ""
+  },
+  {
+    "id": 282,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "有些",
+    "pinyin": "yǒuxiē",
+    "nghia": "Một số/Một vài - chỉ một phần ((indicating a part) some)",
+    "example": "有些苹果很大。(Có một số quả táo rất lớn.)"
+  },
+  {
+    "id": 283,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "有的",
+    "pinyin": "yǒude",
+    "nghia": "Một số (some)",
+    "example": "有的学生喜欢看书。(Có những học sinh thích đọc sách.)"
+  },
+  {
+    "id": 284,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "了",
+    "pinyin": "le",
+    "nghia": "Rồi - trợ từ dùng sau động từ để chỉ hành động đã hoàn thành",
+    "example": "我买了一本书。(Tôi đã mua một quyển sách rồi.)"
+  },
+  {
+    "id": 285,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "写",
+    "pinyin": "xiě",
+    "nghia": "Viết",
+    "example": "他在写字。(Anh ấy đang viết chữ.)"
+  },
+  {
+    "id": 286,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "都",
+    "pinyin": "dōu",
+    "nghia": "Đều / Tất cả (all; both)",
+    "example": "他们都在学校。(Họ đều ở trường học.)"
+  },
+  {
+    "id": 287,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "听见",
+    "pinyin": "tīngjiàn",
+    "nghia": "Nghe thấy (hear)",
+    "example": "你听见我说的话 không? (Bạn có nghe thấy lời tôi nói không?)"
+  },
+  {
+    "id": 288,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "不要",
+    "pinyin": "búyào",
+    "nghia": "Đừng , Không được (don't)",
+    "example": "不要在教室说话。(Đừng nói chuyện trong lớp học.)"
+  },
+  {
+    "id": 289,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "说话",
+    "pinyin": "shuōhuà",
+    "nghia": "Nói chuyện (say; speak; talk)",
+    "example": "他在跟我说话。(Anh ấy đang nói chuyện với tôi.)"
+  },
+  {
+    "id": 290,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "听",
+    "pinyin": "tīng",
+    "nghia": "Nghe , Lắng nghe",
+    "example": "你听，那是谁在唱歌？(Bạn nghe xem, đó là ai đang hát thế?)"
+  },
+  {
+    "id": 291,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "哪些",
+    "pinyin": "nǎxiē",
+    "nghia": "Những... nào , Những cái nào",
+    "example": "哪些书是你的？(Những quyển sách nào là của bạn?)"
+  },
+  {
+    "id": 292,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "字",
+    "pinyin": "zì",
+    "nghia": "Chữ, Hán tự",
+    "example": "这个字怎么写？(Chữ này viết thế nào?)"
+  },
+  {
+    "id": 293,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "明年",
+    "pinyin": "míngnián",
+    "nghia": "Sang năm, Năm sau",
+    "example": "我明年去北京。(Sang năm tôi đi Bắc Kinh.)"
+  },
+  {
+    "id": 294,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "去年",
+    "pinyin": "qùnián",
+    "nghia": "Năm ngoái",
+    "example": "去年我去过西安。(Năm ngoái tôi đã đi Tây An.)"
+  },
+  {
+    "id": 295,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "上",
+    "pinyin": "shàng",
+    "nghia": "Bắt đầu vào học/làm",
+    "example": "我想上大学。(Tôi muốn học đại học.)"
+  },
+  {
+    "id": 296,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "中学",
+    "pinyin": "zhōngxué",
+    "nghia": "Trường trung học",
+    "example": "我弟弟在上中学。(Em trai tôi đang học trung học.)"
+  },
+  {
+    "id": 297,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "小学",
+    "pinyin": "xiǎoxué",
+    "nghia": "Trường tiểu học",
+    "example": "他在小学工作。(Anh ấy làm việc ở trường tiểu học.)"
+  },
+  {
+    "id": 298,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "中学生",
+    "pinyin": "zhōngxuésheng",
+    "nghia": "Học sinh trung học",
+    "example": "中学生在那儿。(Học sinh trung học ở đằng kia.)"
+  },
+  {
+    "id": 299,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "小学生",
+    "pinyin": "xiǎoxuéshēng",
+    "nghia": "Học sinh tiểu học, Học sinh cấp 1",
+    "example": "小学生在玩。(Học sinh tiểu học đang chơi.)"
+  },
+  {
+    "id": 300,
+    "lesson": "Bài 14",
+    "lesson_num": 14,
+    "hanzi": "上学",
+    "pinyin": "shàngxué",
+    "nghia": "Đi học, Đến trường",
+    "example": "我去上学了。(Tôi đi học đây.)"
+  },
+  {
+    "id": 301,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "早",
+    "pinyin": "zǎo",
+    "nghia": "Sớm",
+    "example": "明天请早点儿来。(Ngày mai mời đến sớm một chút nhé.)"
+  },
+  {
+    "id": 302,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "晚",
+    "pinyin": "wǎn",
+    "nghia": "Muộn, Trễ",
+    "example": "今天他来晚了。(Hôm nay anh ấy đến muộn rồi.)"
+  },
+  {
+    "id": 303,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "爱",
+    "pinyin": "ài",
+    "nghia": "Yêu",
+    "example": "我爱我的家人。(Tôi yêu gia đình của mình.)"
+  },
+  {
+    "id": 304,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "哪个",
+    "pinyin": "nǎge",
+    "nghia": "Cái nào",
+    "example": "哪个是你的杯子？(Cái nào là cốc của bạn?)"
+  },
+  {
+    "id": 305,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "年",
+    "pinyin": "nián",
+    "nghia": "Năm",
+    "example": "二零二六年是马年。(Năm 2026 là năm con ngựa.)"
+  },
+  {
+    "id": 306,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "好玩儿",
+    "pinyin": "hǎowánr",
+    "nghia": "Vui/Thú vị",
+    "example": "西安很好玩儿。(Tây An rất vui/thú vị.)"
+  },
+  {
+    "id": 307,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "西安",
+    "pinyin": "Xī'ān",
+    "nghia": "Tây An",
+    "example": "西安有很多好吃的。(Tây An có rất nhiều món ngon.)"
+  },
+  {
+    "id": 308,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "北京",
+    "pinyin": "Běijīng",
+    "nghia": "Bắc Kinh",
+    "example": "北京很大。(Bắc Kinh rất lớn.)"
+  },
+  {
+    "id": 309,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "飞机",
+    "pinyin": "fēijī",
+    "nghia": "Máy bay",
+    "example": "我坐飞机去北京。(Tôi đi máy bay đến Bắc Kinh.)"
+  },
+  {
+    "id": 310,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "要",
+    "pinyin": "yào",
+    "nghia": "Cần, mất bao lâu thời gian",
+    "example": "坐飞机要两个小时。(Đi máy bay mất hai tiếng đồng hồ.)"
+  },
+  {
+    "id": 311,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "小时",
+    "pinyin": "xiǎoshí",
+    "nghia": "Tiếng đồng hồ",
+    "example": "我要去学校。(Tôi muốn đi đến trường.)"
+  },
+  {
+    "id": 312,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "家人",
+    "pinyin": "jiārén",
+    "nghia": "Người nhà",
+    "example": "我的家人在北京。(Gia đình của tôi ở Bắc Kinh.)"
+  },
+  {
+    "id": 313,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "时间",
+    "pinyin": "shíjiān",
+    "nghia": "Thời gian",
+    "example": "你有时间吗？(Bạn có thời gian không?)"
+  },
+  {
+    "id": 314,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "机场",
+    "pinyin": "jīchǎng",
+    "nghia": "Sân bay",
+    "example": "他在机场接朋友。(Anh ấy đang ở sân bay đón bạn.)"
+  },
+  {
+    "id": 315,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "接",
+    "pinyin": "jiē",
+    "nghia": "Đón",
+    "example": "谁来接我？(Ai đến đón tôi thế?)"
+  },
+  {
+    "id": 316,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "住",
+    "pinyin": "zhù",
+    "nghia": "sống (ở, tại)",
+    "example": "你住在哪儿？(Bạn sống ở đâu?)"
+  },
+  {
+    "id": 317,
+    "lesson": "Bài 15",
+    "lesson_num": 15,
+    "hanzi": "那",
+    "pinyin": "nà",
+    "nghia": "Vậy, thế thì",
+    "example": "那就去吧。(Vậy thì đi thôi.)"
+  }
+]

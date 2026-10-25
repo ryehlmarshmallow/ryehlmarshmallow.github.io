@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Học Từ Vựng Hán Ngữ & Luyện Viết Chữ Hán</title>
+  <meta name="description" content="Ứng dụng học từ vựng tiếng Trung, ôn tập thẻ ghi nhớ, trắc nghiệm và luyện viết đúng thứ tự nét chữ Hán.">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Header -->
+  <header class="app-header">
+    <div class="brand">
+      <h1>Hán Ngữ HSK</h1>
+      <select id="quick-lesson-select" class="header-lesson-dropdown" title="Chọn nhanh bài học">
+        <option value="1-8">Bài 1 - 8</option>
+        <option value="all">Tất cả (1-15)</option>
+        <option disabled>──────────</option>
+        <option value="1">Chỉ Bài 1</option>
+        <option value="2">Chỉ Bài 2</option>
+        <option value="3">Chỉ Bài 3</option>
+        <option value="4">Chỉ Bài 4</option>
+        <option value="5">Chỉ Bài 5</option>
+        <option value="6">Chỉ Bài 6</option>
+        <option value="7">Chỉ Bài 7</option>
+        <option value="8">Chỉ Bài 8</option>
+        <option value="9">Chỉ Bài 9</option>
+        <option value="10">Chỉ Bài 10</option>
+        <option value="11">Chỉ Bài 11</option>
+        <option value="12">Chỉ Bài 12</option>
+        <option value="13">Chỉ Bài 13</option>
+        <option value="14">Chỉ Bài 14</option>
+        <option value="15">Chỉ Bài 15</option>
+        <option value="custom" id="opt-custom-lesson" disabled style="display:none;">Tùy chỉnh...</option>
+      </select>
+    </div>
+    <div id="header-stats" style="font-size: 0.85rem; color: var(--text-muted);">
+      <span id="active-vocab-count">0</span> từ
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="app-main">
+
+    <!-- TAB 1: QUIZ / FLASHCARDS -->
+    <section id="tab-quiz" class="tab-panel active">
+      <!-- 3 Quiz Modes Switcher -->
+      <div class="mode-selector">
+        <button class="mode-btn active" data-mode="hanzi-to-meaning">Hán tự → Nghĩa</button>
+        <button class="mode-btn" data-mode="pinyin-to-meaning">Pinyin → Hán tự</button>
+        <button class="mode-btn" data-mode="meaning-to-hanzi">Nghĩa → Hán tự</button>
+      </div>
+
+      <!-- Quiz Header & Progress -->
+      <div class="quiz-header">
+        <span id="quiz-progress-text">Từ 1 / 23</span>
+        <div style="display: flex; gap: 8px; align-items: center;">
+          <span style="font-size: 0.8rem; color: var(--text-muted);" id="quiz-type-label">Thẻ nhớ</span>
+          <button class="btn btn-outline btn-sm" id="btn-shuffle-quiz" title="Trộn ngẫu nhiên danh sách">🔀 Trộn</button>
+        </div>
+      </div>
+      <div class="quiz-progress-bar">
+        <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
+      </div>
+
+      <!-- FLASHCARD VIEW -->
+      <div id="flashcard-container">
+        <div class="flashcard-box" id="flashcard-card">
+          <div class="prompt-label" id="card-prompt-label">Nhận diện chữ Hán</div>
+          <div id="card-prompt-content">
+            <!-- Dynamically populated -->
+          </div>
+          <div class="card-hint-tap" id="card-tap-hint">Chạm vào thẻ để xem đáp án</div>
+
+          <!-- Answer Section (Hidden until flipped) -->
+          <div id="card-answer-wrapper" style="display: none; width: 100%;">
+            <div class="answer-divider"></div>
+            <div class="answer-content" id="card-answer-content">
+              <!-- Dynamically populated -->
+            </div>
+            <div id="card-example-content" style="margin-top: 10px; font-size: 0.9rem; color: var(--text-muted); font-style: italic;">
+              <!-- Example sentence if available -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Flashcard Action Buttons -->
+        <div class="flashcard-actions" id="card-actions-unrevealed">
+          <button class="btn btn-primary" id="btn-reveal-answer" style="width: 100%;">Xem đáp án</button>
+        </div>
+        <div class="flashcard-actions" id="card-actions-revealed" style="display: none;">
+          <button class="btn btn-outline" id="btn-card-again" style="color: var(--danger); border-color: #fca5a5;">Chưa thuộc</button>
+          <button class="btn btn-primary" id="btn-card-good" style="background: var(--success);">Đã thuộc ✓</button>
+        </div>
+      </div>
+
+      <!-- MULTIPLE CHOICE VIEW -->
+      <div id="multiple-choice-container" style="display: none;">
+        <div class="card" style="text-align: center; padding: 24px;">
+          <div class="prompt-label" id="mc-prompt-label">Chọn đáp án đúng</div>
+          <div id="mc-prompt-content">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+        <div class="mc-options" id="mc-options-list">
+          <!-- 4 option buttons -->
+        </div>
+        <div style="margin-top: 14px; text-align: right;">
+          <button class="btn btn-primary" id="btn-mc-next" style="display: none; width: 100%;">Từ tiếp theo →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: WRITING PRACTICE (HanziWriter & Freehand Canvas) -->
+    <section id="tab-writing" class="tab-panel">
+      <!-- Writing Mode Selector: Strict vs Freehand -->
+      <div class="mode-selector" style="margin-bottom: 12px;">
+        <button class="mode-btn active" id="btn-mode-strict" data-writing-mode="strict">Chấm từng nét (Mặc định)</button>
+        <button class="mode-btn" id="btn-mode-freehand" data-writing-mode="freehand">Viết tự do & Kiểm tra</button>
+      </div>
+
+      <div class="writing-container">
+        <!-- Word Header Info -->
+        <div class="writing-info">
+          <!-- Visibility Hints Toolbar (Hide/Show Pinyin, Nghĩa, Chữ Hán) -->
+          <div class="visibility-toolbar">
+            <span class="vis-label">Hiển thị:</span>
+            <button class="vis-toggle-chip" id="toggle-hide-pinyin" title="Ẩn hoặc hiện Pinyin">
+              <span id="icon-vis-pinyin">👁️</span> Pinyin
+            </button>
+            <button class="vis-toggle-chip" id="toggle-hide-nghia" title="Ẩn hoặc hiện Nghĩa">
+              <span id="icon-vis-nghia">👁️</span> Nghĩa
+            </button>
+            <button class="vis-toggle-chip" id="toggle-hide-hanzi" title="Ẩn hoặc hiện nút Chữ Hán">
+              <span id="icon-vis-hanzi">👁️</span> Chữ Hán
+            </button>
+          </div>
+
+          <div class="writing-word-info">
+            <div id="write-pinyin-container">
+              <span class="writing-pinyin" id="write-pinyin">wǒ</span>
+            </div>
+            <button class="btn-speaker" id="btn-write-audio" title="Nghe phát âm">🔊</button>
+          </div>
+          <div id="write-nghia-container">
+            <div class="writing-nghia" id="write-nghia">Tôi/Ta/Tớ</div>
+          </div>
+          <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 4px;" id="write-lesson-tag">Bài 1</div>
+
+          <!-- Compound Character Tabs: [你] [好] -->
+          <div class="char-pills" id="write-char-pills">
+            <!-- Generated dynamically -->
+          </div>
+        </div>
+
+        <!-- Tianzige Grid Frame -->
+        <div class="tianzige-frame">
+          <!-- Tianzige Red Guidelines SVG -->
+          <svg class="tianzige-grid" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg">
+            <!-- Horizontal dashed center line -->
+            <line x1="0" y1="140" x2="280" y2="140" />
+            <!-- Vertical dashed center line -->
+            <line x1="140" y1="0" x2="140" y2="280" />
+            <!-- Diagonal dashed lines (Mizige style for precision) -->
+            <line x1="0" y1="0" x2="280" y2="280" stroke-opacity="0.5" />
+            <line x1="280" y1="0" x2="0" y2="280" stroke-opacity="0.5" />
+          </svg>
+          <!-- HanziWriter Canvas mount point -->
+          <div id="character-canvas-target"></div>
+          <!-- Freehand Canvas layer -->
+          <canvas id="freehand-canvas" width="280" height="280"></canvas>
+        </div>
+
+        <!-- Stroke Feedback Status -->
+        <div class="stroke-status" id="stroke-feedback">
+          Chạm và viết từng nét theo thứ tự
+        </div>
+
+        <!-- Strict Mode Toolbar -->
+        <div class="writing-controls" id="strict-controls">
+          <button class="btn btn-outline btn-sm" id="btn-animate-stroke" title="Xem chuyển động viết mẫu">▶ Xem nét</button>
+          <button class="btn btn-outline btn-sm" id="btn-toggle-outline" title="Bật/Tắt nét mờ để đồ theo">✏️ Nét mờ</button>
+          <button class="btn btn-outline btn-sm" id="btn-give-hint" title="Gợi ý nét tiếp theo">💡 Gợi ý</button>
+          <button class="btn btn-outline btn-sm" id="btn-reset-char" title="Xóa và viết lại chữ này">🔄 Viết lại</button>
+        </div>
+
+        <!-- Freehand Mode Toolbar (Before checking) -->
+        <div class="writing-controls" id="freehand-controls-unverified" style="display: none;">
+          <button class="btn btn-outline btn-sm" id="btn-freehand-clear" title="Xóa nét vẽ tự do">🗑️ Xóa nét</button>
+          <button class="btn btn-primary btn-sm" id="btn-freehand-check" title="Kiểm tra đáp án và xem chữ chuẩn" style="padding: 8px 20px;">🔍 Kiểm tra đáp án</button>
+        </div>
+
+        <!-- Freehand Mode Toolbar (After checking) -->
+        <div class="writing-controls" id="freehand-controls-verified" style="display: none;">
+          <button class="btn btn-outline btn-sm" id="btn-freehand-animate" title="Xem thứ tự nét chuẩn">▶ Thứ tự nét</button>
+          <button class="btn btn-outline btn-sm" id="btn-freehand-retry" style="color: var(--danger); border-color: #fca5a5;">Chưa thuộc</button>
+          <button class="btn btn-primary btn-sm" id="btn-freehand-pass" style="background: var(--success);">Đã thuộc ✓</button>
+        </div>
+
+        <!-- Prev / Next Word Navigation -->
+        <div class="writing-nav">
+          <button class="btn btn-outline btn-sm" id="btn-write-prev">← Từ trước</button>
+          <button class="btn btn-outline btn-sm" id="btn-write-random">🔀 Ngẫu nhiên</button>
+          <button class="btn btn-primary btn-sm" id="btn-write-next">Từ tiếp theo →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: VOCABULARY LIST -->
+    <section id="tab-vocab" class="tab-panel">
+      <!-- Search & Filter Controls -->
+      <div class="vocab-toolbar">
+        <input type="text" id="vocab-search-input" class="search-input" placeholder="Tìm kiếm Hán tự, pinyin, nghĩa...">
+        <select id="vocab-lesson-filter" class="lesson-filter-select">
+          <option value="all">Tất cả bài</option>
+          <!-- Lessons 1 to 15 will be populated -->
+        </select>
+      </div>
+
+      <div style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 10px; display: flex; justify-content: space-between;">
+        <span id="vocab-counter">Đang hiển thị 0 từ</span>
+      </div>
+
+      <!-- Vocab Items List -->
+      <div class="vocab-list" id="vocab-items-container">
+        <!-- Dynamically rendered -->
+      </div>
+    </section>
+
+    <!-- TAB 4: SETTINGS -->
+    <section id="tab-settings" class="tab-panel">
+      <!-- Lesson Selection Section -->
+      <div class="settings-section">
+        <h3>Phạm vi bài học (Chọn bài muốn học)</h3>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 8px;">
+          Chỉ các từ thuộc bài được chọn mới xuất hiện khi ôn tập và luyện viết.
+        </p>
+        <div class="lesson-quick-actions">
+          <button class="btn btn-outline btn-sm" id="btn-select-lessons-1-8">Chọn Bài 1 - 8</button>
+          <button class="btn btn-outline btn-sm" id="btn-select-all-lessons">Chọn tất cả (1-15)</button>
+          <button class="btn btn-outline btn-sm" id="btn-clear-lessons">Bỏ chọn hết</button>
+        </div>
+        <div class="lesson-grid" id="lesson-checkbox-grid">
+          <!-- Checkbox buttons for Bài 1 to 15 -->
+        </div>
+      </div>
+
+      <!-- Writing Settings Section -->
+      <div class="settings-section">
+        <h3>Cấu hình luyện viết chữ Hán</h3>
+        
+        <div class="setting-row">
+          <div class="setting-label">
+            <span class="setting-title">Hiện nét mờ mẫu khi bắt đầu</span>
+            <span class="setting-desc">Hiển thị đường viền mờ của chữ trước khi viết</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="setting-show-outline">
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="setting-row">
+          <div class="setting-label">
+            <span class="setting-title">Tự động gợi ý nét khi viết sai</span>
+            <span class="setting-desc">Tự động nhấp nháy nét cần viết sau 2 lần vẽ sai</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="setting-auto-hint">
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="setting-row">
+          <div class="setting-label">
+            <span class="setting-title">Tự chuyển chữ tiếp theo khi hoàn thành</span>
+            <span class="setting-desc">Đối với từ nhiều chữ Hán, tự chuyển sang chữ kế tiếp</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="setting-auto-advance" checked>
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Study Mode Settings -->
+      <div class="settings-section">
+        <h3>Cấu hình ôn tập & âm thanh</h3>
+
+        <div class="setting-row">
+          <div class="setting-label">
+            <span class="setting-title">Hình thức ôn tập mặc định</span>
+            <span class="setting-desc">Chọn giữa lật thẻ tự chấm hoặc câu hỏi trắc nghiệm</span>
+          </div>
+          <select id="setting-quiz-format" class="lesson-filter-select" style="padding: 6px 8px;">
+            <option value="flashcard">Thẻ ghi nhớ (Flashcard)</option>
+            <option value="multiple-choice">Trắc nghiệm (4 lựa chọn)</option>
+          </select>
+        </div>
+
+        <div class="setting-row">
+          <div class="setting-label">
+            <span class="setting-title">Nguồn âm thanh phát âm</span>
+            <span class="setting-desc">Giọng trực tuyến chuẩn bản xứ (Khuyên dùng) hoặc giọng máy thiết bị</span>
+          </div>
+          <select id="setting-audio-source" class="lesson-filter-select" style="padding: 6px 8px;">
+            <option value="online" selected>Trực tuyến (Giọng chuẩn bản xứ)</option>
+            <option value="device">Thiết bị (SpeechSynthesis máy)</option>
+          </select>
+        </div>
+
+        <div class="setting-row">
+          <div class="setting-label">
+            <span class="setting-title">Tốc độ phát âm tiếng Trung</span>
+            <span class="setting-desc">Điều chỉnh tốc độ giọng đọc chuẩn zh-CN</span>
+          </div>
+          <select id="setting-speech-rate" class="lesson-filter-select" style="padding: 6px 8px;">
+            <option value="0.75">Chậm (0.75x)</option>
+            <option value="0.85" selected>Vừa phải (0.85x)</option>
+            <option value="1.0">Chuẩn (1.0x)</option>
+          </select>
+        </div>
+
+        <div class="setting-row">
+          <div class="setting-label">
+            <span class="setting-title">Tự động phát âm thanh</span>
+            <span class="setting-desc">Tự động đọc từ khi chuyển sang từ mới</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="setting-autoplay-audio">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Data Reset -->
+      <div class="settings-section">
+        <h3>Dữ liệu ứng dụng</h3>
+        <button class="btn btn-outline" id="btn-reset-all-settings" style="color: var(--danger); border-color: #fca5a5; width: 100%;">
+          Khôi phục cài đặt gốc
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Bottom Navigation Tabs -->
+  <nav class="nav-tabs">
+    <button class="nav-item active" data-tab="tab-quiz">
+      <span class="icon">🎴</span>
+      <span>Ôn tập</span>
+    </button>
+    <button class="nav-item" data-tab="tab-writing">
+      <span class="icon">✍️</span>
+      <span>Luyện viết</span>
+    </button>
+    <button class="nav-item" data-tab="tab-vocab">
+      <span class="icon">📖</span>
+      <span>Từ vựng</span>
+    </button>
+    <button class="nav-item" data-tab="tab-settings">
+      <span class="icon">⚙️</span>
+      <span>Cài đặt</span>
+    </button>
+  </nav>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast-msg">Thông báo</div>
+
+  <!-- Scripts -->
+  <script src="js/hanzi-writer.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

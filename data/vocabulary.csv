@@ -1,0 +1,656 @@
+Cột 1,Hán tự,Nghĩa,Pinyin,Ví dụ
+Bài 1,我,Tôi/Ta/Tớ,wǒ,
+Bài 1,你,bạn,nǐ,你好！
+Bài 1,您,"Ngài, ông, bà (kính trọng)",nín,您好！
+Bài 1,他,Anh ấy/Ông ấy,tā,
+Bài 1,她,Cô ấy/Bà ấy,tā,
+Bài 1,它,Nó (chỉ vật),tā,
+Bài 1,们,Số nhiều của người,men,老师们 (Các thầy/cô giáo)
+Bài 1,我们,Chúng tôi/Chúng ta,wǒmen,我们是好朋友。 (Chúng tôi là bạn tốt.)
+Bài 1,你们,Các bạn,nǐmen,你们好！(Chào các bạn)
+Bài 1,他们,Họ / Chúng nó - dùng cho nam hoặc cả nam và nữ (they; them),tāmen,他们是我的同学。(Họ là bạn học của tôi.)
+Bài 1,她们,Họ - chỉ phái nữ (they; them - referring to female people),tāmen,她们很漂亮。(Các cô ấy rất đẹp.)
+Bài 1,它们,Chúng / Chúng nó - dùng cho vật,tāmen,它们是我的小猫。(Chúng là những con mèo nhỏ của tôi.)
+Bài 1,好 ,"Tốt, đẹp, khỏe",hǎo,很好。(Rất tốt)
+Bài 1,你好,Chào bạn,nǐ hǎo,
+Bài 1,大家,Mọi người,dàjiā,大家好！(Chào mọi người)
+Bài 1,学生,Học sinh,xuésheng,我是学生。(Tôi là học sinh)
+Bài 1,老师,Giáo viên,lǎoshī,老师好！(Chào cô/thầy)
+Bài 1,同学,Bạn học,tóngxué,同学们好！(Chào các em học sinh)
+Bài 1,朋友,Bạn bè,péngyou,"他是我的好朋友。
+我和朋友学习汉语。
+Hôm nay tôi đến nhà bạn tôi chơi."
+Bài 1,谢谢,Cảm ơn,xièxie,谢谢你！(Cảm ơn bạn)
+Bài 1,不客气,Đừng khách sáo,bú kèqi,不客气。(Đừng khách sáo)
+Bài 1,再见,Tạm biệt,zàijiàn,再见！(Tạm biệt)
+Bài 1,见,Gặp/Thấy,jiàn,明天见。 (Míngtiān jiàn. - Ngày mai gặp nhé.)
+Bài 2,对不起,Xin lỗi,duìbuqǐ,"对不起，我来 muộn rồi. (Xin lỗi, tôi đến muộn rồi.)"
+Bài 2,没关系,Không có chi/Không sao đâu,méiguānxi,"没关系，请进。 (Không sao đâu, mời vào.)"
+Bài 2,没事,Không có gì/Không sao,méishì,"没事，我不忙(Không sao, tôi không bận.)"
+Bài 2,请问,Xin hỏi,qǐngwèn,"请问，你叫什么名字？ (Xin hỏi, bạn tên là gì?)"
+Bài 2,叫,Gọi/Tên là,jiào,我叫 Li. (Tôi tên là Li.)
+Bài 2,什么,Cái gì,shénme,这是什么？ (Đây là cái gì?)
+Bài 2,名字,Tên,míngzi,你的名字很好听。 (Tên của bạn rất hay.)
+Bài 2,不,Không,bù,我不认识他。 (Tôi không quen biết anh ấy.)
+Bài 2,是,Là,shì,他是我的同学。 (Anh ấy là bạn học của tôi.)
+Bài 2,很,Rất,hěn,我很开心。 (Tôi rất vui.)
+Bài 2,高兴,Vui mừng/Hạnh phúc,gāoxìng,认识你很高兴。 (Rất vui được quen biết bạn.)
+Bài 2,认识,Quen biết,rènshi,我不认识你。 (Tôi không quen biết bạn.)
+Bài 2,也,Cũng,yě,我也很累。 (Tôi cũng rất mệt.)
+Bài 3,人,Người,rén,"他是中国人。
+他是好人。"
+Bài 3,的,Của (trợ từ sở hữu),de,"你的名字是什么？
+王老师是我们的老师。"
+Bài 3,中国,Trung Quốc,Zhōngguó,"我不是中国人。
+他是中国老师。"
+Bài 3,法国,Pháp,Fǎguó,"她是法国人。
+我是法国学生。"
+Bài 3,越南,Việt Nam,Yuènán,"我是越南人。
+我是越南学生。"
+Bài 3,泰国,Thái Lan,Tàiguó,"我的朋友是泰国人。
+她是泰国学生。
+Giáo viên của chúng tôi là người Thái Lan."
+Bài 3,中文,Tiếng Trung,Zhōngwén,"她是中文老师。
+你的中文名字是什么？"
+Bài 3,汉语,Tiếng Hán / Tiếng Trung (Chinese language),Hànyǔ,
+Bài 3,这,Đây/Này,zhè,"这是什么？
+这是我们的中文老师。"
+Bài 3,那,Kia / Đó (That),nà,"那是我的老师。
+那是我的好朋友。
+Kia là ai?"
+Bài 3,谁,Ai,shéi,"他是谁？
+谁是你们的中文老师？"
+Bài 3,女朋友,Bạn gái,nǚpéngyou,"他是我的好朋友。
+她不是我的女朋友。
+Bạn gái của anh ta là người Pháp. "
+Bài 3,男朋友,Bạn trai,Nán péngyou,
+Bài 3,个,(Lượng từ phổ biến nhất),gè,"她是我的一个好朋友。
+这个汉字是什么？
+Tôi có một người bạn người Trung Quốc"
+Bài 3,哪,Nào,nǎ,"请问，你是哪国人？
+你们的老师是哪国人？
+Bạn gái của bạn là người nước nào?"
+Bài 3,国,Quốc gia/Nước,guó,"中国是一个大国。
+请问，你是哪国人？"
+Bài 3,喂,Alo (khi nghe máy),wèi,"喂，你好，我是王一飞
+喂，请问，你是王老师吗？
+Alo, bạn là giáo viên của của Annie phải không?"
+Bài 3,工作,Làm việc/Công việc,gōngzuò,"你的工作是什么？
+我姐姐的工作是中文老师。"
+Bài 3,还,Vẫn/Còn,hái,"她还很高兴。
+他还是我们的中文老师。"
+Bài 3,忙,Bận,máng,"你工作还忙吗？
+我工作很忙。"
+Bài 3,吗,Không? (trợ từ nghi vấn),ma,"你还好吗？
+你是老师吗？"
+Bài 3,对,Đúng/Vâng,duì,"对，我是学生。
+这个汉字不对。"
+Bài 3,太,Quá/Lắm,tài,"太好了！
+我工作不太忙。"
+Bài 3,想,Nhớ ,xiǎng,"我很想你们。
+你想家吗？
+"
+Bài 3,哥哥,Anh trai,gēge,他是我哥哥。
+Bài 3,姐姐,Chị gái,jiějie,"这是我姐姐。
+我姐姐是中文老师。
+Chị gái của bạn tên là gì?"
+Bài 3,妹妹,Em gái,mèimei,我有一个妹妹。
+Bài 3,弟弟,Em trai,dìdi,我的弟弟很小。
+Bài 4,有,Có,yǒu,我有三个姐姐。 
+Bài 4,没有,Không có,méiyǒu,"我没有哥哥。
+我还没有男朋友。"
+Bài 4,多少,Bao nhiêu,duōshao,"你有多少个学生？
+HSK1级有多少个汉字？"
+Bài 4,多,Bao nhiêu/Nhiều,duō,"你多大？
+他认识很多中国人。"
+Bài 4,少,Ít,shǎo,"我有很少朋友。
+太少了！"
+Bài 4,几,Mấy (hỏi số lượng dưới 10),jǐ,"你有几个中国朋友？
+这几个人我都不认识。"
+Bài 4,呢,(Trợ từ nghi vấn cuối câu),ne,"我叫王一飞，你呢？
+你妈妈呢？"
+Bài 4,家,Gia đình/Nhà,jiā,"他是我家人。
+我家有三个人。"
+Bài 4,口,(Lượng từ chỉ người trong gia đình),kǒu,我家有三口人。
+Bài 4,爸爸,Bố,bàba,我爸爸是中文老师。
+Bài 4,妈妈,Mẹ,māma,这是我妈妈。
+Bài 4,孩子,Trẻ con/Con cái,háizi,"你有几个孩子？
+王老师有两个孩子。"
+Bài 4,儿子,Con trai,érzi,"你儿子多大了？
+他有一个儿子。"
+Bài 4,女儿,Con gái,nǚ'ér,"这是我女儿。
+我女儿是大学生。"
+Bài 4,和,Và,hé,"她有两个孩子，一个女儿和一个儿子。
+我家有三口人，爸爸、妈妈和我。"
+Bài 4,岁,Tuổi,suì,"你儿子几岁了?
+我18岁了。"
+Bài 4,今年,Năm nay,jīnnián,"你今年多大？
+我女儿今年18岁。"
+Bài 4,大,Lớn/To,dà,"中国是一个大国。
+你今年多大了？"
+Bài 4,小,nhỏ,xiǎo,"太小了！
+这个小朋友是谁？"
+Bài 5,今天,Hôm nay,jīntiān,你今天工作吗？
+Bài 5,明天,Ngày mai,míngtiān,
+Bài 5,昨天,Hôm qua (Yesterday),zuótiān,昨天我去中国。
+Bài 5,号,Ngày/Số,hào,"今天是几号？
+今天是6号。"
+Bài 5,月,Tháng,yuè,"今天几月几号？
+今天2月6号。"
+Bài 5,日,Ngày,rì,"今天是几日？
+今天是6日。"
+Bài 5,星期,Thứ/Tuần,xīngqī,"今天星期五。
+明天星期几？"
+Bài 5,星期日,Chủ nhật,xīngqīrì,星期日你工作吗？
+Bài 5,星期天,Chủ nhật,xīngqītiān,明天是星期天。
+Bài 5,休息,Nghỉ ngơi,xiūxi,"我想休息。
+星期天我不工作，我休息。"
+Bài 5,会,Biết (qua học tập)/Sẽ,huì,"你会说中文吗？
+我不会说汉语。"
+Bài 5,做饭,Nấu ăn,zuò fàn,"你会做饭吗？
+今天我不做饭。"
+Bài 5,做,Làm,zuò,"星期天你做什么？
+你做什么工作？"
+Bài 5,面条儿,Mì sợi,miàntiáor,你会做面儿吗？
+Bài 5,饺子,Bánh sủi cảo,jiǎozi,"你会做/包饺子吗？
+我会包饺子。"
+Bài 5,一些,Một vài/Một ít,yīxiē,"我想做一些饺子。
+我有一些中国朋友。"
+Bài 5,菜,Món ăn/Rau,cài,"你会做中国菜吗？
+这些菜是我做的。"
+Bài 5,上班,Đi làm,shàngbān,"我今天不上班。
+今天我不想上班。"
+Bài 5,下班,Tan làm,xià bān,"你下班了吗？
+我还没下班。"
+Bài 5,新,Mới,xīn,"新年快乐！
+这是新同学。"
+Bài 5,电脑,Máy tính,diànnǎo,"你有电脑吗？
+这是我的新电脑。"
+Bài 5,真,Thật/Thật là,zhēn,"你的中文真好！
+有心电脑了，真高兴！"
+Bài 7 ,看,Xem/Nhìn,kàn,"你看什么？
+小孩子想看电脑。"
+Bài 5,好看,Đẹp/Hay (xem),hǎokàn,"这个电脑真好看!
+他的女朋友很好看。"
+Bài 5,喜欢,Thích,xǐhuan,"我很喜欢看电脑。
+我不太喜欢中国菜。"
+Bài 6,手机,Điện thoại di động,shǒujī,"这是谁的手机？
+这是你刚买的手机吗？
+Đây là điện thoại tôi mới mua."
+Bài 6,电话,Điện thoại (nói chung),diànhuà,"你的电话号码是多少？ 
+他给我打个电话。
+Hôm qua tôi gọi cho mẹ một cuộc điện thoại."
+Bài 6,号,Số,hào,"我的号码是 123。
+今天一月五号。
+Đó là số điện thoại của tôi."
+Bài 6,去,Đi,qù,"明天你去哪儿？
+明天我去学校。
+Ngày mai tôi đi Bắc Kinh.
+"
+Bài 6,来,Đến,lái,"他来我家玩。
+他们来我的饭店吃饭。
+Bạn tôi tới nhà tôi ăn cơm."
+Bài 6,哪儿,Đâu/Chỗ nào,nǎr,"你要去哪儿?
+你住在哪儿？
+Giáo viên đi đâu rồi?"
+Bài 6,想,Muốn/Nghĩ,xiǎng,"我想去超市买东西。
+我妈妈不想吃饭。
+Tôi muốn ăn táo."
+Bài 6,超市,Siêu thị,chāoshì,"超市里有很多东西。
+我想去超市。
+Tôi rất thích đi siêu thị."
+Bài 6,买,Mua,mǎi,"我想买点东西。
+他买很多书。
+Cô ấy mua rất nhiều quần áo."
+Bài 6,卖,Bán,mài,"这个商店卖苹果。
+这件衣服怎么卖？
+Tôi vừa mới bán chiếc điện thoại của tôi."
+Bài 6,东西,Đồ đạc/Vật dụng,dōngxi,"这是什么东西？
+家里有很多东西。
+Siêu thị có rất nhiều đồ"
+Bài 6,些,Một vài/Một ít,xiē,"这些苹果很好吃。
+你买一些牛奶吧。
+Những chiếc bánh bao kia rất ngon."
+Bài 6,牛奶,Sữa bò,niúnǎi,"我不喜欢喝牛奶。
+超市有牛奶吗？
+Bạn tôi rất thích uống sữa bò."
+Bài 6,吃,Ăn,chī,"你想吃什么？
+我们吃包子。
+Tôi thích ăn bánh bao."
+Bài 6,晚饭,Bữa tối,wǎnfàn,"晚饭你吃什么？
+晚饭你想吃什么？
+Tôi đang ăn tối."
+Bài 6,这边,Bên này,zhèbiān,"请往这边走。
+这边是我的学校，那边是他的学校。
+Tôi ở bên này đợi bạn."
+Bài 6,那边,Chỗ kia/Bên kia,nàbiān,"超市在那边。 
+我的朋友在那边。
+Chúng ta qua bên kia mua bánh bao đi."
+Bài 6,包子,Bánh bao,bāozi,"包子很好吃。 
+我买了五个包子。
+Tôi không thích ăn bánh bao."
+Bài 6,米饭,Cơm trắng,mǐfàn,"我喜欢吃米饭。 
+今天的米饭非常好吃。
+Siêu thị có bán cơm không?"
+Bài 6,非常,Rất/Cực kỳ,fēicháng,"认识你我非常高兴。
+姐姐的电脑非常新。 
+Món ăn ở đây cực kỳ ngon."
+Bài 6,好吃,Ngon (ăn),hǎochī,"这个菜非常好吃。 
+饺子真好吃。
+Bánh bao không ngon."
+Bài 6,怎么,Thế nào/Làm sao,zěnme,"这个多少钱？怎么卖？
+你怎么去超市？
+Bạn đi đến trường như thế nào?"
+Bài 6,饭店,Nhà hàng,fàndiàn,"那个饭店很大。
+这个饭店的菜非常好吃。
+Đây là nhà hàng của tôi."
+Bài 6,出租车,Xe taxi,chūzūchē,"我不喜欢坐出租车。
+我坐出租车去学校。
+Những chiếc xe taxi bây giờ rất đẹp."
+Bài 7 ,现在,Hiện tại/Bây giờ,xiànzài,"现在几点？
+现在五点。
+Bây giờ tôi rất bận."
+Bài 7 ,点,Giờ,diǎn,"现在十点。 
+你现在去哪儿？
+Bây giờ là 12 giờ rồi, đi ăn cơm thôi."
+Bài 7 ,分,Phút,fēn,"十点五分。 
+等我十分。
+Tôi học tiếng Trung 30 phút. "
+Bài 7 ,半,Rưỡi/Nửa,bàn,"十点半睡觉。 
+我吃一半个包子。
+Tôi ăn nửa quả táo. "
+Bài 7 ,刻,Khắc (15 phút),kè,"十点一刻。 
+七点一刻上课。
+Tôi bắt đầu học lúc 8h15"
+Bài 7 ,早上,Buổi sáng sớm,zǎoshang,"早上好！
+老师，早上好！
+Chào buổi sáng, Tiểu Ngữ."
+Bài 7 ,上午,Buổi sáng,shàngwǔ,"我上午去学校。 
+上午你吃什么？
+Buổi sáng tôi đi siêu thị."
+Bài 7 ,中午,Buổi trưa,zhōngwǔ,"我们中午吃饭。
+中午你想吃什么？
+Buổi trưa bạn đi đâu vậy?"
+Bài 7 ,下午,Buổi chiều,xiàwǔ,"下午见！
+下午你吃什么？
+Buổi chiều bạn có tiết học không?"
+Bài 7 ,晚上,Buổi tối,wǎnshang,"晚上见。
+晚上你去哪儿？
+Buổi tối bạn muốn ăn gì?"
+Bài 7 ,吧,Nhé/Nha (trợ từ ngữ khí),ba,"我们去吧。 
+我们吃包子吧。
+Chúng ta ăn bánh bao nhé. "
+Bài 7 ,电影院,Rạp chiếu phim,diànyǐngyuàn,"去电影院看电影。 
+我很喜欢去电影院。
+Hôm qua tôi đi rạp chiếu phim."
+Bài 7 ,电影,Phim điện ảnh,diànyǐng,"这部电影很好看。
+我很喜欢看电影。
+Tôi rất thích xem bộ phim điện ảnh này."
+Bài 7 ,事,Việc/Sự việc,shì,"你有什么事吗？ 
+我今天没有事。
+Chiều nay bạn có việc phải không?"
+Bài 7 ,上课,Lên lớp/Vào học,shàng kè,"老师在上课。
+明天我去上课。
+Tôi rất thích đi học."
+Bài 7 ,下课,Tan học/Tan lớp,xià kè,"我四点下课。
+我很喜欢下课。
+5 giờ 15 phút tan học."
+Bài 7 ,在,Ở/Đang,zài,"他在不在家？
+我在看书呢。
+Cô ấy đang ăn cơm."
+Bài 7 ,里,Trong/Bên trong,lǐ,"学校里有很多学生。 
+超市里有很多东西。
+Trong túi có rất nhiều sách."
+Bài 7 ,医院,Bệnh viện,yīyuàn,"妈妈跟爸爸去医院了。
+明天我去医院。
+Chị tôi làm ở bệnh viện."
+Bài 7 ,店,Cửa hàng/Tiệm,diàn,"我去商店买菜。
+我妹妹在商店工作。
+Tối nay tôi muốn đi cửa hàng mua bánh bao."
+Bài 7 ,分钟,Phút (khoảng thời gian),fēnzhōng,"等我十分钟。
+我学中文三十分钟。
+Tôi đọc sách 15 phút."
+Bài 7 ,后,Sau/Sau khi,hòu,"放学后见。
+下班后我去超市买东西。
+Sau khi ăn tối chúng ta đi xem phim."
+Bài 8,上,Trên / Phía trên,shang / shàng,"桌子上有一本书。
+书上有我的名字。
+Sách tiếng Trung của giáo viên ở trên bàn."
+Bài 8,下,dưới ,xià,"桌子下有一只猫。
+椅子下有一只狗。
+Mời xuống xe."
+Bài 8,前,trước (front),qián,"书店在学校前。
+他在我前面。 
+3 ngày trước tôi đi khám bác sĩ."
+Bài 8,外,"ngoài, bên ngoài (outside)",wài,"房间外有一只猫。
+老师在教室外。 
+Người bạn nước ngoài đến nhà tôi."
+Bài 8,房间,Căn phòng (room),fángjiān,"我的房间很大。
+他在房间里休息。 
+Đây là phòng của ai?"
+Bài 8,只,con(lượng từ của một số loài động vật),zhī,"我有一只猫。
+那只猫在那儿。 
+Con mèo này không ăn gì cả."
+Bài 8,猫,mèo (cat),māo,"你喜欢猫吗？ 
+猫在房间里。 
+Tôi có một con mèo rất đẹp."
+Bài 8,没,không (not; no; not yet),méi,"我没看见你的老师。 
+桌子下没东西。
+Hôm nay tôi không có việc làm/không làm việc."
+Bài 8,看见,nhìn thấy (see; catch sight of),kànjiàn,"你看见我的手机了吗？ 
+我看见他在超市买东西。 
+Ở đằng kia bạn đã nhìn thấy gì?"
+Bài 8,桌子,bàn (desk; table),zhuōzi,"桌子上有电脑。
+这个桌子不漂亮。
+Xin hãy nhìn dưới bàn."
+Bài 8,漂亮,xinh đẹp (pretty;beautiful),piàoliang,"你的衣服很漂亮。
+他的女儿很漂亮。
+Hoa ở trong trường rất đẹp."
+Bài 8,在,"ở, tại (at/in)",zài,"我在学校。
+我在家吃晚饭。 
+Bố làm việc ở bệnh viện."
+Bài 8,学校,trường học (school),xuéxiào,"这个学校很大
+他在这个学校工作。
+Trong trường có rất nhiều học sinh."
+Bài 8,书店,hiệu sách (bookstore),shūdiàn,"书店在学校那边。
+书店里有很多书。
+Tôi muốn đi hiệu sách mua sách tiếng Trung."
+Bài 8,能,có thể (can; be able to),néng,"我能去学校。(Tôi có thể đi đến trường.)
+Hôm nay anh ấy không thể đến.
+你能帮我吗？"
+Bài 8,到,"đến, tới (arrive;reach)",dào,"我到家了。
+老师到学校了吗？
+3 giờ chiều anh ấy đến bệnh viện."
+Bài 8,午饭,Bữa trưa (lunch),wǔfàn,"你几点吃午饭？
+午饭有很多菜。
+Cơm trưa ngon không?"
+Bài 8,饭,Cơm (Meal),fàn,"你会做饭吗？ 
+我不喜欢吃米饭。
+Mời đi ăn cơm đi."
+Bài 8,病人,Bệnh nhân (Patient),bìngrén,"他是这个医院的病人。
+房间里有三个病人。
+Bệnh nhân đó muốn ăn mì."
+Bài 8,医生,Bác sĩ (Doctor),yīshēng,"我是医生。
+医生在医院工作。
+Bác sĩ Trương là bố của tôi."
+Bài 8,工作,Làm việc / Công việc (Work / Job),gōngzuò,"他在医院工作。
+我姐姐在商店工作。
+Em gái tôi làm việc tại bệnh viện."
+Bài 8,胡,Họ hồ,Hú,"胡医生在工作。
+胡老师是我的中文老师。
+Thầy Hồ đang rất bận."
+Bài 9,前边,Phía trước (Front),qiánbian,"他在我前边。
+小狗在前边。
+Phía trước có phải giáo viên tiếng Trung không?"
+Bài 9,边,Bên / Phía (Locality / Edge / Side),bian / biān,"他在我右边。
+我爸爸在左边。
+Bên trên là bạn tốt của tôi."
+Bài 9,家,Gia đình / Nhà - lượng từ (For families or enterprises),jiā,"这是我的家。
+你家有几口人？
+Phía trước là nhà của bạn thân tôi."
+Bài 9,那个,Cái kia / Người kia (That),nàge,"那个学生很漂亮。
+那个人是谁？
+Con mèo kia là của ai?"
+Bài 9,外边,Bên ngoài (Outside),wàibian,"外边有人。
+外边有两个小狗。
+Bên ngoài là giáo viên tiếng Trung của tôi."
+Bài 9,椅子,Cái ghế ,yǐzi,"椅子下面没有小猫。
+椅子上有什么？
+Đây là cái ghế tôi mới mua."
+Bài 9,本,Cuốn / Quyển - lượng từ (For books),běn,"我有一本书。
+我要买两本汉语书。
+Quyển sách này là của tôi."
+Bài 9,书,Sách (Book),shū,"我爱看书。
+我有汉语书和越南语书。
+Đó là sách tiếng Trung của bạn tôi."
+Bài 9,第,Thứ - dùng cho số thứ tự (Marker of ordinal numbers),dì,"这是第一本。
+第21课。
+Bạn là người đầu tiên."
+Bài 9,学习,Học / Học tập (Study / Learn),xuéxí,"我在学习汉语。
+我每天学习汉语。
+Tôi thích học tiếng Trung."
+Bài 9,白天,Ban ngày (Day / Daytime),báitiān,"他白天不在家。
+白天工作，晚上休息。
+Ban ngày bạn làm gì?"
+Bài 9,读,Học / Đi học (Attend school / Study),dú,"我在中国读大学。
+我读的是汉语。
+Em gái tôi đi học ở Trung Quốc.
+"
+Bài 9,读书,Đọc sách / Học (Read a book),dúshū,"他在学校读书。
+我还在读书。
+Anh ấy đang ngồi trên ghế đọc sách."
+Bài 9,和,Và / Với (With),hé,"我和朋友去商店。
+我和他是好朋友。
+Sách tiếng Trung, sách tiếng Việt tôi đều có."
+Bài 9,唱,Hát (Sing),chàng,"她喜欢唱歌。
+我不会唱歌。
+Cô ấy thích hát ở nhà."
+Bài 9,歌,Bài hát (Song),gē,"这个歌很好听。
+我喜欢听他的歌。
+Bài hát tôi yêu thích."
+Bài 9,好听,Hay / Dễ nghe (Pleasant to hear),hǎotīng,"你的歌声很好听。
+你说很好听。
+Cô ấy hát rất hay."
+Bài 9,电视,Ti vi (Television),diànshì,"电视上有什么？
+我喜欢看电视。
+Tôi ở nhà xem tivi."
+Bài 9,狗,Con chó (Dog),gǒu,"那只狗很小。
+这是我的小狗。
+Đây là con chó của tôi."
+Bài 9,玩,Chơi (Play / Have fun),wán,"小猫在玩。
+你玩什么？
+Tôi chơi cùng bạn bè."
+Bài 10,杯子,Cái cốc / Ly (Cup / Glass),bēizi,"杯子里有水。
+我有一个杯子。
+Cái cốc ở trên bàn."
+Bài 10,售货员,Nhân viên bán hàng (Shop assistant / Salesperson),shòuhuòyuán,"他是商店的售货员。
+他不是售货员。
+Xin hỏi, nhân viên bán hàng ở đâu?"
+Bài 10,钱,Tiền (Money),qián,"你有钱吗？
+我没有钱。
+Anh ấy có rất nhiều tiền."
+Bài 10,这些,Những cái này (These),zhèxiē,"这些书是我的。
+这些是什么？
+Những cái này là của tôi."
+Bài 10,那些,Những cái kia (Those),nàxiē,"那些苹果很好吃。
+那些是中文老师的书。
+Những cái kia là gì?"
+Bài 10,这儿,Ở đây (Here),zhèr,"这儿有很多学生。
+你在这儿吗？
+Nhân viên bán hàng ở đây."
+Bài 10,那儿,Chỗ kia / Đại từ chỉ nơi chốn (There / That place),nàr,"我的书在那儿。
+那儿有人吗？
+Cô giáo không ở đây, ở kia."
+Bài 10,水果,Hoa quả / Trái cây (Fruit),shuǐguǒ,"我想买水果。
+这些是水果。
+Trái cây rất ngon."
+Bài 10,苹果,Quả táo (Apple),píngguǒ,"这个苹果很大。
+我想买一个苹果。
+Nhân viên bán hàng ơi, quả táo này bao nhiêu tiền?"
+Bài 10,斤,Cân - đơn vị đo lường (Jin),jīn,"苹果一斤多少钱？
+我要买一斤苹果。
+Bán cho tôi 2 cân hoa quả."
+Bài 10,贵,Đắt (Expensive),guì,"这个水果很贵。
+这水果贵不贵？
+1 cân 10 tệ, không đắt."
+Bài 10,便宜,Rẻ (Cheap / Affordable),piányi,"这些衣服很便宜。
+这儿的水果很便宜。
+Cái này không đắt, rất rẻ."
+Bài 10,商店,Cửa hàng (Shop / Store),shāngdiàn,"他在商店工作。
+我在商店买水果。
+Đồ trong cửa hàng rất rẻ."
+Bài 10,衣服,Quần áo (Clothes),yīfu,"这件衣服很漂亮。
+商店里有衣服。
+Quần áo rất rẻ."
+Bài 10,件,Chiếc / Bộ - lượng từ cho quần áo (Piece),jiàn,"我有一件新衣服。
+我买两件衣服。
+Trong cửa hàng có rất nhiều bộ quần áo."
+Bài 10,元,Tệ / Đồng (Yuan),yuán,"一共十元。
+这个苹果五元。
+Bộ quần áo này 20 tệ."
+Bài 10,块,Đồng / Tệ - lượng từ cho tiền (For silver dollars or paper money),kuài,"这件衣服五十块。
+一斤十块。
+Quả táo này 5 tệ."
+Bài 10,怎么样,Như thế nào (How),zěnmeyàng,"这件衣服怎么样？
+这个不贵，不便宜，怎么样？
+Quả táo này thế nào?"
+Bài 10,穿,Mặc (Wear / Put on),chuān,"你想穿什么？
+他穿这件衣服。
+Tôi thích mặc bộ quần áo này."
+Bài 11,这里,Ở đây (Here),zhèlǐ,"这里有很多人。
+我在这里。
+Anh ấy không ở đây."
+Bài 11,那里,Chỗ kia / Nơi kia (There / That place),nàlǐ,"那里有很多学生。
+售货员在那里。
+Tôi không đi đến đó."
+Bài 11,时候,Lúc / Khi / Thời gian (Time / A point in time),shíhou,"你什么时候去学校？
+我小的时候喜欢吃苹果。
+Lúc đó tôi ở đây."
+Bài 11,知道,Biết (Know / Realize),zhīdào,"我不知道他在哪儿。
+我知道他在这儿。
+Anh ấy không biết bao nhiêu tiền."
+Bài 11,正在,Đang / Trong quá trình (In the process of),zhèngzài,"他正在看电视。
+我正在买水果。
+Nhân viên bán hàng đang làm việc."
+Bài 11,在,Đang (chỉ hành động đang diễn ra),zài,他在学汉语呢。
+Bài 11,找,Tìm / Tìm kiếm (Look for),zhǎo,"你在找什么？
+我找售货员。
+Tôi tìm quần áo trong cửa hàng."
+Bài 11,开车,Lái xe (Drive a vehicle),kāichē,"他在开车。
+今天我开车去商店。
+Bạn có biết lái xe không?"
+Bài 11,车,Xe / Phương tiện giao thông (Vehicle),chē,"那是我的车。
+我坐车去商店。
+Đây là xe của tôi."
+Bài 11,大学,Trường đại học (University / College),dàxué,"这个大学很好。
+我在大学学习。
+Cô ấy không phải là sinh viên đại học."
+Bài 11,大学生,Sinh viên đại học (College / University student),dàxuésheng,"他是大学生。
+我是学生，也是大学生。
+Nhiều sinh viên đại học thích mua quần áo."
+Bài 11,学,Học / Học tập (Study / Learn),xué,"我想学汉语。
+他在大学学中文。
+Tôi học tiếng Trung, còn bạn?"
+Bài 11,医,Y học / Thuốc (Medicine),yī,"他在学医。
+医生在医院工作。
+Tôi tìm bác sĩ."
+Bài 11,起床,Ngủ dậy / Thức dậy (Get up / Get out of bed),qǐchuáng,"我六点起床。
+他每天七点起床。
+Bạn mấy giờ dậy?"
+Bài 11,睡觉,Ngủ (Sleep),shuìjiào,"他在睡觉。
+我十点睡觉。
+Bạn mấy giờ đi ngủ?"
+Bài 11,睡,Ngủ (Sleep),shuì,"我睡了八个小时。
+孩子睡了。
+Anh ấy đang ngủ."
+Bài 11,哪里,Ở đâu (Where),nǎlǐ,"你在哪里？
+商店在哪里？
+Bác sĩ ở đâu?"
+Bài 11,问,Hỏi (Ask),wèn,"我想问你一个问题。
+请问，售货员在哪？
+Tôi hỏi anh ấy ở đây."
+Bài 11,对,Với / Hướng về ,duì,"你对我说什么？
+他对我很好。
+Cái này rất tốt đối với tôi."
+Bài 11,说,Nói (Speak / Talk / Say),shuō,"他在说话。
+他说什么？
+Bạn có biết nói tiếng Trung không?
+"
+Bài 11,要,Muốn / Cần (Want / Wish),yào,"我要买苹果。
+我要一件衣服。
+Tôi không lấy cái này."
+Bài 11,小朋友,Trẻ em / Đứa trẻ (Child / Kid),xiǎopéngyǒu,"小朋友在那儿玩。
+老师问小朋友。
+Trẻ em thích ăn táo."
+Bài 12,天气,Thời tiết (Weather),tiānqì,"今天天气怎么样？
+今天天气很好。"
+Bài 12,天,Thời tiết,tiān,x
+Bài 12,天,Ngày (Day),tiān,x
+Bài 12,下雨,Mưa / Rơi mưa (Rain),xià yǔ,今天会下大雨。
+Bài 12,雨,Mưa (Rain),yǔ,现在的雨很大。
+Bài 12,了,Rồi (Dùng cuối câu chỉ sự thay đổi trạng thái),le,我回家了。
+Bài 12,冷,Lạnh (Cold),lěng,今天天气不太冷。
+Bài 12,热,Nóng (Hot / Warm),rè,今天天气很热。
+Bài 12,觉得,Cảm thấy (Feel),juéde,"我觉得这件衣服很漂亮。
+你觉得这个电脑贵不贵？"
+Bài 12,有点儿,Hơi / Một chút (Rather / A bit),yǒudiǎnr,我觉得有点儿冷。
+Bài 12,下雪,Tuyết rơi,xiàxuě,"北京下雪了。
+外边正在下雪。"
+Bài 12,雪,Tuyết (Snow),xuě,外面雪很大。
+Bài 12,公司,Công ty (Company),gōngsī,"这是我们的公司。
+他在这家公司工作。"
+Bài 12,生病,Bị ốm (Fall ill),shēngbìng,我生病了，不能去学校。
+Bài 12,看病,Đi khám bệnh (See a doctor),kànbìng,我要去医院看病。
+Bài 12,病,Ốm / Bệnh (Fall ill / Be sick),bìng,他的病好了。
+Bài 12,一点儿,Một chút / Một ít (Some),yìdiǎnr,我想喝一点儿水。
+Bài 12,药,Thuốc (Medicine),yào,你要吃药。
+Bài 12,回,Về / Quay về (Return / Go back),huí,我想回家。
+Bài 12,再,Lại / Sau đó mới (Then / Only then),zài,
+Bài 12,喝,Uống (Drink),hē,"你想喝什么？
+牛奶很好喝。
+Tôi muốn uống sữa bò nóng."
+Bài 12,水,Nước (Water),shuǐ,"请喝杯热水。
+中国人喜欢喝热水。"
+Bài 13,可以,Có thể (Can / May),kěyǐ,"我可以问你一个问题吗？
+我可以坐吗？"
+Bài 13,再,Lần nữa / Lại (Once more / Again),zài,我再看一下。
+Bài 13,问题,Câu hỏi / Vấn đề (Question / Problem),wèntí,"你还有什么问题吗？
+我想问老师这个问题。"
+Bài 13,打电话,Gọi điện thoại (Make a phone call / Call),dǎ diànhuà,他在打电话。
+Bài 13,一下,Một chút / Một lát (One time / Once),yíxià,"我可以看一下吗？
+你可以打电话问一下。
+Xin hãy nghỉ ngơi 1 chút."
+Bài 13,服务员,Nhân viên phục vụ (Attendant / Waiter / Waitress),fúwùyuán,服务员，我要喝水。
+Bài 13,先生,Ông / Ngài / Tiên sinh (Gentleman / Sir),xiānsheng,那位先生是谁？(Vị tiên sinh kia là ai thế?)
+Bài 13,女士,Nữ sĩ / Quý cô / Bà (Lady / Madam),nǚshì,"那位女士很漂亮。
+王女士是我的老师。"
+Bài 13,请,Mời / Xin (Please),qǐng,请坐。
+Bài 13,坐,Ngồi (Sit),zuò,我坐在椅子上。
+Bài 13,给,Cho / Đưa cho (Give),gěi,我给你一本书。
+Bài 13,杯,Cái cốc / Tách / Ly (Cup / Glass),bēi,我喝了一杯茶。
+Bài 13,要,Muốn / Yêu cầu (Demand / Ask for),yào,我要一杯咖啡。
+Bài 13,早饭,Bữa sáng (Breakfast),zǎofàn,你吃早饭了吗？
+Bài 13,这个,Cái này (This),zhège,这个面包很好吃。
+Bài 13,面包,Bánh mì (Bread),miànbāo,这些面包很便宜。(Những cái bánh mì này rất rẻ.)
+Bài 13,鸡蛋,Trứng gà (Hen's egg),jīdàn,我爱吃鸡蛋。(Tôi yêu ăn trứng.)
+Bài 13,一半,Một nửa (One half / Half),yíbàn,我吃了一半。(Tôi đã ăn một nửa.)
+Bài 13,茶,Trà (Tea),chá,你想喝茶吗？(Bạn muốn uống trà không?)
+Bài 14,上,Lên xe/tàu (go up; get on; board),shàng,我在上火车。(Tôi đang lên tàu hỏa.)
+Bài 14,火车,Tàu hỏa (train),huǒchē,火车在那儿。(Tàu hỏa ở đằng kia.)
+Bài 14,开,Khởi hành/Rời bến - dùng cho xe cộ ((of vehicles) depart; leave),kāi,
+Bài 14,有些,Một số/Một vài - chỉ một phần ((indicating a part) some),yǒuxiē,有些苹果很大。(Có một số quả táo rất lớn.)
+Bài 14,有的,Một số (some),yǒude,有的学生喜欢看书。(Có những học sinh thích đọc sách.)
+Bài 14,了,Rồi - trợ từ dùng sau động từ để chỉ hành động đã hoàn thành,le,我买了一本书。(Tôi đã mua một quyển sách rồi.)
+Bài 14,写,Viết,xiě,他在写字。(Anh ấy đang viết chữ.)
+Bài 14,都,Đều / Tất cả (all; both),dōu,他们都在学校。(Họ đều ở trường học.)
+Bài 14,听见,Nghe thấy (hear),tīngjiàn,你听见我说的话 không? (Bạn có nghe thấy lời tôi nói không?)
+Bài 14,不要,"Đừng , Không được (don't)",búyào,不要在教室说话。(Đừng nói chuyện trong lớp học.)
+Bài 14,说话,Nói chuyện (say; speak; talk),shuōhuà,他在跟我说话。(Anh ấy đang nói chuyện với tôi.)
+Bài 14,听,"Nghe , Lắng nghe ",tīng,"你听，那是谁在唱歌？(Bạn nghe xem, đó là ai đang hát thế?)"
+Bài 14,哪些,"Những... nào , Những cái nào",nǎxiē,哪些书是你的？(Những quyển sách nào là của bạn?)
+Bài 14,字,"Chữ, Hán tự ",zì,这个字怎么写？(Chữ này viết thế nào?)
+Bài 14,明年,"Sang năm, Năm sau",míngnián,我明年去北京。(Sang năm tôi đi Bắc Kinh.)
+Bài 15,去年,Năm ngoái,qùnián,去年我去过西安。(Năm ngoái tôi đã đi Tây An.)
+Bài 14,上,Bắt đầu vào học/làm,shàng,我想上大学。(Tôi muốn học đại học.)
+Bài 14,中学,Trường trung học,zhōngxué,我弟弟在上中学。(Em trai tôi đang học trung học.)
+Bài 14,小学,Trường tiểu học,xiǎoxué,他在小学工作。(Anh ấy làm việc ở trường tiểu học.)
+Bài 14,中学生,Học sinh trung học ,zhōngxuésheng,中学生在那儿。(Học sinh trung học ở đằng kia.)
+Bài 14,小学生,"Học sinh tiểu học, Học sinh cấp 1",xiǎoxuéshēng,小学生在玩。(Học sinh tiểu học đang chơi.)
+Bài 14,上学,"Đi học, Đến trường",shàngxué,我去上学了。(Tôi đi học đây.)
+Bài 15,早,Sớm,zǎo,明天请早点儿来。(Ngày mai mời đến sớm một chút nhé.)
+Bài 15,晚,"Muộn, Trễ",wǎn,今天他来晚了。(Hôm nay anh ấy đến muộn rồi.)
+Bài 15,爱,Yêu,ài,我爱我的家人。(Tôi yêu gia đình của mình.)
+Bài 15,哪个,Cái nào,nǎge,哪个是你的杯子？(Cái nào là cốc của bạn?)
+Bài 15,年,Năm,nián,二零二六年是马年。(Năm 2026 là năm con ngựa.)
+Bài 15,好玩儿,Vui/Thú vị ,hǎowánr,西安很好玩儿。(Tây An rất vui/thú vị.)
+Bài 15,西安,Tây An,Xī'ān,西安有很多好吃的。(Tây An có rất nhiều món ngon.)
+Bài 15,北京,Bắc Kinh,Běijīng,北京很大。(Bắc Kinh rất lớn.)
+Bài 15,飞机,Máy bay,fēijī,我坐飞机去北京。(Tôi đi máy bay đến Bắc Kinh.)
+Bài 15,要,"Cần, mất bao lâu thời gian ",yào,坐飞机要两个小时。(Đi máy bay mất hai tiếng đồng hồ.)
+Bài 15,小时,Tiếng đồng hồ,xiǎoshí,我要去学校。(Tôi muốn đi đến trường.)
+Bài 15,家人,Người nhà,jiārén,我的家人在北京。(Gia đình của tôi ở Bắc Kinh.)
+Bài 15,时间,Thời gian,shíjiān,你有时间吗？(Bạn có thời gian không?)
+Bài 15,机场,Sân bay,jīchǎng,他在机场接朋友。(Anh ấy đang ở sân bay đón bạn.)
+Bài 15,接,Đón ,jiē,谁来接我？(Ai đến đón tôi thế?)
+Bài 15,住,"sống (ở, tại)",zhù,你住在哪儿？(Bạn sống ở đâu?)
+Bài 15,那,"Vậy, thế thì",nà,那就去吧。(Vậy thì đi thôi.)

@@ -1,0 +1,918 @@
+/* ============================================================
+   Minimalist & Mobile-First Clean UI for Chinese Vocab & Writing
+   ============================================================ */
+
+:root {
+  --bg-color: #f7f8fa;
+  --surface-color: #ffffff;
+  --border-color: #e2e5e9;
+  --text-main: #1f2937;
+  --text-muted: #6b7280;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --primary-light: #eff6ff;
+  --danger: #dc2626;
+  --danger-light: #fef2f2;
+  --success: #16a34a;
+  --success-light: #f0fdf4;
+  --grid-line: #ef4444; /* Traditional red grid line for Tianzige */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-hanzi: "PingFang SC", "Microsoft YaHei", "Noto Serif SC", "SimSun", serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* App Header */
+.app-header {
+  background: var(--surface-color);
+  border-bottom: 1px solid var(--border-color);
+  padding: 12px 16px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand h1 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.brand-badge {
+  font-size: 0.75rem;
+  background: var(--primary-light);
+  color: var(--primary);
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.header-lesson-dropdown {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--primary);
+  background: var(--primary-light);
+  border: 1px solid #bfdbfe;
+  border-radius: 12px;
+  padding: 3px 8px;
+  outline: none;
+  cursor: pointer;
+  max-width: 150px;
+}
+
+/* Bottom Navigation (Mobile friendly) */
+.nav-tabs {
+  background: var(--surface-color);
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 6px 4px;
+}
+
+.nav-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 2px;
+  border: none;
+  background: none;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  border-radius: var(--radius-sm);
+}
+
+.nav-item .icon {
+  font-size: 1.25rem;
+  margin-bottom: 2px;
+}
+
+.nav-item.active {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* Main Content Area */
+.app-main {
+  flex: 1;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 16px 16px 80px 16px; /* 80px bottom padding for fixed nav */
+}
+
+/* Tab Panels */
+.tab-panel {
+  display: none;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Common UI Elements */
+.card {
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 16px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 16px;
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s, transform 0.05s;
+  user-select: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+}
+
+.btn-outline {
+  background: var(--surface-color);
+  color: var(--text-main);
+  border-color: var(--border-color);
+}
+
+.btn-outline:hover {
+  background: var(--bg-color);
+}
+
+.btn-sm {
+  padding: 6px 10px;
+  font-size: 0.85rem;
+}
+
+.btn-icon {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+/* Top control pills */
+.mode-selector {
+  display: flex;
+  background: #e9ecef;
+  border-radius: var(--radius-md);
+  padding: 3px;
+  margin-bottom: 16px;
+  gap: 2px;
+}
+
+.mode-btn {
+  flex: 1;
+  padding: 8px 6px;
+  border: none;
+  background: transparent;
+  border-radius: calc(var(--radius-md) - 3px);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s ease;
+}
+
+.mode-btn.active {
+  background: var(--surface-color);
+  color: var(--text-main);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ============================================================
+   QUIZ & FLASHCARD TAB
+   ============================================================ */
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.quiz-progress-bar {
+  height: 4px;
+  background: var(--border-color);
+  border-radius: 2px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.quiz-progress-fill {
+  height: 100%;
+  background: var(--primary);
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+/* Flashcard Container */
+.flashcard-box {
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  background: var(--surface-color);
+  padding: 24px;
+  position: relative;
+  transition: box-shadow 0.2s, border-color 0.2s;
+  box-shadow: var(--shadow-sm);
+}
+
+.flashcard-box:hover {
+  border-color: #cbd5e1;
+  box-shadow: var(--shadow-md);
+}
+
+.prompt-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.prompt-hanzi {
+  font-family: var(--font-hanzi);
+  font-size: 3.5rem;
+  line-height: 1.1;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--text-main);
+}
+
+.prompt-pinyin {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+
+.prompt-nghia {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 8px;
+}
+
+.answer-divider {
+  width: 60px;
+  height: 2px;
+  background: var(--border-color);
+  margin: 16px auto;
+}
+
+.answer-content {
+  margin-top: 10px;
+  animation: fadeIn 0.2s ease;
+}
+
+.answer-content .ans-hanzi {
+  font-family: var(--font-hanzi);
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.answer-content .ans-pinyin {
+  font-size: 1.35rem;
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.answer-content .ans-nghia {
+  font-size: 1.15rem;
+  color: var(--text-main);
+  margin-bottom: 6px;
+}
+
+.card-hint-tap {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin-top: 16px;
+}
+
+.flashcard-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.flashcard-actions .btn {
+  flex: 1;
+  padding: 12px;
+}
+
+/* Multiple Choice Mode */
+.mc-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.mc-btn {
+  width: 100%;
+  padding: 14px 16px;
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  text-align: left;
+  font-size: 1.05rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.15s ease;
+}
+
+.mc-btn:hover {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+}
+
+.mc-btn.correct {
+  background: var(--success-light) !important;
+  border-color: var(--success) !important;
+  color: var(--success) !important;
+  font-weight: 700;
+}
+
+.mc-btn.incorrect {
+  background: var(--danger-light) !important;
+  border-color: var(--danger) !important;
+  color: var(--danger) !important;
+}
+
+.mc-btn:disabled {
+  cursor: default;
+}
+
+/* Audio button floating on prompt */
+.btn-speaker {
+  background: #f1f5f9;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-left: 8px;
+  vertical-align: middle;
+  transition: background 0.15s;
+}
+
+.btn-speaker:hover {
+  background: #e2e8f0;
+}
+
+/* ============================================================
+   WRITING PRACTICE TAB (HanziWriter Tianzige)
+   ============================================================ */
+
+.writing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.writing-info {
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.writing-word-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.writing-pinyin {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary);
+  min-height: 32px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.writing-nghia {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  min-height: 26px;
+}
+
+/* Visibility Control Toolbar */
+.visibility-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin: 6px 0 10px 0;
+}
+
+.vis-label {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.vis-toggle-chip {
+  padding: 3px 9px;
+  border-radius: 14px;
+  border: 1px solid var(--border-color);
+  background: var(--surface-color);
+  color: var(--text-main);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.15s ease;
+}
+
+.vis-toggle-chip.masked {
+  background: #f1f5f9;
+  color: #94a3b8;
+  border-color: #cbd5e1;
+}
+
+.masked-placeholder {
+  display: inline-block;
+  padding: 2px 10px;
+  background: #f1f5f9;
+  color: #94a3b8;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.masked-placeholder:hover {
+  background: #e2e8f0;
+}
+
+/* Compound character navigator tabs: [你] [好] */
+.char-pills {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin: 10px 0 14px 0;
+}
+
+.char-pill {
+  font-family: var(--font-hanzi);
+  font-size: 1.25rem;
+  padding: 4px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  background: var(--surface-color);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-weight: 600;
+}
+
+.char-pill.masked {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: #64748b;
+  padding: 5px 12px;
+}
+
+.char-pill.active {
+  background: var(--text-main);
+  color: #ffffff;
+  border-color: var(--text-main);
+}
+
+.char-pill.completed {
+  border-color: var(--success);
+  color: var(--success);
+}
+
+/* Tianzige Canvas Frame */
+.tianzige-frame {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  margin: 0 auto 16px auto;
+  background-color: #ffffff;
+  border: 2px solid #ef4444; /* Traditional red border */
+  border-radius: 4px;
+  box-shadow: var(--shadow-sm);
+  touch-action: none; /* Prevents mobile scrolling while drawing! */
+  user-select: none;
+}
+
+/* Tianzige grid guidelines */
+.tianzige-grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.tianzige-grid line {
+  stroke: #fca5a5;
+  stroke-width: 1.2;
+  stroke-dasharray: 4, 4;
+}
+
+#character-canvas-target {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  touch-action: none;
+}
+
+#character-canvas-target svg {
+  touch-action: none;
+}
+
+/* Freehand HTML5 Canvas Layer */
+#freehand-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  touch-action: none;
+  background: transparent;
+  display: none;
+}
+
+#freehand-canvas.active {
+  display: block;
+}
+
+/* Writing Controls Toolbar */
+.writing-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.writing-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 8px;
+}
+
+/* Status message for strokes */
+.stroke-status {
+  min-height: 24px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--text-muted);
+}
+
+.stroke-status.success {
+  color: var(--success);
+}
+
+.stroke-status.error {
+  color: var(--danger);
+}
+
+/* ============================================================
+   VOCABULARY LIST TAB
+   ============================================================ */
+
+.vocab-toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  font-size: 0.95rem;
+  background: var(--surface-color);
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: var(--primary);
+}
+
+.lesson-filter-select {
+  padding: 10px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  background: var(--surface-color);
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.vocab-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.vocab-item {
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: border-color 0.15s;
+}
+
+.vocab-item:hover {
+  border-color: #cbd5e1;
+}
+
+.vocab-item-main {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.vocab-hanzi {
+  font-family: var(--font-hanzi);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.vocab-pinyin {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.vocab-nghia {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+
+.vocab-lesson-tag {
+  font-size: 0.75rem;
+  background: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #64748b;
+  margin-top: 4px;
+  display: inline-block;
+}
+
+.vocab-actions {
+  display: flex;
+  gap: 6px;
+}
+
+/* ============================================================
+   SETTINGS TAB
+   ============================================================ */
+
+.settings-section {
+  margin-bottom: 24px;
+}
+
+.settings-section h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--text-main);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 6px;
+}
+
+.setting-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.setting-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.setting-title {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.setting-desc {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* Custom Switch Toggle */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #cbd5e1;
+  transition: .2s;
+  border-radius: 24px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .2s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: var(--primary);
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+/* Lesson check pills */
+.lesson-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.lesson-check-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 4px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: var(--surface-color);
+  transition: all 0.15s;
+  user-select: none;
+}
+
+.lesson-check-label input {
+  display: none;
+}
+
+.lesson-check-label:has(input:checked) {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+}
+
+.lesson-quick-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+/* Toast Notifications */
+.toast-msg {
+  position: fixed;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1f2937;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.88rem;
+  z-index: 200;
+  box-shadow: var(--shadow-md);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.toast-msg.show {
+  opacity: 1;
+}
+
+/* Responsive utilities */
+@media (min-width: 600px) {
+  .app-header {
+    max-width: 600px;
+    margin: 0 auto;
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+  }
+  .nav-tabs {
+    max-width: 600px;
+    margin: 0 auto;
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+  }
+}

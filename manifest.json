@@ -1,0 +1,16 @@
+{
+  "name": "Hán Ngữ HSK & Luyện Viết",
+  "short_name": "Hán Ngữ HSK",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#2563eb",
+  "description": "Học từ vựng tiếng Trung, ôn tập trắc nghiệm và luyện viết chữ Hán theo đúng thứ tự nét.",
+  "icons": [
+    {
+      "src": "icons/icon-192.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
