@@ -15,7 +15,7 @@ const DEFAULT_SETTINGS = {
   speechRate: 0.85,
   autoPlayAudio: false,
   currentQuizMode: 'hanzi-to-meaning', // 'hanzi-to-meaning' | 'pinyin-to-meaning' | 'meaning-to-hanzi'
-  audioSource: 'online', // 'online' (default, native human speaker) | 'device' (SpeechSynthesis)
+  audioSource: 'bundled', // 'bundled' (default, native audio files) | 'device' (SpeechSynthesis) | 'online' (Youdao stream)
   hanziFont: 'kaiti', // 'kaiti' (default) | 'wenkai' | 'standard'
   
   // Writing mode & visibility
@@ -84,6 +84,10 @@ function loadSettings() {
   if (saved) {
     try {
       state.settings = { ...DEFAULT_SETTINGS, ...JSON.parse(saved) };
+      // Migrate older 'online' setting to 'bundled'
+      if (!state.settings.audioSource || state.settings.audioSource === 'online') {
+        state.settings.audioSource = 'bundled';
+      }
     } catch (e) {
       console.warn('Invalid saved settings, using defaults');
       state.settings = { ...DEFAULT_SETTINGS };
@@ -238,28 +242,57 @@ function playOnlineAudio(text) {
     activeAudioElement = new Audio(audioUrl);
     activeAudioElement.playbackRate = parseFloat(state.settings.speechRate) || 1.0;
     activeAudioElement.play().catch(err => {
-      console.warn('Online audio stream playback failed, trying device voice fallback:', err);
-      playDeviceVoice(text);
+      console.warn('Online audio stream playback failed:', err);
     });
   } catch (e) {
     console.error('Audio playback error:', e);
-    playDeviceVoice(text);
   }
 }
 
-function playAudio(text) {
+function playAudio(text, wordId) {
   if (!text) return;
 
-  // If user selected Device voice (e.g. on iOS / Apple neural)
+  // 1. Device voice requested explicitly (e.g. on iOS / Apple Siri)
   if (state.settings.audioSource === 'device') {
     const played = playDeviceVoice(text);
     if (played) return;
-    // Fall back to online audio if device has no Chinese voice
+    // If device has no Chinese voice (e.g. Linux PC without Chinese TTS installed),
+    // NEVER fallback to default system voice (which causes Vietnamese pronunciation)!
+    // Instead proceed to bundled native Chinese audio below.
+  }
+
+  // 2. Online stream requested explicitly
+  if (state.settings.audioSource === 'online') {
     playOnlineAudio(text);
     return;
   }
 
-  // Default: Native human speaker audio stream (works perfectly on both PC and mobile)
+  // 3. Default: Bundled crystal-clear native Chinese audio files (offline, 0 latency, 0 CORS)
+  let targetId = wordId;
+  if (!targetId && state.allVocab) {
+    const match = state.allVocab.find(w => w.hanzi === text);
+    if (match) targetId = match.id;
+  }
+
+  if (targetId) {
+    try {
+      if (activeAudioElement) {
+        activeAudioElement.pause();
+        activeAudioElement.currentTime = 0;
+      }
+      activeAudioElement = new Audio(`data/audio/${targetId}.mp3`);
+      activeAudioElement.playbackRate = parseFloat(state.settings.speechRate) || 1.0;
+      activeAudioElement.play().catch(err => {
+        console.warn('Bundled audio playback failed, trying online stream fallback:', err);
+        playOnlineAudio(text);
+      });
+      return;
+    } catch (e) {
+      console.error('Bundled audio error:', e);
+    }
+  }
+
+  // Fallback for single character or unknown phrase
   playOnlineAudio(text);
 }
 
@@ -368,7 +401,7 @@ function renderCurrentQuizQuestion() {
   }
 
   if (state.settings.autoPlayAudio && (mode === 'hanzi-to-meaning' || mode === 'pinyin-to-meaning')) {
-    playAudio(currentItem.hanzi);
+    playAudio(currentItem.hanzi, currentItem.id);
   }
 }
 
@@ -393,7 +426,7 @@ function renderFlashcard(item, mode) {
     promptContent.innerHTML = `
       <div style="display: flex; align-items: center; justify-content: center;">
         <span class="prompt-hanzi">${item.hanzi}</span>
-        <button class="btn-speaker" onclick="event.stopPropagation(); playAudio('${item.hanzi}')" title="Phát âm">🔊</button>
+        <button class="btn-speaker" onclick="event.stopPropagation(); playAudio('${item.hanzi}', ${item.id})" title="Phát âm">🔊</button>
       </div>
     `;
     answerContent.innerHTML = `
@@ -405,7 +438,7 @@ function renderFlashcard(item, mode) {
     promptContent.innerHTML = `
       <div style="display: flex; align-items: center; justify-content: center;">
         <span class="prompt-pinyin">${item.pinyin}</span>
-        <button class="btn-speaker" onclick="event.stopPropagation(); playAudio('${item.hanzi}')" title="Phát âm">🔊</button>
+        <button class="btn-speaker" onclick="event.stopPropagation(); playAudio('${item.hanzi}', ${item.id})" title="Phát âm">🔊</button>
       </div>
     `;
     answerContent.innerHTML = `
@@ -421,7 +454,7 @@ function renderFlashcard(item, mode) {
     answerContent.innerHTML = `
       <div style="display: flex; align-items: center; justify-content: center;">
         <span class="ans-hanzi">${item.hanzi}</span>
-        <button class="btn-speaker" onclick="event.stopPropagation(); playAudio('${item.hanzi}')" title="Phát âm">🔊</button>
+        <button class="btn-speaker" onclick="event.stopPropagation(); playAudio('${item.hanzi}', ${item.id})" title="Phát âm">🔊</button>
       </div>
       <div class="ans-pinyin">${item.pinyin}</div>
     `;
@@ -476,7 +509,7 @@ function renderMultipleChoice(item, mode) {
     promptContent.innerHTML = `
       <div style="display: flex; align-items: center; justify-content: center;">
         <span class="prompt-hanzi" style="font-size: 3rem;">${item.hanzi}</span>
-        <button class="btn-speaker" onclick="playAudio('${item.hanzi}')">🔊</button>
+        <button class="btn-speaker" onclick="playAudio('${item.hanzi}', ${item.id})">🔊</button>
       </div>
     `;
     correctAnswer = `${item.pinyin} - ${item.nghia}`;
@@ -486,7 +519,7 @@ function renderMultipleChoice(item, mode) {
     promptContent.innerHTML = `
       <div style="display: flex; align-items: center; justify-content: center;">
         <span class="prompt-pinyin">${item.pinyin}</span>
-        <button class="btn-speaker" onclick="playAudio('${item.hanzi}')">🔊</button>
+        <button class="btn-speaker" onclick="playAudio('${item.hanzi}', ${item.id})">🔊</button>
       </div>
     `;
     correctAnswer = `${item.hanzi} (${item.nghia})`;
@@ -1000,7 +1033,7 @@ function renderVocabList() {
         <div class="vocab-item-main">
           <span class="vocab-hanzi">${item.hanzi}</span>
           <span class="vocab-pinyin">${item.pinyin}</span>
-          <button class="btn-speaker" style="width: 28px; height: 28px; font-size: 0.85rem;" onclick="playAudio('${item.hanzi}')">🔊</button>
+          <button class="btn-speaker" style="width: 28px; height: 28px; font-size: 0.85rem;" onclick="playAudio('${item.hanzi}', ${item.id})">🔊</button>
         </div>
         <div class="vocab-nghia">${item.nghia}</div>
         <span class="vocab-lesson-tag">${item.lesson}</span>
@@ -1146,11 +1179,16 @@ function setupSettingsUI() {
 
   const audioSourceSelect = document.getElementById('setting-audio-source');
   if (audioSourceSelect) {
-    audioSourceSelect.value = state.settings.audioSource || 'online';
+    audioSourceSelect.value = state.settings.audioSource || 'bundled';
     audioSourceSelect.addEventListener('change', (e) => {
       state.settings.audioSource = e.target.value;
       saveSettings();
-      showToast(e.target.value === 'online' ? 'Đã chọn giọng trực tuyến chuẩn bản xứ' : 'Đã chọn giọng máy thiết bị');
+      const labels = {
+        bundled: 'Đã chọn giọng chuẩn bản xứ tích hợp (khuyên dùng)',
+        device: 'Đã chọn giọng máy thiết bị (WebSpeech)',
+        online: 'Đã chọn luồng trực tuyến (Youdao)'
+      };
+      showToast(labels[e.target.value] || 'Đã lưu cài đặt');
     });
   }
 
@@ -1341,7 +1379,7 @@ function setupEventListeners() {
   // Strict Mode Controls
   document.getElementById('btn-write-audio').addEventListener('click', () => {
     const currentWord = state.activeVocab[state.writingVocabIndex];
-    if (currentWord) playAudio(currentWord.hanzi);
+    if (currentWord) playAudio(currentWord.hanzi, currentWord.id);
   });
 
   document.getElementById('btn-animate-stroke').addEventListener('click', () => {
