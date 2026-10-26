@@ -1098,6 +1098,15 @@
     "example": "你想吃什么？\n我们吃包子。\nTôi thích ăn bánh bao."
   },
   {
+    "id": 258,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "nghia": "Uống",
+    "example": "你想喝什么？\n牛奶很好喝。\nTôi muốn uống sữa bò nóng."
+  },
+  {
     "id": 123,
     "lesson": "Bài 6",
     "lesson_num": 6,
@@ -2311,15 +2320,6 @@
     "pinyin": "zài",
     "nghia": "Lại / Sau đó mới (Then / Only then)",
     "example": ""
-  },
-  {
-    "id": 258,
-    "lesson": "Bài 12",
-    "lesson_num": 12,
-    "hanzi": "喝",
-    "pinyin": "hē",
-    "nghia": "Uống (Drink)",
-    "example": "你想喝什么？\n牛奶很好喝。\nTôi muốn uống sữa bò nóng."
   },
   {
     "id": 259,

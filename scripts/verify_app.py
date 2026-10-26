@@ -48,22 +48,8 @@ def verify_strokes():
 
     print(f"   ✓ All {len(all_chars)} unique Hanzi characters have local stroke data in data/strokes/.")
 
-def verify_audio():
-    print("[3/4] Verifying native Chinese audio files...")
-    with open("data/vocabulary.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    missing_audio = []
-    for item in data:
-        audio_path = f"data/audio/{item['id']}.mp3"
-        if not os.path.exists(audio_path) or os.path.getsize(audio_path) < 1000:
-            missing_audio.append(item['id'])
-
-    assert len(missing_audio) == 0, f"Missing or corrupted audio files: {missing_audio}"
-    print(f"   ✓ All {len(data)} vocabulary items have valid native MP3 audio in data/audio/.")
-
 def verify_static_assets():
-    print("[4/4] Verifying static web assets...")
+    print("[3/3] Verifying static web assets...")
     required_files = [
         "index.html",
         "css/style.css",
@@ -84,7 +70,6 @@ if __name__ == "__main__":
     try:
         verify_dataset()
         verify_strokes()
-        verify_audio()
         verify_static_assets()
         print("\n🎉 ALL VERIFICATION CHECKS PASSED SUCCESSFULLY!\n")
     except AssertionError as e:

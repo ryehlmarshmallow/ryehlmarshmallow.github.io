@@ -15,7 +15,6 @@ const DEFAULT_SETTINGS = {
   speechRate: 0.85,
   autoPlayAudio: false,
   currentQuizMode: 'hanzi-to-meaning', // 'hanzi-to-meaning' | 'pinyin-to-meaning' | 'meaning-to-hanzi'
-  audioSource: 'bundled', // 'bundled' (default, native audio files) | 'device' (SpeechSynthesis) | 'online' (Youdao stream)
   hanziFont: 'kaiti', // 'kaiti' (default) | 'wenkai' | 'standard'
   
   // Writing mode & visibility
@@ -84,10 +83,6 @@ function loadSettings() {
   if (saved) {
     try {
       state.settings = { ...DEFAULT_SETTINGS, ...JSON.parse(saved) };
-      // Migrate older 'online' setting to 'bundled'
-      if (!state.settings.audioSource || state.settings.audioSource === 'online') {
-        state.settings.audioSource = 'bundled';
-      }
     } catch (e) {
       console.warn('Invalid saved settings, using defaults');
       state.settings = { ...DEFAULT_SETTINGS };
@@ -193,8 +188,9 @@ function syncHeaderDropdown() {
 // ==========================================
 // Audio Synthesis (Native Online Stream + Device TTS Fallback)
 // ==========================================
+// Audio Synthesis (Device Chinese Voice)
+// ==========================================
 let cachedChineseVoice = null;
-let activeAudioElement = null;
 
 function getChineseVoice() {
   if (cachedChineseVoice) return cachedChineseVoice;
@@ -218,7 +214,8 @@ if ('speechSynthesis' in window) {
   };
 }
 
-function playDeviceVoice(text) {
+function playAudio(text) {
+  if (!text) return;
   const zhVoice = getChineseVoice();
   if (zhVoice && 'speechSynthesis' in window) {
     window.speechSynthesis.cancel();
@@ -227,73 +224,11 @@ function playDeviceVoice(text) {
     utterance.lang = zhVoice.lang || 'zh-CN';
     utterance.rate = parseFloat(state.settings.speechRate) || 0.85;
     window.speechSynthesis.speak(utterance);
-    return true;
+  } else {
+    // If device has no Chinese voice installed (e.g. Linux PC without Chinese TTS),
+    // do NOT speak to prevent the system from using the default Vietnamese voice
+    showToast('Thiết bị chưa có gói giọng tiếng Trung');
   }
-  return false;
-}
-
-function playOnlineAudio(text) {
-  try {
-    if (activeAudioElement) {
-      activeAudioElement.pause();
-      activeAudioElement.currentTime = 0;
-    }
-    const audioUrl = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(text)}&le=zh`;
-    activeAudioElement = new Audio(audioUrl);
-    activeAudioElement.playbackRate = parseFloat(state.settings.speechRate) || 1.0;
-    activeAudioElement.play().catch(err => {
-      console.warn('Online audio stream playback failed:', err);
-    });
-  } catch (e) {
-    console.error('Audio playback error:', e);
-  }
-}
-
-function playAudio(text, wordId) {
-  if (!text) return;
-
-  // 1. Device voice requested explicitly (e.g. on iOS / Apple Siri)
-  if (state.settings.audioSource === 'device') {
-    const played = playDeviceVoice(text);
-    if (played) return;
-    // If device has no Chinese voice (e.g. Linux PC without Chinese TTS installed),
-    // NEVER fallback to default system voice (which causes Vietnamese pronunciation)!
-    // Instead proceed to bundled native Chinese audio below.
-  }
-
-  // 2. Online stream requested explicitly
-  if (state.settings.audioSource === 'online') {
-    playOnlineAudio(text);
-    return;
-  }
-
-  // 3. Default: Bundled crystal-clear native Chinese audio files (offline, 0 latency, 0 CORS)
-  let targetId = wordId;
-  if (!targetId && state.allVocab) {
-    const match = state.allVocab.find(w => w.hanzi === text);
-    if (match) targetId = match.id;
-  }
-
-  if (targetId) {
-    try {
-      if (activeAudioElement) {
-        activeAudioElement.pause();
-        activeAudioElement.currentTime = 0;
-      }
-      activeAudioElement = new Audio(`data/audio/${targetId}.mp3`);
-      activeAudioElement.playbackRate = parseFloat(state.settings.speechRate) || 1.0;
-      activeAudioElement.play().catch(err => {
-        console.warn('Bundled audio playback failed, trying online stream fallback:', err);
-        playOnlineAudio(text);
-      });
-      return;
-    } catch (e) {
-      console.error('Bundled audio error:', e);
-    }
-  }
-
-  // Fallback for single character or unknown phrase
-  playOnlineAudio(text);
 }
 
 // ==========================================
@@ -1177,20 +1112,6 @@ function setupSettingsUI() {
     });
   }
 
-  const audioSourceSelect = document.getElementById('setting-audio-source');
-  if (audioSourceSelect) {
-    audioSourceSelect.value = state.settings.audioSource || 'bundled';
-    audioSourceSelect.addEventListener('change', (e) => {
-      state.settings.audioSource = e.target.value;
-      saveSettings();
-      const labels = {
-        bundled: 'Đã chọn giọng chuẩn bản xứ tích hợp (khuyên dùng)',
-        device: 'Đã chọn giọng máy thiết bị (WebSpeech)',
-        online: 'Đã chọn luồng trực tuyến (Youdao)'
-      };
-      showToast(labels[e.target.value] || 'Đã lưu cài đặt');
-    });
-  }
 
   const speechRateSelect = document.getElementById('setting-speech-rate');
   speechRateSelect.value = String(state.settings.speechRate || 0.85);

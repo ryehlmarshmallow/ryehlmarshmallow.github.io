@@ -217,6 +217,9 @@ Bạn tôi rất thích uống sữa bò."
 Bài 6,吃,Ăn,chī,"你想吃什么？
 我们吃包子。
 Tôi thích ăn bánh bao."
+Bài 6,喝,Uống,hē,"你想喝什么？
+牛奶很好喝。
+Tôi muốn uống sữa bò nóng."
 Bài 6,晚饭,Bữa tối,wǎnfàn,"晚饭你吃什么？
 晚饭你想吃什么？
 Tôi đang ăn tối."
@@ -586,9 +589,6 @@ Bài 12,一点儿,Một chút / Một ít (Some),yìdiǎnr,我想喝一点儿水
 Bài 12,药,Thuốc (Medicine),yào,你要吃药。
 Bài 12,回,Về / Quay về (Return / Go back),huí,我想回家。
 Bài 12,再,Lại / Sau đó mới (Then / Only then),zài,
-Bài 12,喝,Uống (Drink),hē,"你想喝什么？
-牛奶很好喝。
-Tôi muốn uống sữa bò nóng."
 Bài 12,水,Nước (Water),shuǐ,"请喝杯热水。
 中国人喜欢喝热水。"
 Bài 13,可以,Có thể (Can / May),kěyǐ,"我可以问你一个问题吗？
