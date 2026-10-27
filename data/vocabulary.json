@@ -1098,7 +1098,7 @@
     "example": "你想吃什么？\n我们吃包子。\nTôi thích ăn bánh bao."
   },
   {
-    "id": 258,
+    "id": 123,
     "lesson": "Bài 6",
     "lesson_num": 6,
     "hanzi": "喝",
@@ -1107,7 +1107,7 @@
     "example": "你想喝什么？\n牛奶很好喝。\nTôi muốn uống sữa bò nóng."
   },
   {
-    "id": 123,
+    "id": 124,
     "lesson": "Bài 6",
     "lesson_num": 6,
     "hanzi": "晚饭",
@@ -1116,7 +1116,7 @@
     "example": "晚饭你吃什么？\n晚饭你想吃什么？\nTôi đang ăn tối."
   },
   {
-    "id": 124,
+    "id": 125,
     "lesson": "Bài 6",
     "lesson_num": 6,
     "hanzi": "这边",
@@ -1125,7 +1125,7 @@
     "example": "请往这边走。\n这边是我的学校，那边是他的学校。\nTôi ở bên này đợi bạn."
   },
   {
-    "id": 125,
+    "id": 126,
     "lesson": "Bài 6",
     "lesson_num": 6,
     "hanzi": "那边",
@@ -1134,7 +1134,7 @@
     "example": "超市在那边。 \n我的朋友在那边。\nChúng ta qua bên kia mua bánh bao đi."
   },
   {
-    "id": 126,
+    "id": 127,
     "lesson": "Bài 6",
     "lesson_num": 6,
     "hanzi": "包子",
@@ -1143,7 +1143,7 @@
     "example": "包子很好吃。 \n我买了五个包子。\nTôi không thích ăn bánh bao."
   },
   {
-    "id": 127,
+    "id": 128,
     "lesson": "Bài 6",
     "lesson_num": 6,
     "hanzi": "米饭",
@@ -1152,7 +1152,7 @@
     "example": "我喜欢吃米饭。 \n今天的米饭非常好吃。\nSiêu thị có bán cơm không?"
   },
   {
-    "id": 128,
+    "id": 129,
     "lesson": "Bài 6",
     "lesson_num": 6,
     "hanzi": "非常",
@@ -1161,7 +1161,7 @@
     "example": "认识你我非常高兴。\n姐姐的电脑非常新。 \nMón ăn ở đây cực kỳ ngon."
   },
   {
-    "id": 129,
+    "id": 130,
     "lesson": "Bài 6",
     "lesson_num": 6,
     "hanzi": "好吃",
@@ -1170,7 +1170,7 @@
     "example": "这个菜非常好吃。 \n饺子真好吃。\nBánh bao không ngon."
   },
   {
-    "id": 130,
+    "id": 131,
     "lesson": "Bài 6",
     "lesson_num": 6,
     "hanzi": "怎么",
@@ -1179,7 +1179,7 @@
     "example": "这个多少钱？怎么卖？\n你怎么去超市？\nBạn đi đến trường như thế nào?"
   },
   {
-    "id": 131,
+    "id": 132,
     "lesson": "Bài 6",
     "lesson_num": 6,
     "hanzi": "饭店",
@@ -1188,7 +1188,7 @@
     "example": "那个饭店很大。\n这个饭店的菜非常好吃。\nĐây là nhà hàng của tôi."
   },
   {
-    "id": 132,
+    "id": 133,
     "lesson": "Bài 6",
     "lesson_num": 6,
     "hanzi": "出租车",
@@ -1197,7 +1197,16 @@
     "example": "我不喜欢坐出租车。\n我坐出租车去学校。\nNhững chiếc xe taxi bây giờ rất đẹp."
   },
   {
-    "id": 133,
+    "id": 134,
+    "lesson": "Bài 6",
+    "lesson_num": 6,
+    "hanzi": "辆",
+    "pinyin": "liàng",
+    "nghia": "Chiếc (lượng từ xe cộ)",
+    "example": "那有一辆出租车。\n我买了一辆车。\nMột chiếc xe taxi."
+  },
+  {
+    "id": 135,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "现在",
@@ -1206,7 +1215,7 @@
     "example": "现在几点？\n现在五点。\nBây giờ tôi rất bận."
   },
   {
-    "id": 134,
+    "id": 136,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "点",
@@ -1215,7 +1224,7 @@
     "example": "现在十点。 \n你现在去哪儿？\nBây giờ là 12 giờ rồi, đi ăn cơm thôi."
   },
   {
-    "id": 135,
+    "id": 137,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "分",
@@ -1224,7 +1233,7 @@
     "example": "十点五分。 \n等我十分。\nTôi học tiếng Trung 30 phút."
   },
   {
-    "id": 136,
+    "id": 138,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "半",
@@ -1233,7 +1242,7 @@
     "example": "十点半睡觉。 \n我吃一半个包子。\nTôi ăn nửa quả táo."
   },
   {
-    "id": 137,
+    "id": 139,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "刻",
@@ -1242,7 +1251,7 @@
     "example": "十点一刻。 \n七点一刻上课。\nTôi bắt đầu học lúc 8h15"
   },
   {
-    "id": 138,
+    "id": 140,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "早上",
@@ -1251,7 +1260,7 @@
     "example": "早上好！\n老师，早上好！\nChào buổi sáng, Tiểu Ngữ."
   },
   {
-    "id": 139,
+    "id": 141,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "上午",
@@ -1260,7 +1269,7 @@
     "example": "我上午去学校。 \n上午你吃什么？\nBuổi sáng tôi đi siêu thị."
   },
   {
-    "id": 140,
+    "id": 142,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "中午",
@@ -1269,7 +1278,7 @@
     "example": "我们中午吃饭。\n中午你想吃什么？\nBuổi trưa bạn đi đâu vậy?"
   },
   {
-    "id": 141,
+    "id": 143,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "下午",
@@ -1278,7 +1287,7 @@
     "example": "下午见！\n下午你吃什么？\nBuổi chiều bạn có tiết học không?"
   },
   {
-    "id": 142,
+    "id": 144,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "晚上",
@@ -1287,7 +1296,7 @@
     "example": "晚上见。\n晚上你去哪儿？\nBuổi tối bạn muốn ăn gì?"
   },
   {
-    "id": 143,
+    "id": 145,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "吧",
@@ -1296,7 +1305,7 @@
     "example": "我们去吧。 \n我们吃包子吧。\nChúng ta ăn bánh bao nhé."
   },
   {
-    "id": 144,
+    "id": 146,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "电影院",
@@ -1305,7 +1314,7 @@
     "example": "去电影院看电影。 \n我很喜欢去电影院。\nHôm qua tôi đi rạp chiếu phim."
   },
   {
-    "id": 145,
+    "id": 147,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "电影",
@@ -1314,7 +1323,7 @@
     "example": "这部电影很好看。\n我很喜欢看电影。\nTôi rất thích xem bộ phim điện ảnh này."
   },
   {
-    "id": 146,
+    "id": 148,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "事",
@@ -1323,7 +1332,7 @@
     "example": "你有什么事吗？ \n我今天没有事。\nChiều nay bạn có việc phải không?"
   },
   {
-    "id": 147,
+    "id": 149,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "上课",
@@ -1332,7 +1341,7 @@
     "example": "老师在上课。\n明天我去上课。\nTôi rất thích đi học."
   },
   {
-    "id": 148,
+    "id": 150,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "下课",
@@ -1341,7 +1350,7 @@
     "example": "我四点下课。\n我很喜欢下课。\n5 giờ 15 phút tan học."
   },
   {
-    "id": 149,
+    "id": 151,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "在",
@@ -1350,7 +1359,7 @@
     "example": "他在不在家？\n我在看书呢。\nCô ấy đang ăn cơm."
   },
   {
-    "id": 150,
+    "id": 152,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "里",
@@ -1359,7 +1368,7 @@
     "example": "学校里有很多学生。 \n超市里有很多东西。\nTrong túi có rất nhiều sách."
   },
   {
-    "id": 151,
+    "id": 153,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "医院",
@@ -1368,7 +1377,7 @@
     "example": "妈妈跟爸爸去医院了。\n明天我去医院。\nChị tôi làm ở bệnh viện."
   },
   {
-    "id": 152,
+    "id": 154,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "店",
@@ -1377,7 +1386,7 @@
     "example": "我去商店买菜。\n我妹妹在商店工作。\nTối nay tôi muốn đi cửa hàng mua bánh bao."
   },
   {
-    "id": 153,
+    "id": 155,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "分钟",
@@ -1386,7 +1395,7 @@
     "example": "等我十分钟。\n我学中文三十分钟。\nTôi đọc sách 15 phút."
   },
   {
-    "id": 154,
+    "id": 156,
     "lesson": "Bài 7",
     "lesson_num": 7,
     "hanzi": "后",
@@ -1395,7 +1404,7 @@
     "example": "放学后见。\n下班后我去超市买东西。\nSau khi ăn tối chúng ta đi xem phim."
   },
   {
-    "id": 155,
+    "id": 157,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "上",
@@ -1404,7 +1413,7 @@
     "example": "桌子上有一本书。\n书上有我的名字。\nSách tiếng Trung của giáo viên ở trên bàn."
   },
   {
-    "id": 156,
+    "id": 158,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "下",
@@ -1413,7 +1422,7 @@
     "example": "桌子下有一只猫。\n椅子下有一只狗。\nMời xuống xe."
   },
   {
-    "id": 157,
+    "id": 159,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "前",
@@ -1422,7 +1431,7 @@
     "example": "书店在学校前。\n他在我前面。 \n3 ngày trước tôi đi khám bác sĩ."
   },
   {
-    "id": 158,
+    "id": 160,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "外",
@@ -1431,7 +1440,7 @@
     "example": "房间外有一只猫。\n老师在教室外。 \nNgười bạn nước ngoài đến nhà tôi."
   },
   {
-    "id": 159,
+    "id": 161,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "房间",
@@ -1440,7 +1449,7 @@
     "example": "我的房间很大。\n他在房间里休息。 \nĐây là phòng của ai?"
   },
   {
-    "id": 160,
+    "id": 162,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "只",
@@ -1449,7 +1458,7 @@
     "example": "我有一只猫。\n那只猫在那儿。 \nCon mèo này không ăn gì cả."
   },
   {
-    "id": 161,
+    "id": 163,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "猫",
@@ -1458,7 +1467,7 @@
     "example": "你喜欢猫吗？ \n猫在房间里。 \nTôi có một con mèo rất đẹp."
   },
   {
-    "id": 162,
+    "id": 164,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "没",
@@ -1467,7 +1476,7 @@
     "example": "我没看见你的老师。 \n桌子下没东西。\nHôm nay tôi không có việc làm/không làm việc."
   },
   {
-    "id": 163,
+    "id": 165,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "看见",
@@ -1476,7 +1485,7 @@
     "example": "你看见我的手机了吗？ \n我看见他在超市买东西。 \nỞ đằng kia bạn đã nhìn thấy gì?"
   },
   {
-    "id": 164,
+    "id": 166,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "桌子",
@@ -1485,7 +1494,16 @@
     "example": "桌子上有电脑。\n这个桌子不漂亮。\nXin hãy nhìn dưới bàn."
   },
   {
-    "id": 165,
+    "id": 167,
+    "lesson": "Bài 8",
+    "lesson_num": 8,
+    "hanzi": "张",
+    "pinyin": "zhāng",
+    "nghia": "Cái / Tấm (lượng từ của bàn, giấy)",
+    "example": "这有一张桌子。\n我买了一张桌子。\nMột chiếc bàn."
+  },
+  {
+    "id": 168,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "漂亮",
@@ -1494,7 +1512,7 @@
     "example": "你的衣服很漂亮。\n他的女儿很漂亮。\nHoa ở trong trường rất đẹp."
   },
   {
-    "id": 166,
+    "id": 169,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "在",
@@ -1503,7 +1521,7 @@
     "example": "我在学校。\n我在家吃晚饭。 \nBố làm việc ở bệnh viện."
   },
   {
-    "id": 167,
+    "id": 170,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "学校",
@@ -1512,7 +1530,7 @@
     "example": "这个学校很大\n他在这个学校工作。\nTrong trường có rất nhiều học sinh."
   },
   {
-    "id": 168,
+    "id": 171,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "书店",
@@ -1521,7 +1539,7 @@
     "example": "书店在学校那边。\n书店里有很多书。\nTôi muốn đi hiệu sách mua sách tiếng Trung."
   },
   {
-    "id": 169,
+    "id": 172,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "能",
@@ -1530,7 +1548,7 @@
     "example": "我能去学校。(Tôi có thể đi đến trường.)\nHôm nay anh ấy không thể đến.\n你能帮我吗？"
   },
   {
-    "id": 170,
+    "id": 173,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "到",
@@ -1539,7 +1557,7 @@
     "example": "我到家了。\n老师到学校了吗？\n3 giờ chiều anh ấy đến bệnh viện."
   },
   {
-    "id": 171,
+    "id": 174,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "午饭",
@@ -1548,7 +1566,7 @@
     "example": "你几点吃午饭？\n午饭有很多菜。\nCơm trưa ngon không?"
   },
   {
-    "id": 172,
+    "id": 175,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "饭",
@@ -1557,7 +1575,7 @@
     "example": "你会做饭吗？ \n我不喜欢吃米饭。\nMời đi ăn cơm đi."
   },
   {
-    "id": 173,
+    "id": 176,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "病人",
@@ -1566,7 +1584,7 @@
     "example": "他是这个医院的病人。\n房间里有三个病人。\nBệnh nhân đó muốn ăn mì."
   },
   {
-    "id": 174,
+    "id": 177,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "医生",
@@ -1575,7 +1593,7 @@
     "example": "我是医生。\n医生在医院工作。\nBác sĩ Trương là bố của tôi."
   },
   {
-    "id": 175,
+    "id": 178,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "工作",
@@ -1584,7 +1602,7 @@
     "example": "他在医院工作。\n我姐姐在商店工作。\nEm gái tôi làm việc tại bệnh viện."
   },
   {
-    "id": 176,
+    "id": 179,
     "lesson": "Bài 8",
     "lesson_num": 8,
     "hanzi": "胡",
@@ -1593,7 +1611,7 @@
     "example": "胡医生在工作。\n胡老师是我的中文老师。\nThầy Hồ đang rất bận."
   },
   {
-    "id": 177,
+    "id": 180,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "前边",
@@ -1602,7 +1620,7 @@
     "example": "他在我前边。\n小狗在前边。\nPhía trước có phải giáo viên tiếng Trung không?"
   },
   {
-    "id": 178,
+    "id": 181,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "边",
@@ -1611,7 +1629,7 @@
     "example": "他在我右边。\n我爸爸在左边。\nBên trên là bạn tốt của tôi."
   },
   {
-    "id": 179,
+    "id": 182,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "家",
@@ -1620,7 +1638,7 @@
     "example": "这是我的家。\n你家有几口人？\nPhía trước là nhà của bạn thân tôi."
   },
   {
-    "id": 180,
+    "id": 183,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "那个",
@@ -1629,7 +1647,7 @@
     "example": "那个学生很漂亮。\n那个人是谁？\nCon mèo kia là của ai?"
   },
   {
-    "id": 181,
+    "id": 184,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "外边",
@@ -1638,7 +1656,7 @@
     "example": "外边有人。\n外边有两个小狗。\nBên ngoài là giáo viên tiếng Trung của tôi."
   },
   {
-    "id": 182,
+    "id": 185,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "椅子",
@@ -1647,7 +1665,7 @@
     "example": "椅子下面没有小猫。\n椅子上有什么？\nĐây là cái ghế tôi mới mua."
   },
   {
-    "id": 183,
+    "id": 186,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "本",
@@ -1656,7 +1674,7 @@
     "example": "我有一本书。\n我要买两本汉语书。\nQuyển sách này là của tôi."
   },
   {
-    "id": 184,
+    "id": 187,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "书",
@@ -1665,7 +1683,7 @@
     "example": "我爱看书。\n我有汉语书和越南语书。\nĐó là sách tiếng Trung của bạn tôi."
   },
   {
-    "id": 185,
+    "id": 188,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "第",
@@ -1674,7 +1692,7 @@
     "example": "这是第一本。\n第21课。\nBạn là người đầu tiên."
   },
   {
-    "id": 186,
+    "id": 189,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "学习",
@@ -1683,7 +1701,7 @@
     "example": "我在学习汉语。\n我每天学习汉语。\nTôi thích học tiếng Trung."
   },
   {
-    "id": 187,
+    "id": 190,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "白天",
@@ -1692,7 +1710,7 @@
     "example": "他白天不在家。\n白天工作，晚上休息。\nBan ngày bạn làm gì?"
   },
   {
-    "id": 188,
+    "id": 191,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "读",
@@ -1701,7 +1719,7 @@
     "example": "我在中国读大学。\n我读的是汉语。\nEm gái tôi đi học ở Trung Quốc."
   },
   {
-    "id": 189,
+    "id": 192,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "读书",
@@ -1710,7 +1728,7 @@
     "example": "他在学校读书。\n我还在读书。\nAnh ấy đang ngồi trên ghế đọc sách."
   },
   {
-    "id": 190,
+    "id": 193,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "和",
@@ -1719,7 +1737,7 @@
     "example": "我和朋友去商店。\n我和他是好朋友。\nSách tiếng Trung, sách tiếng Việt tôi đều có."
   },
   {
-    "id": 191,
+    "id": 194,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "唱",
@@ -1728,7 +1746,7 @@
     "example": "她喜欢唱歌。\n我不会唱歌。\nCô ấy thích hát ở nhà."
   },
   {
-    "id": 192,
+    "id": 195,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "歌",
@@ -1737,7 +1755,7 @@
     "example": "这个歌很好听。\n我喜欢听他的歌。\nBài hát tôi yêu thích."
   },
   {
-    "id": 193,
+    "id": 196,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "好听",
@@ -1746,7 +1764,7 @@
     "example": "你的歌声很好听。\n你说很好听。\nCô ấy hát rất hay."
   },
   {
-    "id": 194,
+    "id": 197,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "电视",
@@ -1755,7 +1773,7 @@
     "example": "电视上有什么？\n我喜欢看电视。\nTôi ở nhà xem tivi."
   },
   {
-    "id": 195,
+    "id": 198,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "狗",
@@ -1764,7 +1782,7 @@
     "example": "那只狗很小。\n这是我的小狗。\nĐây là con chó của tôi."
   },
   {
-    "id": 196,
+    "id": 199,
     "lesson": "Bài 9",
     "lesson_num": 9,
     "hanzi": "玩",
@@ -1773,7 +1791,7 @@
     "example": "小猫在玩。\n你玩什么？\nTôi chơi cùng bạn bè."
   },
   {
-    "id": 197,
+    "id": 200,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "杯子",
@@ -1782,7 +1800,7 @@
     "example": "杯子里有水。\n我有一个杯子。\nCái cốc ở trên bàn."
   },
   {
-    "id": 198,
+    "id": 201,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "售货员",
@@ -1791,7 +1809,7 @@
     "example": "他是商店的售货员。\n他不是售货员。\nXin hỏi, nhân viên bán hàng ở đâu?"
   },
   {
-    "id": 199,
+    "id": 202,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "钱",
@@ -1800,7 +1818,7 @@
     "example": "你有钱吗？\n我没有钱。\nAnh ấy có rất nhiều tiền."
   },
   {
-    "id": 200,
+    "id": 203,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "这些",
@@ -1809,7 +1827,7 @@
     "example": "这些书是我的。\n这些是什么？\nNhững cái này là của tôi."
   },
   {
-    "id": 201,
+    "id": 204,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "那些",
@@ -1818,7 +1836,7 @@
     "example": "那些苹果很好吃。\n那些是中文老师的书。\nNhững cái kia là gì?"
   },
   {
-    "id": 202,
+    "id": 205,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "这儿",
@@ -1827,7 +1845,7 @@
     "example": "这儿有很多学生。\n你在这儿吗？\nNhân viên bán hàng ở đây."
   },
   {
-    "id": 203,
+    "id": 206,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "那儿",
@@ -1836,7 +1854,7 @@
     "example": "我的书在那儿。\n那儿有人吗？\nCô giáo không ở đây, ở kia."
   },
   {
-    "id": 204,
+    "id": 207,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "水果",
@@ -1845,7 +1863,7 @@
     "example": "我想买水果。\n这些是水果。\nTrái cây rất ngon."
   },
   {
-    "id": 205,
+    "id": 208,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "苹果",
@@ -1854,7 +1872,7 @@
     "example": "这个苹果很大。\n我想买一个苹果。\nNhân viên bán hàng ơi, quả táo này bao nhiêu tiền?"
   },
   {
-    "id": 206,
+    "id": 209,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "斤",
@@ -1863,7 +1881,7 @@
     "example": "苹果一斤多少钱？\n我要买一斤苹果。\nBán cho tôi 2 cân hoa quả."
   },
   {
-    "id": 207,
+    "id": 210,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "贵",
@@ -1872,7 +1890,7 @@
     "example": "这个水果很贵。\n这水果贵不贵？\n1 cân 10 tệ, không đắt."
   },
   {
-    "id": 208,
+    "id": 211,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "便宜",
@@ -1881,7 +1899,7 @@
     "example": "这些衣服很便宜。\n这儿的水果很便宜。\nCái này không đắt, rất rẻ."
   },
   {
-    "id": 209,
+    "id": 212,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "商店",
@@ -1890,7 +1908,7 @@
     "example": "他在商店工作。\n我在商店买水果。\nĐồ trong cửa hàng rất rẻ."
   },
   {
-    "id": 210,
+    "id": 213,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "衣服",
@@ -1899,7 +1917,7 @@
     "example": "这件衣服很漂亮。\n商店里有衣服。\nQuần áo rất rẻ."
   },
   {
-    "id": 211,
+    "id": 214,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "件",
@@ -1908,7 +1926,7 @@
     "example": "我有一件新衣服。\n我买两件衣服。\nTrong cửa hàng có rất nhiều bộ quần áo."
   },
   {
-    "id": 212,
+    "id": 215,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "元",
@@ -1917,7 +1935,7 @@
     "example": "一共十元。\n这个苹果五元。\nBộ quần áo này 20 tệ."
   },
   {
-    "id": 213,
+    "id": 216,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "块",
@@ -1926,7 +1944,7 @@
     "example": "这件衣服五十块。\n一斤十块。\nQuả táo này 5 tệ."
   },
   {
-    "id": 214,
+    "id": 217,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "怎么样",
@@ -1935,7 +1953,7 @@
     "example": "这件衣服怎么样？\n这个不贵，不便宜，怎么样？\nQuả táo này thế nào?"
   },
   {
-    "id": 215,
+    "id": 218,
     "lesson": "Bài 10",
     "lesson_num": 10,
     "hanzi": "穿",
@@ -1944,7 +1962,7 @@
     "example": "你想穿什么？\n他穿这件衣服。\nTôi thích mặc bộ quần áo này."
   },
   {
-    "id": 216,
+    "id": 219,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "这里",
@@ -1953,7 +1971,7 @@
     "example": "这里有很多人。\n我在这里。\nAnh ấy không ở đây."
   },
   {
-    "id": 217,
+    "id": 220,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "那里",
@@ -1962,7 +1980,7 @@
     "example": "那里有很多学生。\n售货员在那里。\nTôi không đi đến đó."
   },
   {
-    "id": 218,
+    "id": 221,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "时候",
@@ -1971,7 +1989,7 @@
     "example": "你什么时候去学校？\n我小的时候喜欢吃苹果。\nLúc đó tôi ở đây."
   },
   {
-    "id": 219,
+    "id": 222,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "知道",
@@ -1980,7 +1998,7 @@
     "example": "我不知道他在哪儿。\n我知道他在这儿。\nAnh ấy không biết bao nhiêu tiền."
   },
   {
-    "id": 220,
+    "id": 223,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "正在",
@@ -1989,7 +2007,7 @@
     "example": "他正在看电视。\n我正在买水果。\nNhân viên bán hàng đang làm việc."
   },
   {
-    "id": 221,
+    "id": 224,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "在",
@@ -1998,7 +2016,7 @@
     "example": "他在学汉语呢。"
   },
   {
-    "id": 222,
+    "id": 225,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "找",
@@ -2007,7 +2025,7 @@
     "example": "你在找什么？\n我找售货员。\nTôi tìm quần áo trong cửa hàng."
   },
   {
-    "id": 223,
+    "id": 226,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "开车",
@@ -2016,7 +2034,7 @@
     "example": "他在开车。\n今天我开车去商店。\nBạn có biết lái xe không?"
   },
   {
-    "id": 224,
+    "id": 227,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "车",
@@ -2025,7 +2043,7 @@
     "example": "那是我的车。\n我坐车去商店。\nĐây là xe của tôi."
   },
   {
-    "id": 225,
+    "id": 228,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "大学",
@@ -2034,7 +2052,7 @@
     "example": "这个大学很好。\n我在大学学习。\nCô ấy không phải là sinh viên đại học."
   },
   {
-    "id": 226,
+    "id": 229,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "大学生",
@@ -2043,7 +2061,7 @@
     "example": "他是大学生。\n我是学生，也是大学生。\nNhiều sinh viên đại học thích mua quần áo."
   },
   {
-    "id": 227,
+    "id": 230,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "学",
@@ -2052,7 +2070,7 @@
     "example": "我想学汉语。\n他在大学学中文。\nTôi học tiếng Trung, còn bạn?"
   },
   {
-    "id": 228,
+    "id": 231,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "医",
@@ -2061,7 +2079,7 @@
     "example": "他在学医。\n医生在医院工作。\nTôi tìm bác sĩ."
   },
   {
-    "id": 229,
+    "id": 232,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "起床",
@@ -2070,7 +2088,7 @@
     "example": "我六点起床。\n他每天七点起床。\nBạn mấy giờ dậy?"
   },
   {
-    "id": 230,
+    "id": 233,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "睡觉",
@@ -2079,7 +2097,7 @@
     "example": "他在睡觉。\n我十点睡觉。\nBạn mấy giờ đi ngủ?"
   },
   {
-    "id": 231,
+    "id": 234,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "睡",
@@ -2088,7 +2106,7 @@
     "example": "我睡了八个小时。\n孩子睡了。\nAnh ấy đang ngủ."
   },
   {
-    "id": 232,
+    "id": 235,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "哪里",
@@ -2097,7 +2115,7 @@
     "example": "你在哪里？\n商店在哪里？\nBác sĩ ở đâu?"
   },
   {
-    "id": 233,
+    "id": 236,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "问",
@@ -2106,7 +2124,7 @@
     "example": "我想问你一个问题。\n请问，售货员在哪？\nTôi hỏi anh ấy ở đây."
   },
   {
-    "id": 234,
+    "id": 237,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "对",
@@ -2115,7 +2133,7 @@
     "example": "你对我说什么？\n他对我很好。\nCái này rất tốt đối với tôi."
   },
   {
-    "id": 235,
+    "id": 238,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "说",
@@ -2124,7 +2142,7 @@
     "example": "他在说话。\n他说什么？\nBạn có biết nói tiếng Trung không?"
   },
   {
-    "id": 236,
+    "id": 239,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "要",
@@ -2133,7 +2151,7 @@
     "example": "我要买苹果。\n我要一件衣服。\nTôi không lấy cái này."
   },
   {
-    "id": 237,
+    "id": 240,
     "lesson": "Bài 11",
     "lesson_num": 11,
     "hanzi": "小朋友",
@@ -2142,7 +2160,7 @@
     "example": "小朋友在那儿玩。\n老师问小朋友。\nTrẻ em thích ăn táo."
   },
   {
-    "id": 238,
+    "id": 241,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "天气",
@@ -2151,7 +2169,7 @@
     "example": "今天天气怎么样？\n今天天气很好。"
   },
   {
-    "id": 239,
+    "id": 242,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "天",
@@ -2160,7 +2178,7 @@
     "example": "x"
   },
   {
-    "id": 240,
+    "id": 243,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "天",
@@ -2169,7 +2187,7 @@
     "example": "x"
   },
   {
-    "id": 241,
+    "id": 244,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "下雨",
@@ -2178,7 +2196,7 @@
     "example": "今天会下大雨。"
   },
   {
-    "id": 242,
+    "id": 245,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "雨",
@@ -2187,7 +2205,7 @@
     "example": "现在的雨很大。"
   },
   {
-    "id": 243,
+    "id": 246,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "了",
@@ -2196,7 +2214,7 @@
     "example": "我回家了。"
   },
   {
-    "id": 244,
+    "id": 247,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "冷",
@@ -2205,7 +2223,7 @@
     "example": "今天天气不太冷。"
   },
   {
-    "id": 245,
+    "id": 248,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "热",
@@ -2214,7 +2232,7 @@
     "example": "今天天气很热。"
   },
   {
-    "id": 246,
+    "id": 249,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "觉得",
@@ -2223,7 +2241,7 @@
     "example": "我觉得这件衣服很漂亮。\n你觉得这个电脑贵不贵？"
   },
   {
-    "id": 247,
+    "id": 250,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "有点儿",
@@ -2232,7 +2250,7 @@
     "example": "我觉得有点儿冷。"
   },
   {
-    "id": 248,
+    "id": 251,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "下雪",
@@ -2241,7 +2259,7 @@
     "example": "北京下雪了。\n外边正在下雪。"
   },
   {
-    "id": 249,
+    "id": 252,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "雪",
@@ -2250,7 +2268,7 @@
     "example": "外面雪很大。"
   },
   {
-    "id": 250,
+    "id": 253,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "公司",
@@ -2259,7 +2277,7 @@
     "example": "这是我们的公司。\n他在这家公司工作。"
   },
   {
-    "id": 251,
+    "id": 254,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "生病",
@@ -2268,7 +2286,7 @@
     "example": "我生病了，不能去学校。"
   },
   {
-    "id": 252,
+    "id": 255,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "看病",
@@ -2277,7 +2295,7 @@
     "example": "我要去医院看病。"
   },
   {
-    "id": 253,
+    "id": 256,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "病",
@@ -2286,7 +2304,7 @@
     "example": "他的病好了。"
   },
   {
-    "id": 254,
+    "id": 257,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "一点儿",
@@ -2295,7 +2313,7 @@
     "example": "我想喝一点儿水。"
   },
   {
-    "id": 255,
+    "id": 258,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "药",
@@ -2304,7 +2322,7 @@
     "example": "你要吃药。"
   },
   {
-    "id": 256,
+    "id": 259,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "回",
@@ -2313,7 +2331,7 @@
     "example": "我想回家。"
   },
   {
-    "id": 257,
+    "id": 260,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "再",
@@ -2322,7 +2340,7 @@
     "example": ""
   },
   {
-    "id": 259,
+    "id": 261,
     "lesson": "Bài 12",
     "lesson_num": 12,
     "hanzi": "水",
@@ -2331,7 +2349,7 @@
     "example": "请喝杯热水。\n中国人喜欢喝热水。"
   },
   {
-    "id": 260,
+    "id": 262,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "可以",
@@ -2340,7 +2358,7 @@
     "example": "我可以问你一个问题吗？\n我可以坐吗？"
   },
   {
-    "id": 261,
+    "id": 263,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "再",
@@ -2349,7 +2367,7 @@
     "example": "我再看一下。"
   },
   {
-    "id": 262,
+    "id": 264,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "问题",
@@ -2358,7 +2376,7 @@
     "example": "你还有什么问题吗？\n我想问老师这个问题。"
   },
   {
-    "id": 263,
+    "id": 265,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "打电话",
@@ -2367,7 +2385,7 @@
     "example": "他在打电话。"
   },
   {
-    "id": 264,
+    "id": 266,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "一下",
@@ -2376,7 +2394,7 @@
     "example": "我可以看一下吗？\n你可以打电话问一下。\nXin hãy nghỉ ngơi 1 chút."
   },
   {
-    "id": 265,
+    "id": 267,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "服务员",
@@ -2385,7 +2403,7 @@
     "example": "服务员，我要喝水。"
   },
   {
-    "id": 266,
+    "id": 268,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "先生",
@@ -2394,7 +2412,7 @@
     "example": "那位先生是谁？(Vị tiên sinh kia là ai thế?)"
   },
   {
-    "id": 267,
+    "id": 269,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "女士",
@@ -2403,7 +2421,7 @@
     "example": "那位女士很漂亮。\n王女士是我的老师。"
   },
   {
-    "id": 268,
+    "id": 270,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "请",
@@ -2412,7 +2430,7 @@
     "example": "请坐。"
   },
   {
-    "id": 269,
+    "id": 271,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "坐",
@@ -2421,7 +2439,7 @@
     "example": "我坐在椅子上。"
   },
   {
-    "id": 270,
+    "id": 272,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "给",
@@ -2430,7 +2448,7 @@
     "example": "我给你一本书。"
   },
   {
-    "id": 271,
+    "id": 273,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "杯",
@@ -2439,7 +2457,7 @@
     "example": "我喝了一杯茶。"
   },
   {
-    "id": 272,
+    "id": 274,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "要",
@@ -2448,7 +2466,7 @@
     "example": "我要一杯咖啡。"
   },
   {
-    "id": 273,
+    "id": 275,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "早饭",
@@ -2457,7 +2475,7 @@
     "example": "你吃早饭了吗？"
   },
   {
-    "id": 274,
+    "id": 276,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "这个",
@@ -2466,7 +2484,7 @@
     "example": "这个面包很好吃。"
   },
   {
-    "id": 275,
+    "id": 277,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "面包",
@@ -2475,7 +2493,7 @@
     "example": "这些面包很便宜。(Những cái bánh mì này rất rẻ.)"
   },
   {
-    "id": 276,
+    "id": 278,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "鸡蛋",
@@ -2484,7 +2502,7 @@
     "example": "我爱吃鸡蛋。(Tôi yêu ăn trứng.)"
   },
   {
-    "id": 277,
+    "id": 279,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "一半",
@@ -2493,7 +2511,7 @@
     "example": "我吃了一半。(Tôi đã ăn một nửa.)"
   },
   {
-    "id": 278,
+    "id": 280,
     "lesson": "Bài 13",
     "lesson_num": 13,
     "hanzi": "茶",
@@ -2502,7 +2520,7 @@
     "example": "你想喝茶吗？(Bạn muốn uống trà không?)"
   },
   {
-    "id": 279,
+    "id": 281,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "上",
@@ -2511,7 +2529,7 @@
     "example": "我在上火车。(Tôi đang lên tàu hỏa.)"
   },
   {
-    "id": 280,
+    "id": 282,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "火车",
@@ -2520,7 +2538,7 @@
     "example": "火车在那儿。(Tàu hỏa ở đằng kia.)"
   },
   {
-    "id": 281,
+    "id": 283,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "开",
@@ -2529,7 +2547,7 @@
     "example": ""
   },
   {
-    "id": 282,
+    "id": 284,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "有些",
@@ -2538,7 +2556,7 @@
     "example": "有些苹果很大。(Có một số quả táo rất lớn.)"
   },
   {
-    "id": 283,
+    "id": 285,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "有的",
@@ -2547,7 +2565,7 @@
     "example": "有的学生喜欢看书。(Có những học sinh thích đọc sách.)"
   },
   {
-    "id": 284,
+    "id": 286,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "了",
@@ -2556,7 +2574,7 @@
     "example": "我买了一本书。(Tôi đã mua một quyển sách rồi.)"
   },
   {
-    "id": 285,
+    "id": 287,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "写",
@@ -2565,7 +2583,7 @@
     "example": "他在写字。(Anh ấy đang viết chữ.)"
   },
   {
-    "id": 286,
+    "id": 288,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "都",
@@ -2574,7 +2592,7 @@
     "example": "他们都在学校。(Họ đều ở trường học.)"
   },
   {
-    "id": 287,
+    "id": 289,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "听见",
@@ -2583,7 +2601,7 @@
     "example": "你听见我说的话 không? (Bạn có nghe thấy lời tôi nói không?)"
   },
   {
-    "id": 288,
+    "id": 290,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "不要",
@@ -2592,7 +2610,7 @@
     "example": "不要在教室说话。(Đừng nói chuyện trong lớp học.)"
   },
   {
-    "id": 289,
+    "id": 291,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "说话",
@@ -2601,7 +2619,7 @@
     "example": "他在跟我说话。(Anh ấy đang nói chuyện với tôi.)"
   },
   {
-    "id": 290,
+    "id": 292,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "听",
@@ -2610,7 +2628,7 @@
     "example": "你听，那是谁在唱歌？(Bạn nghe xem, đó là ai đang hát thế?)"
   },
   {
-    "id": 291,
+    "id": 293,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "哪些",
@@ -2619,7 +2637,7 @@
     "example": "哪些书是你的？(Những quyển sách nào là của bạn?)"
   },
   {
-    "id": 292,
+    "id": 294,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "字",
@@ -2628,7 +2646,7 @@
     "example": "这个字怎么写？(Chữ này viết thế nào?)"
   },
   {
-    "id": 293,
+    "id": 295,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "明年",
@@ -2637,7 +2655,7 @@
     "example": "我明年去北京。(Sang năm tôi đi Bắc Kinh.)"
   },
   {
-    "id": 294,
+    "id": 296,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "去年",
@@ -2646,7 +2664,7 @@
     "example": "去年我去过西安。(Năm ngoái tôi đã đi Tây An.)"
   },
   {
-    "id": 295,
+    "id": 297,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "上",
@@ -2655,7 +2673,7 @@
     "example": "我想上大学。(Tôi muốn học đại học.)"
   },
   {
-    "id": 296,
+    "id": 298,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "中学",
@@ -2664,7 +2682,7 @@
     "example": "我弟弟在上中学。(Em trai tôi đang học trung học.)"
   },
   {
-    "id": 297,
+    "id": 299,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "小学",
@@ -2673,7 +2691,7 @@
     "example": "他在小学工作。(Anh ấy làm việc ở trường tiểu học.)"
   },
   {
-    "id": 298,
+    "id": 300,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "中学生",
@@ -2682,7 +2700,7 @@
     "example": "中学生在那儿。(Học sinh trung học ở đằng kia.)"
   },
   {
-    "id": 299,
+    "id": 301,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "小学生",
@@ -2691,7 +2709,7 @@
     "example": "小学生在玩。(Học sinh tiểu học đang chơi.)"
   },
   {
-    "id": 300,
+    "id": 302,
     "lesson": "Bài 14",
     "lesson_num": 14,
     "hanzi": "上学",
@@ -2700,7 +2718,7 @@
     "example": "我去上学了。(Tôi đi học đây.)"
   },
   {
-    "id": 301,
+    "id": 303,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "早",
@@ -2709,7 +2727,7 @@
     "example": "明天请早点儿来。(Ngày mai mời đến sớm một chút nhé.)"
   },
   {
-    "id": 302,
+    "id": 304,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "晚",
@@ -2718,7 +2736,7 @@
     "example": "今天他来晚了。(Hôm nay anh ấy đến muộn rồi.)"
   },
   {
-    "id": 303,
+    "id": 305,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "爱",
@@ -2727,7 +2745,7 @@
     "example": "我爱我的家人。(Tôi yêu gia đình của mình.)"
   },
   {
-    "id": 304,
+    "id": 306,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "哪个",
@@ -2736,7 +2754,7 @@
     "example": "哪个是你的杯子？(Cái nào là cốc của bạn?)"
   },
   {
-    "id": 305,
+    "id": 307,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "年",
@@ -2745,7 +2763,7 @@
     "example": "二零二六年是马年。(Năm 2026 là năm con ngựa.)"
   },
   {
-    "id": 306,
+    "id": 308,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "好玩儿",
@@ -2754,7 +2772,7 @@
     "example": "西安很好玩儿。(Tây An rất vui/thú vị.)"
   },
   {
-    "id": 307,
+    "id": 309,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "西安",
@@ -2763,7 +2781,7 @@
     "example": "西安有很多好吃的。(Tây An có rất nhiều món ngon.)"
   },
   {
-    "id": 308,
+    "id": 310,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "北京",
@@ -2772,7 +2790,7 @@
     "example": "北京很大。(Bắc Kinh rất lớn.)"
   },
   {
-    "id": 309,
+    "id": 311,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "飞机",
@@ -2781,7 +2799,7 @@
     "example": "我坐飞机去北京。(Tôi đi máy bay đến Bắc Kinh.)"
   },
   {
-    "id": 310,
+    "id": 312,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "要",
@@ -2790,7 +2808,7 @@
     "example": "坐飞机要两个小时。(Đi máy bay mất hai tiếng đồng hồ.)"
   },
   {
-    "id": 311,
+    "id": 313,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "小时",
@@ -2799,7 +2817,7 @@
     "example": "我要去学校。(Tôi muốn đi đến trường.)"
   },
   {
-    "id": 312,
+    "id": 314,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "家人",
@@ -2808,7 +2826,7 @@
     "example": "我的家人在北京。(Gia đình của tôi ở Bắc Kinh.)"
   },
   {
-    "id": 313,
+    "id": 315,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "时间",
@@ -2817,7 +2835,7 @@
     "example": "你有时间吗？(Bạn có thời gian không?)"
   },
   {
-    "id": 314,
+    "id": 316,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "机场",
@@ -2826,7 +2844,7 @@
     "example": "他在机场接朋友。(Anh ấy đang ở sân bay đón bạn.)"
   },
   {
-    "id": 315,
+    "id": 317,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "接",
@@ -2835,7 +2853,7 @@
     "example": "谁来接我？(Ai đến đón tôi thế?)"
   },
   {
-    "id": 316,
+    "id": 318,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "住",
@@ -2844,7 +2862,7 @@
     "example": "你住在哪儿？(Bạn sống ở đâu?)"
   },
   {
-    "id": 317,
+    "id": 319,
     "lesson": "Bài 15",
     "lesson_num": 15,
     "hanzi": "那",

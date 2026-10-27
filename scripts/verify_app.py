@@ -15,7 +15,7 @@ def verify_dataset():
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    assert len(data) == 317, f"Expected 317 vocabulary items, got {len(data)}"
+    assert len(data) == 319, f"Expected 319 vocabulary items, got {len(data)}"
     
     lesson_nums = set()
     for item in data:
@@ -30,7 +30,7 @@ def verify_dataset():
     assert lesson_nums == set(range(1, 16)), f"Expected lessons 1-15, got {lesson_nums}"
     
     b1_8_count = sum(1 for item in data if item["lesson_num"] <= 8)
-    print(f"   ✓ 317 vocabulary items valid across lessons 1 to 15 (Lessons 1-8: {b1_8_count} words).")
+    print(f"   ✓ {len(data)} vocabulary items valid across lessons 1 to 15 (Lessons 1-8: {b1_8_count} words).")
 
 def verify_strokes():
     print("[2/3] Verifying stroke vector files...")
